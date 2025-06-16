@@ -1,0 +1,28 @@
+{
+  "name": "recipals-node-server-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node.js HTTP Web server for ReciPals application",
+  "homepage": "https://github.com/jasminduong/recipals-node-server-app#readme",
+  "bugs": {
+    "url": "https://github.com/jasminduong/recipals-node-server-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasminduong/recipals-node-server-app.git"
+  },
+  "license": "ISC",
+  "author": "Jasmin Duong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "uuid": "^11.1.0"
+  }
+}

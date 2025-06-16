@@ -1,0 +1,28 @@
+export default [
+  {
+    _id: "recipeBot",
+    username: "recipe_bot",
+    password: "ReciPals",
+    name: "Recipe Bot",
+    bio: "Love to cook and bake all things :]",
+    tags: [],
+    profile: "/images/recipeBot.png",
+    posts: ["recipeBot-P1", "recipeBot-P2"],
+    saved_recipes: [],
+    followers: [],
+    following: [],
+  },
+  {
+    _id: "123",
+    username: "jasminduong09",
+    password: "ReciPals",
+    name: "Jasmin",
+    bio: "Cooking with efficiency, exploring with diversity <3",
+    tags: ["Student Chef", "Fusion Explorer", "Sustainable"],
+    profile: "/images/profile.png",
+    posts: [],
+    saved_recipes: [],
+    followers: [],
+    following: [],
+  },
+];

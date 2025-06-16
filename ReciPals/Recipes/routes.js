@@ -1,0 +1,43 @@
+import * as recipesDao from "./dao.js";
+
+// RecipeRoutes expose the database operations of routes through a RESTful API
+export default function RecipeRoutes(app) {
+  // creates a new recipe
+  app.post("/api/recipes", async (req, res) => {
+    const recipe = req.body;
+    const newRecipe = await recipesDao.createRecipe(recipe);
+    res.json(newRecipe);
+  });
+
+  // gets all recipes
+  app.get("/api/recipes", async (req, res) => {
+    const recipes = await recipesDao.findAllRecipes();
+    res.json(recipes);
+  });
+
+  // gets a single recipe by ID
+  app.get("/api/recipes/:recipeId", async (req, res) => {
+    const { recipeId } = req.params;
+    const recipe = await recipesDao.findRecipeById(recipeId);
+    if (recipe) {
+      res.json(recipe);
+    } else {
+      res.status(404).json({ message: "Recipe not found" });
+    }
+  });
+
+  // updates a recipe
+  app.put("/api/recipes/:recipeId", async (req, res) => {
+    const { recipeId } = req.params;
+    const recipeUpdates = req.body;
+    const updatedRecipe = await recipesDao.updateRecipe(recipeId, recipeUpdates);
+    res.json(updatedRecipe);
+  });
+
+  // deletes a recipe
+  app.delete("/api/recipes/:recipeId", async (req, res) => {
+    const { recipeId } = req.params;
+    await recipesDao.deleteRecipe(recipeId);
+    res.json();
+  });
+}
