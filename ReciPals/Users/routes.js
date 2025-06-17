@@ -1,4 +1,5 @@
 import * as dao from "./dao.js";
+import * as recipeDao from "../Recipes/dao.js";
 
 // UserRoutes expose the database operations of users through a RESTful API
 export default function UserRoutes(app) {
@@ -27,7 +28,7 @@ export default function UserRoutes(app) {
   const signin = (req, res) => {
     const { username, password } = req.body;
     const currentUser = dao.findUserByCredentials(username, password);
-  
+
     if (currentUser) {
       req.session["currentUser"] = currentUser;
       res.json(currentUser);
@@ -35,20 +36,21 @@ export default function UserRoutes(app) {
       res.status(401).json({ message: "Unable to login. Try again later." });
     }
   };
-  app.post("/api/users/signin", signin); 
+  app.post("/api/users/signin", signin);
 
   // profile operation
+  // In your UserRoutes, update the profile function:
   const profile = (req, res) => {
     const currentUser = req.session["currentUser"];
-    
+
     if (!currentUser) {
+      console.log("No current user in session");
       res.sendStatus(401);
       return;
     }
-    
     res.json(currentUser);
   };
-  app.post("/api/users/profile", profile); 
+  app.post("/api/users/profile", profile);
 
   // updates current user's profile
   const updateUser = (req, res) => {
@@ -85,4 +87,3 @@ export default function UserRoutes(app) {
   };
   app.get("/api/users", findAllUsers);
 }
-

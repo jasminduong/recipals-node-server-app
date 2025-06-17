@@ -29,11 +29,6 @@ export default function PostRoutes(app) {
   // updates a post
   app.put("/api/posts/:postId", async (req, res) => {
     try {
-      console.log("=== POSTS ROUTE UPDATE ===");
-      console.log("URL params:", req.params);
-      console.log("Post ID from URL:", req.params.postId);
-      console.log("Request body:", req.body);
-
       const { postId } = req.params;
       const postUpdates = req.body;
 
