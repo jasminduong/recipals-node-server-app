@@ -20,6 +20,13 @@ export const findUserById = (userId) =>
 export const findUserByUsername = (username) =>
   users.find((user) => user.username === username);
 
+/*export const findUsersByPartialName = async (partialName) => {
+  const regex = new RegExp(partialName, "i"); 
+  return await model.find({
+    $or: [{ firstName: { $regex: regex } }, { lastName: { $regex: regex } }],
+  });
+};*/
+
 // used for sign in operation
 export const findUserByCredentials = (username, password) =>
   users.find(

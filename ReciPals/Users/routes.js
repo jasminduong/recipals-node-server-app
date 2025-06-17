@@ -3,13 +3,38 @@ import * as recipeDao from "../Recipes/dao.js";
 
 // UserRoutes expose the database operations of users through a RESTful API
 export default function UserRoutes(app) {
-  const createUser = (req, res) => {};
-  const deleteUser = (req, res) => {};
-  const findUserById = (req, res) => {};
-
+  // creates a new user
+  const createUser = async (req, res) => {
+    const user = await dao.createUser(req.body);
+    res.json(user);
+  };
   app.post("/api/users", createUser);
-  app.get("/api/users/:userId", findUserById);
+
+  // uses deleteUser function implemented by DAO to delete the user
+  const deleteUser = async (req, res) => {
+    const status = await dao.deleteUser(req.params.userId);
+    res.json(status);
+  };
   app.delete("/api/users/:userId", deleteUser);
+
+  // uses findAllUsers function implemented by the DAO to retrieve all the users from the database
+  const findAllUsers = async (req, res) => {
+    const { name } = req.query;
+    if (name) {
+      const users = await dao.findUsersByPartialName(name);
+      res.json(users);
+      return;
+    }
+    const users = await dao.findAllUsers();
+    res.json(users);
+  };
+  const findUserById = async (req, res) => {
+    const user = await dao.findUserById(req.params.userId);
+    res.json(user);
+  };
+  app.get("/api/users/:userId", findUserById);
+
+  app.get("/api/users", findAllUsers);
 
   // signup operation creates a new user
   const signup = (req, res) => {
@@ -44,7 +69,6 @@ export default function UserRoutes(app) {
     const currentUser = req.session["currentUser"];
 
     if (!currentUser) {
-      console.log("No current user in session");
       res.sendStatus(401);
       return;
     }
@@ -79,11 +103,4 @@ export default function UserRoutes(app) {
     });
   };
   app.post("/api/users/signout", signout);
-
-  // finds all users
-  const findAllUsers = (req, res) => {
-    const users = dao.findAllUsers();
-    res.json(users);
-  };
-  app.get("/api/users", findAllUsers);
 }
