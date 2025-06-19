@@ -111,4 +111,50 @@ export default function UserRoutes(app) {
     });
   };
   app.post("/api/users/signout", signout);
+
+  // saves a recipe for a user
+const saveRecipe = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { recipeId } = req.body;
+    
+    const updatedUser = await dao.saveRecipe(userId, recipeId);
+    
+    // Update session if this is the current user
+    const currentUser = req.session["currentUser"];
+    if (currentUser && currentUser._id === userId) {
+      req.session["currentUser"] = updatedUser;
+    }
+    
+    res.json(updatedUser);
+  } catch (error) {
+    console.error("Error saving recipe:", error);
+    res.status(500).json({ message: error.message });
+  }
+};
+app.put("/api/users/:userId/save", saveRecipe);
+
+// unsaves a recipe for a user
+const unsaveRecipe = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { recipeId } = req.body;
+    
+    const updatedUser = await dao.unsaveRecipe(userId, recipeId);
+    
+    // Update session if this is the current user
+    const currentUser = req.session["currentUser"];
+    if (currentUser && currentUser._id === userId) {
+      req.session["currentUser"] = updatedUser;
+    }
+    
+    res.json(updatedUser);
+  } catch (error) {
+    console.error("Error unsaving recipe:", error);
+    res.status(500).json({ message: error.message });
+  }
+};
+app.put("/api/users/:userId/unsave", unsaveRecipe);
 }
+
+
