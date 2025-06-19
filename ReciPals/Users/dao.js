@@ -41,3 +41,35 @@ export const updateUser = (userId, user) =>
 // used for deleting users
 export const deleteUser = (userId) =>
   (users = users.filter((u) => u._id !== userId));
+
+// saves a recipe to user's saved list
+export const saveRecipe = (userId, recipeId) => {
+  const user = users.find((u) => u._id === userId);
+  if (!user) {
+    throw new Error("User not found");
+  }
+  
+  if (!user.saved_recipes) {
+    user.saved_recipes = [];
+  }
+  
+  if (!user.saved_recipes.includes(recipeId)) {
+    user.saved_recipes.push(recipeId);
+  }
+  
+  return user;
+};
+
+// removes a recipe from user's saved list
+export const unsaveRecipe = (userId, recipeId) => {
+  const user = users.find((u) => u._id === userId);
+  if (!user) {
+    throw new Error("User not found");
+  }
+  
+  if (user.saved_recipes) {
+    user.saved_recipes = user.saved_recipes.filter(id => id !== recipeId);
+  }
+  
+  return user;
+};
