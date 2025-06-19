@@ -43,7 +43,7 @@ export function searchRecipes(searchTerm) {
     // Search in recipe name
     const nameMatch = recipe.name?.toLowerCase().includes(searchLower);
     
-    // Search in user who created it (this is the key part for user search)
+    // Search in user who created it 
     const userMatch = recipe.user_created?.toLowerCase().includes(searchLower);
     
     // Search in description

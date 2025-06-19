@@ -26,6 +26,32 @@ export default function PostRoutes(app) {
     }
   });
 
+  // adds a comment to a post
+  app.post("/api/posts/:postId/comments", async (req, res) => {
+    try {
+      const { postId } = req.params;
+      const commentData = req.body;
+      
+      const updatedPost = await postsDao.addComment(postId, commentData);
+      res.json(updatedPost);
+    } catch (error) {
+      console.error("Error adding comment:", error);
+      res.status(500).json({ message: error.message });
+    }
+  });
+
+  // gets comments for a specific post
+  app.get("/api/posts/:postId/comments", async (req, res) => {
+    try {
+      const { postId } = req.params;
+      const comments = await postsDao.getComments(postId);
+      res.json(comments);
+    } catch (error) {
+      console.error("Error getting comments:", error);
+      res.status(500).json({ message: error.message });
+    }
+  });
+
   // updates a post
   app.put("/api/posts/:postId", async (req, res) => {
     try {
