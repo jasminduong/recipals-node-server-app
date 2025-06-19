@@ -20,7 +20,7 @@ export const findUserById = (userId) =>
 export const findUserByUsername = (username) =>
   users.find((user) => user.username === username);
 
-// Fixed function to search by username (since no firstName/lastName)
+// Fixed function to search by username 
 export const findUsersByPartialName = (partialName) => {
   const searchLower = partialName.toLowerCase();
   return users.filter(user => 

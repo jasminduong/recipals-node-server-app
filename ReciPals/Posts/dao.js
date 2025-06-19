@@ -19,6 +19,33 @@ export function findPostById(postId) {
   return db.posts.find((post) => post.post_id === postId);
 }
 
+// adds a comment to a post
+export function addComment(postId, commentData) {
+  const post = db.posts.find((post) => post.post_id === postId);
+  if (!post) {
+    throw new Error("Post not found");
+  }
+
+  const newComment = {
+    comment_id: uuidv4(),
+    user_id: commentData.user_id,
+    text: commentData.text,
+    created_at: new Date().toISOString().split('T')[0], // YYYY-MM-DD format
+  };
+
+  post.comments = [...(post.comments || []), newComment];
+  return post;
+}
+
+// gets comments for a specific post
+export function getComments(postId) {
+  const post = db.posts.find((post) => post.post_id === postId);
+  if (!post) {
+    throw new Error("Post not found");
+  }
+  return post.comments || [];
+}
+
 // updates an post
 export function updatePost(postId, postUpdates) {
   const { posts } = db;

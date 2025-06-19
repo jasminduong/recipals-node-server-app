@@ -30,7 +30,7 @@ export default function RecipeRoutes(app) {
     res.json();
   });
 
-  // search recipes - ADD THIS NEW ROUTE
+  // search recipe
   app.get("/api/recipes/search", async (req, res) => {
     const { q } = req.query;
     if (!q) {
