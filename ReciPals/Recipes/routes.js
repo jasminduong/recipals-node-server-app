@@ -15,17 +15,6 @@ export default function RecipeRoutes(app) {
     res.json(recipes);
   });
 
-  // gets a single recipe by ID
-  app.get("/api/recipes/:recipeId", async (req, res) => {
-    const { recipeId } = req.params;
-    const recipe = await recipesDao.findRecipeById(recipeId);
-    if (recipe) {
-      res.json(recipe);
-    } else {
-      res.status(404).json({ message: "Recipe not found" });
-    }
-  });
-
   // updates a recipe
   app.put("/api/recipes/:recipeId", async (req, res) => {
     const { recipeId } = req.params;
@@ -39,5 +28,30 @@ export default function RecipeRoutes(app) {
     const { recipeId } = req.params;
     await recipesDao.deleteRecipe(recipeId);
     res.json();
+  });
+
+  // search recipes - ADD THIS NEW ROUTE
+  app.get("/api/recipes/search", async (req, res) => {
+    const { q } = req.query;
+    if (!q) {
+      return res.status(400).json({ error: 'Search query required' });
+    }
+    try {
+      const recipes = await recipesDao.searchRecipes(q);
+      res.json(recipes);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  });
+
+  // gets a single recipe by ID
+  app.get("/api/recipes/:recipeId", async (req, res) => {
+    const { recipeId } = req.params;
+    const recipe = await recipesDao.findRecipeById(recipeId);
+    if (recipe) {
+      res.json(recipe);
+    } else {
+      res.status(404).json({ message: "Recipe not found" });
+    }
   });
 }

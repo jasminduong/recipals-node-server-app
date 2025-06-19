@@ -20,12 +20,13 @@ export const findUserById = (userId) =>
 export const findUserByUsername = (username) =>
   users.find((user) => user.username === username);
 
-/*export const findUsersByPartialName = async (partialName) => {
-  const regex = new RegExp(partialName, "i"); 
-  return await model.find({
-    $or: [{ firstName: { $regex: regex } }, { lastName: { $regex: regex } }],
-  });
-};*/
+// Fixed function to search by username (since no firstName/lastName)
+export const findUsersByPartialName = (partialName) => {
+  const searchLower = partialName.toLowerCase();
+  return users.filter(user => 
+    user.username?.toLowerCase().includes(searchLower)
+  );
+};
 
 // used for sign in operation
 export const findUserByCredentials = (username, password) =>

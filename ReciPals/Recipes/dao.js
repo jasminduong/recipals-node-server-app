@@ -34,3 +34,38 @@ export function deleteRecipe(recipeId) {
   const { recipes } = db;
   db.recipes = recipes.filter((recipe) => recipe.recipe_id !== recipeId);
 }
+
+// searches recipes by term (ingredients, name, description, AND by username who created them)
+export function searchRecipes(searchTerm) {
+  const searchLower = searchTerm.toLowerCase();
+  
+  return db.recipes.filter((recipe) => {
+    // Search in recipe name
+    const nameMatch = recipe.name?.toLowerCase().includes(searchLower);
+    
+    // Search in user who created it (this is the key part for user search)
+    const userMatch = recipe.user_created?.toLowerCase().includes(searchLower);
+    
+    // Search in description
+    const descriptionMatch = recipe.description?.toLowerCase().includes(searchLower);
+    
+    // Search in ingredients (nested in ingredients_sec)
+    const ingredientsMatch = recipe.ingredients_sec?.some((section) => {
+      return section["ingredients:"]?.some((ingredient) => 
+        ingredient.toLowerCase().includes(searchLower)
+      );
+    });
+    
+    // Search in tags
+    const tagsMatch = recipe.tags?.some((tag) => 
+      tag.toLowerCase().includes(searchLower)
+    );
+    
+    // Search in steps
+    const stepsMatch = recipe.steps?.some((step) => 
+      step.toLowerCase().includes(searchLower)
+    );
+    
+    return nameMatch || userMatch || descriptionMatch || ingredientsMatch || tagsMatch || stepsMatch;
+  });
+}
