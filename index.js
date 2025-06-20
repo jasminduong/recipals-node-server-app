@@ -9,12 +9,18 @@ import mongoose from "mongoose";
 
 const CONNECTION_STRING = "mongodb://127.0.0.1:27017/recipals"
 mongoose.connect(CONNECTION_STRING);
+
 const app = express();
+
+const allowedOrigins = [
+  "https://recipals.netlify.app",
+  "http://localhost:5173"
+]
 
 app.use(
   cors({
     credentials: true,
-    origin: process.env.NETLIFY_URL || "http://localhost:5173",
+    origin: allowedOrigins,
   })
 );
 const sessionOptions = {
@@ -31,15 +37,17 @@ const sessionOptions = {
 
 if (process.env.NODE_ENV === "production") {
   sessionOptions.proxy = true;
-  sessionOptions.cookie.secure = true;
-  sessionOptions.cookie.sameSite = "none";
+  sessionOptions.cookie = {
+    sameSite: "none",
+    secure: true,
+  };
 }
+
 app.use(session(sessionOptions));
 app.use(express.json());
 
 UserRoutes(app);
 PostRoutes(app);
 RecipeRoutes(app);
-PostRoutes(app);
 
 app.listen(process.env.PORT || 4000);

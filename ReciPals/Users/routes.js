@@ -1,5 +1,4 @@
 import * as dao from "./dao.js";
-import * as recipeDao from "../Recipes/dao.js";
 
 // UserRoutes expose the database operations of users through a RESTful API
 export default function UserRoutes(app) {
@@ -10,51 +9,30 @@ export default function UserRoutes(app) {
   };
   app.post("/api/users", createUser);
 
-  // uses deleteUser function implemented by DAO to delete the user
+  // deletes a user
   const deleteUser = async (req, res) => {
     const status = await dao.deleteUser(req.params.userId);
     res.json(status);
   };
   app.delete("/api/users/:userId", deleteUser);
 
-  // uses findAllUsers function implemented by the DAO to retrieve all the users from the database
-  const findAllUsers = async (req, res) => {
-    const { name } = req.query;
-    if (name) {
-      const users = await dao.findUsersByPartialName(name);
-      res.json(users);
-      return;
-    }
-    const users = await dao.findAllUsers();
-    res.json(users);
-  };
-
-  
-  const findUserById = async (req, res) => {
-    const user = await dao.findUserById(req.params.userId);
-    res.json(user);
-  };
-  app.get("/api/users/:userId", findUserById);
-
-  app.get("/api/users", findAllUsers);
-
   // signup operation creates a new user
-  const signup = (req, res) => {
-    const user = dao.findUserByUsername(req.body.username);
+  const signup = async (req, res) => {
+    const user = await dao.findUserByUsername(req.body.username);
     if (user) {
       res.status(400).json({ message: "Username already taken :(" });
       return;
     }
-    const currentUser = dao.createUser(req.body);
+    const currentUser = await dao.createUser(req.body);
     req.session["currentUser"] = currentUser;
     res.json(currentUser);
   };
   app.post("/api/users/signup", signup);
 
   // signin operation logs in the user if credentials match
-  const signin = (req, res) => {
+  const signin = async (req, res) => {
     const { username, password } = req.body;
-    const currentUser = dao.findUserByCredentials(username, password);
+    const currentUser = await dao.findUserByCredentials(username, password);
 
     if (currentUser) {
       req.session["currentUser"] = currentUser;
@@ -66,41 +44,32 @@ export default function UserRoutes(app) {
   app.post("/api/users/signin", signin);
 
   // profile operation
-  // In your UserRoutes, update the profile function:
-  const profile = (req, res) => {
+  const profile = async (req, res) => {
     const currentUser = req.session["currentUser"];
-
     if (!currentUser) {
       res.sendStatus(401);
       return;
     }
     res.json(currentUser);
   };
-  app.post("/api/users/profile", profile);
+  app.get("/api/users/profile", profile);
 
   // updates current user's profile
-  const updateUser = (req, res) => {
+  const updateUser = async (req, res) => {
     const userId = req.params.userId;
     const userUpdates = req.body;
-    const currentUser = req.session["currentUser"];
-
     dao.updateUser(userId, userUpdates);
-    const updatedUser = dao.findUserById(userId);
-
-    if (currentUser && currentUser._id === userId) {
-      req.session["currentUser"] = updatedUser;
-    }
-
-    res.json(updatedUser);
+    const currentUser = await dao.findUserById(userId);
+    req.session["currentUser"] = currentUser;
+    res.json(currentUser);
   };
   app.put("/api/users/:userId", updateUser);
 
   // sign out resets the currentUser to null in the server
-  const signout = (req, res) => {
+  const signout = async (req, res) => {
     if (!req.session) {
       return res.sendStatus(200);
     }
-
     req.session.destroy((err) => {
       if (err) {
         console.error("Error destroying session:", err);
@@ -112,49 +81,22 @@ export default function UserRoutes(app) {
   };
   app.post("/api/users/signout", signout);
 
-  // saves a recipe for a user
-const saveRecipe = async (req, res) => {
-  try {
-    const { userId } = req.params;
-    const { recipeId } = req.body;
-    
-    const updatedUser = await dao.saveRecipe(userId, recipeId);
-    
-    // Update session if this is the current user
-    const currentUser = req.session["currentUser"];
-    if (currentUser && currentUser._id === userId) {
-      req.session["currentUser"] = updatedUser;
+  // finds all users
+  const findAllUsers = async (req, res) => {
+    const { name } = req.query;
+    if (name) {
+      const users = await dao.findUsersByPartialName(name);
+      res.json(users);
+      return;
     }
-    
-    res.json(updatedUser);
-  } catch (error) {
-    console.error("Error saving recipe:", error);
-    res.status(500).json({ message: error.message });
-  }
-};
-app.put("/api/users/:userId/save", saveRecipe);
+    const users = await dao.findAllUsers();
+    res.json(users);
+  };
+  app.get("/api/users", findAllUsers);
 
-// unsaves a recipe for a user
-const unsaveRecipe = async (req, res) => {
-  try {
-    const { userId } = req.params;
-    const { recipeId } = req.body;
-    
-    const updatedUser = await dao.unsaveRecipe(userId, recipeId);
-    
-    // Update session if this is the current user
-    const currentUser = req.session["currentUser"];
-    if (currentUser && currentUser._id === userId) {
-      req.session["currentUser"] = updatedUser;
-    }
-    
-    res.json(updatedUser);
-  } catch (error) {
-    console.error("Error unsaving recipe:", error);
-    res.status(500).json({ message: error.message });
-  }
-};
-app.put("/api/users/:userId/unsave", unsaveRecipe);
+  const findUserById = async (req, res) => {
+    const user = await dao.findUserById(req.params.userId);
+    res.json(user);
+  };
+  app.get("/api/users/:userId", findUserById);
 }
-
-

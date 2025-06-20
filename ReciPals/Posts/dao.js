@@ -1,27 +1,27 @@
+import model from "./model.js"; 
 import db from "../Database/index.js";
-import { v4 as uuidv4 } from "uuid";
 
 // Posts dao.js implements various CRUD operations for handling the users array in the Database
 
 let { posts } = db;
 
 // finds all posts
-export const findAllPosts = () => posts;
+export const findAllPosts = async () => await model.find();
 
 // creates a post
-export function createPost(post) {
-  db.posts = [...db.posts, post];
-  return post;
+export async function createPost(post) {
+  return await model.create(post);
 }
 
 // finds a post by ID
-export function findPostById(postId) {
-  return db.posts.find((post) => post.post_id === postId);
+export async function findPostById(postId) {
+ return  await model.findById(postId);
 }
 
 // adds a comment to a post
 export function addComment(postId, commentData) {
-  const post = db.posts.find((post) => post.post_id === postId);
+  throw new Error("addComment not implemented yet - needs database integration");
+  /*const post = db.posts.find((post) => post.post_id === postId);
   if (!post) {
     throw new Error("Post not found");
   }
@@ -34,28 +34,25 @@ export function addComment(postId, commentData) {
   };
 
   post.comments = [...(post.comments || []), newComment];
-  return post;
+  return post;*/
 }
 
 // gets comments for a specific post
 export function getComments(postId) {
-  const post = db.posts.find((post) => post.post_id === postId);
+  throw new Error("getComments not implemented yet - needs database integration");
+  /*const post = db.posts.find((post) => post.post_id === postId);
   if (!post) {
     throw new Error("Post not found");
   }
-  return post.comments || [];
+  return post.comments || [];*/
 }
 
 // updates an post
-export function updatePost(postId, postUpdates) {
-  const { posts } = db;
-  const post = posts.find((post) => post.post_id === postId);
-  Object.assign(post, postUpdates);
-  return post;
+export async function updatePost(postId, post) {
+  return await model.updateOne({post_id: postId}, {$set: post})
 }
 
 // deletes an post
-export function deletePost(postId) {
-  const { posts } = db;
-  db.posts = posts.filter((post) => post.post_id !== postId);
+export async function deletePost(postId) {
+  return await model.deleteOne({post_id: postId})
 }
