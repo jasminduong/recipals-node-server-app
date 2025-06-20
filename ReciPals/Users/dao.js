@@ -1,35 +1,72 @@
-import db from "../Database/index.js";
 import { v4 as uuidv4 } from "uuid";
+import model from "./model.js";
 
 // Users dao.js implements various CRUD operations for handling the users array in the Database
 
-let { users } = db;
+// find all users
+export const findAllUsers = async () => await model.find();
 
-// used for sign up operation
-export const createUser = (user) => {
-  const newUser = { ...user, _id: uuidv4() };
-  users = [...users, newUser];
-  return newUser;
+// find by id
+export const findUserById = async (userId) => await model.findById(userId);
+
+// find by username
+export const findUserByUsername = async (username) =>
+  await model.findOne({ username: username });
+
+// find by partial name
+export const findUsersByPartialName = async (partialName) => {
+  const regex = new RegExp(partialName, "i");
+  return await model.find({
+    $or: [{ firstName: { $regex: regex } }, { lastName: { $regex: regex } }],
+  });
 };
 
-export const findAllUsers = () => users;
-
-export const findUserById = (userId) =>
-  users.find((user) => user._id === userId);
-
-export const findUserByUsername = (username) =>
-  users.find((user) => user.username === username);
-
 // used for sign in operation
-export const findUserByCredentials = (username, password) =>
-  users.find(
-    (user) => user.username === username && user.password === password
-  );
+export const findUserByCredentials = async (username, password) =>
+  await model.findOne({ username, password });
 
-// used for updating user info
-export const updateUser = (userId, user) =>
-  (users = users.map((u) => (u._id === userId ? user : u)));
+// used for sign up operation
+export const createUser = async (user) => {
+  const newUser = { ...user, _id: uuidv4() };
+  return await model.create(newUser);
+};
 
-// used for deleting users
-export const deleteUser = (userId) =>
-  (users = users.filter((u) => u._id !== userId));
+// updates user info
+export const updateUser = async (userId, user) =>
+  await model.updateOne({ _id: userId }, { $set: user });
+
+// deletes a user
+export const deleteUser = async (userId) =>
+  await model.deleteOne({ _id: userId });
+
+// saves a recipe to user's saved list
+export const saveRecipe = (userId, recipeId) => {
+  const user = users.find((u) => u._id === userId);
+  if (!user) {
+    throw new Error("User not found");
+  }
+
+  if (!user.saved_recipes) {
+    user.saved_recipes = [];
+  }
+
+  if (!user.saved_recipes.includes(recipeId)) {
+    user.saved_recipes.push(recipeId);
+  }
+
+  return user;
+};
+
+// removes a recipe from user's saved list
+export const unsaveRecipe = (userId, recipeId) => {
+  const user = users.find((u) => u._id === userId);
+  if (!user) {
+    throw new Error("User not found");
+  }
+
+  if (user.saved_recipes) {
+    user.saved_recipes = user.saved_recipes.filter((id) => id !== recipeId);
+  }
+
+  return user;
+};
