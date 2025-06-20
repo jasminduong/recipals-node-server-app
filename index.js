@@ -7,7 +7,8 @@ import PostRoutes from "./ReciPals/Posts/routes.js";
 import RecipeRoutes from "./ReciPals/Recipes/routes.js";
 import mongoose from "mongoose";
 
-const CONNECTION_STRING = "mongodb://127.0.0.1:27017/recipals"
+const CONNECTION_STRING =
+  process.env.MONGO_CONNECTION_STRING || "mongodb://127.0.0.1:27017/recipals";
 mongoose.connect(CONNECTION_STRING);
 
 const app = express();
@@ -23,7 +24,9 @@ app.use(
     origin: allowedOrigins,
   })
 );
-const sessionOptions = {
+
+// DEVELOPMENT
+/*const sessionOptions = {
   secret: process.env.SESSION_SECRET || "recipals",
   resave: false,
   saveUninitialized: false,
@@ -36,6 +39,21 @@ const sessionOptions = {
 };
 
 if (process.env.NODE_ENV === "production") {
+  sessionOptions.proxy = true;
+  sessionOptions.cookie = {
+    sameSite: "none",
+    secure: true,
+  };
+}*/
+
+// PRODUCTION
+const sessionOptions = {
+  secret:
+    process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+};
+if (process.env.NODE_ENV !== "development") {
   sessionOptions.proxy = true;
   sessionOptions.cookie = {
     sameSite: "none",
