@@ -12,15 +12,18 @@ export const createUser = (user) => {
   return newUser;
 };
 
+// find all users
 export const findAllUsers = () => users;
 
+// find by id
 export const findUserById = (userId) =>
   users.find((user) => user._id === userId);
 
+// find by username
 export const findUserByUsername = (username) =>
   users.find((user) => user.username === username);
 
-// Fixed function to search by username 
+// find by partial name 
 export const findUsersByPartialName = (partialName) => {
   const searchLower = partialName.toLowerCase();
   return users.filter(user => 
@@ -34,11 +37,11 @@ export const findUserByCredentials = (username, password) =>
     (user) => user.username === username && user.password === password
   );
 
-// used for updating user info
+// updates user info
 export const updateUser = (userId, user) =>
   (users = users.map((u) => (u._id === userId ? user : u)));
 
-// used for deleting users
+// deletes a user
 export const deleteUser = (userId) =>
   (users = users.filter((u) => u._id !== userId));
 

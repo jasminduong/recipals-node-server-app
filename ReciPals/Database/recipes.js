@@ -1513,7 +1513,7 @@ export default [
     recipe_id: "recipeBot-R32",
     post_id: "recipeBot-P32",
     user_created: "recipeBot",
-    name: "Beef Banh Mi Bowls with Sriracha Mayo, Carrot & Pickled Cucumber",
+    name: "Beef Banh Mi Bowls",
     description: "Beef | Vietnamese",
     ingredients_sec: [
       {
@@ -5143,7 +5143,7 @@ export default [
     recipe_id: "recipeBot-R114",
     post_id: "recipeBot-P114",
     user_created: "recipeBot",
-    name: "French Onion Chicken with Roasted Carrots & Mashed Potatoes",
+    name: "French Onion Chicken",
     description: "Chicken | American",
     ingredients_sec: [
       {
@@ -5905,7 +5905,7 @@ export default [
     recipe_id: "recipeBot-R132",
     post_id: "recipeBot-P132",
     user_created: "recipeBot",
-    name: "Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
+    name: "Honey Balsamic Chicken",
     description: "Chicken | American",
     ingredients_sec: [
       {
@@ -10537,7 +10537,7 @@ export default [
     recipe_id: "recipeBot-R235",
     post_id: "recipeBot-P235",
     user_created: "recipeBot",
-    name: "Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt",
+    name: "Stovetop Eggplant",
     description: "Vegetarian | American",
     ingredients_sec: [
       {
@@ -11674,7 +11674,7 @@ export default [
     recipe_id: "recipeBot-R261",
     post_id: "recipeBot-P261",
     user_created: "recipeBot",
-    name: "Soy-Glazed Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots",
+    name: "Soy-Glazed Meatloaves",
     description: "Beef | American",
     ingredients_sec: [
       {
@@ -11733,7 +11733,7 @@ export default [
     recipe_id: "recipeBot-R262",
     post_id: "recipeBot-P262",
     user_created: "recipeBot",
-    name: "Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
+    name: "Skillet Apple Pork Chops",
     description: "Pork | American",
     ingredients_sec: [
       {
