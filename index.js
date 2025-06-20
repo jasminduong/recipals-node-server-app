@@ -15,8 +15,8 @@ const app = express();
 
 const allowedOrigins = [
   "https://recipals.netlify.app",
-  "http://localhost:5173"
-]
+  "http://localhost:5173",
+];
 
 app.use(
   cors({
@@ -25,40 +25,26 @@ app.use(
   })
 );
 
-// DEVELOPMENT
-/*const sessionOptions = {
+const sessionOptions = {
   secret: process.env.SESSION_SECRET || "recipals",
   resave: false,
   saveUninitialized: false,
   cookie: {
-    secure: false,
     httpOnly: true,
     maxAge: 24 * 60 * 60 * 1000,
-    sameSite: "lax",
   },
 };
 
 if (process.env.NODE_ENV === "production") {
   sessionOptions.proxy = true;
   sessionOptions.cookie = {
+    ...sessionOptions.cookie,
     sameSite: "none",
     secure: true,
   };
-}*/
-
-// PRODUCTION
-const sessionOptions = {
-  secret:
-    process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: false,
-};
-if (process.env.NODE_ENV !== "development") {
-  sessionOptions.proxy = true;
-  sessionOptions.cookie = {
-    sameSite: "none",
-    secure: true,
-  };
+} else {
+  sessionOptions.cookie.sameSite = "lax";
+  sessionOptions.cookie.secure = false;
 }
 
 app.use(session(sessionOptions));
