@@ -44,7 +44,7 @@ export default function RecipeRoutes(app) {
     }
   });
 
-  // gets a single recipe by ID
+  // gets a single recipe by id
   app.get("/api/recipes/:recipeId", async (req, res) => {
     const { recipeId } = req.params;
     const recipe = await recipesDao.findRecipeById(recipeId);

@@ -5,12 +5,12 @@ export default [
     user_created: "123",
     name: "Beef Rice Noodles Stir Fry",
     description:
-      "Savory beef rice noodles topped with sautéed spinach, soft egg ribbons, sweet bell peppers, and mushrooms.",
+      "Savory beef rice noodles topped with saut\u00e9ed spinach, soft egg ribbons, sweet bell peppers, and mushrooms.",
     ingredients_sec: [
       {
         _id: "jd-R1I1",
         title: "Noodles",
-        "ingredients:": [
+        ingredients: [
           "Rice Noodles",
           "Spinach",
           "Beef (1 lb.)",
@@ -22,26 +22,20 @@ export default [
       {
         _id: "jd-R1I2",
         title: "Sauce",
-        "ingredients:": [
-          "Soy sauce",
-          "Sugar",
-          "Sesame oil",
-          "Starch",
-          "Garlic",
-        ],
+        ingredients: ["Soy sauce", "Sugar", "Sesame oil", "Starch", "Garlic"],
       },
     ],
     steps: [
       "Scramble and cook 3 eggs (like a pancake), then set aside.",
       "Slice beef, marinate with sauce of your choice, and cook until well done.",
-      "While beef cooks, rinse and sauté spinach.",
-      "Slice bell peppers into strips, then sauté until slightly soft.",
+      "While beef cooks, rinse and saut\u00e9 spinach.",
+      "Slice bell peppers into strips, then saut\u00e9 until slightly soft.",
       "Slice mushrooms and cook until golden.",
       "While mushrooms cooks, cut cooked eggs into strips.",
       "Boil water and cook rice noodles according to package.",
       "While noodles cook, mix up the sauce.",
       "Once everything is cooked, combine noodles, veggies, beef, and eggs in a pan.",
-      "Pour in the sauce and stir on low heat until everything’s coated and heated through.",
+      "Pour in the sauce and stir on low heat until everything\u2019s coated and heated through.",
     ],
     total_time: "80min",
     serves: 4,
@@ -58,7 +52,7 @@ export default [
       {
         _id: "recipe_bot-52768I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "digestive biscuits (175g/6oz)",
           "butter (75g/3oz)",
           "Bramley apples (200g/7oz)",
@@ -67,7 +61,7 @@ export default [
           "free-range eggs, beaten (2)",
           "ground almonds (75g/3oz)",
           "almond extract (1 tsp)",
-          "flaked almonds (50g/1¾oz)",
+          "flaked almonds (50g/1\u00beoz)",
         ],
       },
     ],
@@ -91,7 +85,7 @@ export default [
       "Remove the sides of the tin",
       "An easy way to do this is to stand the tin on a can of beans and push down gently on the edges of the tin",
       "Transfer the tart, with the tin base attached, to a serving plate",
-      "Serve warm with cream, crème fraiche or ice cream.",
+      "Serve warm with cream, cr\u00e8me fraiche or ice cream.",
     ],
     tags: ["Tart", "Baking", "Fruity"],
     photo: "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
@@ -106,7 +100,7 @@ export default [
       {
         _id: "recipe_bot-52893I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Plain Flour (120g)",
           "Caster Sugar (60g)",
           "Butter (60g)",
@@ -114,7 +108,7 @@ export default [
           "Butter (30g)",
           "Demerara Sugar (30g)",
           "Blackberries (120g)",
-          "Cinnamon (¼ teaspoon)",
+          "Cinnamon (\u00bc teaspoon)",
           "Ice Cream (to serve)",
         ],
       },
@@ -147,7 +141,7 @@ export default [
       {
         _id: "recipe_bot-53049I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Milk (200ml)",
           "Oil (60ml)",
           "Eggs (2)",
@@ -184,7 +178,7 @@ export default [
       {
         _id: "recipe_bot-53050I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Thighs (6)",
           "Challots (16)",
           "Ginger (1 1/2)",
@@ -238,17 +232,17 @@ export default [
       {
         _id: "recipe_bot-52767I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "plain flour (175g/6oz)",
-          "chilled butter (75g/2½oz)",
+          "chilled butter (75g/2\u00bdoz)",
           "cold water (2-3 tbsp)",
           "raspberry jam (1 tbsp)",
-          "butter (125g/4½oz)",
-          "caster sugar (125g/4½oz)",
-          "ground almonds (125g/4½oz)",
+          "butter (125g/4\u00bdoz)",
+          "caster sugar (125g/4\u00bdoz)",
+          "ground almonds (125g/4\u00bdoz)",
           "free-range egg, beaten (1)",
-          "almond extract (½ tsp)",
-          "flaked almonds (50g/1¾oz)",
+          "almond extract (\u00bd tsp)",
+          "flaked almonds (50g/1\u00beoz)",
         ],
       },
     ],
@@ -280,7 +274,7 @@ export default [
       {
         _id: "recipe_bot-52792I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "butter (25g/1oz)",
           "bread (8 thin slices)",
           "sultanas (50g/2oz)",
@@ -321,7 +315,7 @@ export default [
       {
         _id: "recipe_bot-52803I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "mushrooms (400g)",
           "English Mustard (1-2tbsp)",
           "Olive Oil (Dash)",
@@ -346,7 +340,7 @@ export default [
       "Keeping a tight hold of the cling film from the edge, neatly roll the Parma ham and mushrooms around the beef to form a tight barrel shape",
       "Twist the ends of the cling film to secure",
       "Chill for 15-20 mins to allow the beef to set and keep its shape",
-      "Roll out the puff pastry on a floured surface to a large rectangle, the thickness of a £1 coin",
+      "Roll out the puff pastry on a floured surface to a large rectangle, the thickness of a \u00a31 coin",
       "Remove the cling film from the beef, then lay in the centre",
       "Brush the surrounding pastry with egg yolk",
       "Fold the ends over, the wrap the pastry around the beef, cutting off any excess",
@@ -371,13 +365,13 @@ export default [
       {
         _id: "recipe_bot-52807I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Aubergine (1 large)",
-          "Onion (½ cup)",
+          "Onion (\u00bd cup)",
           "Tomatoes (1 cup)",
           "Garlic (6 cloves)",
           "Green Chilli (1)",
-          "Red Chilli Powder (¼ teaspoon)",
+          "Red Chilli Powder (\u00bc teaspoon)",
           "Oil (1.5 tablespoon)",
           "Coriander Leaves (1 tablespoon chopped)",
           "salt (as required)",
@@ -429,7 +423,7 @@ export default [
       "Now add the red chili powder",
       "Stir and mix well",
       "Add the chopped cooked baingan",
-      "Stir and mix the chopped baingan very well with the onion­tomato masala mixture",
+      "Stir and mix the chopped baingan very well with the onion\u00adtomato masala mixture",
       "Season with salt",
       "Stir and saute for some more 4 to 5 minutes more",
       "Finally stir in the coriander leaves with the baingan bharta or garnish it with them",
@@ -450,7 +444,7 @@ export default [
       {
         _id: "recipe_bot-52812I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef Brisket (4-5 pound)",
           "Salt (Dash)",
           "Onion (3)",
@@ -479,18 +473,18 @@ export default [
       "(If the roast seems to be cooking too fast, turn the heat down to medium",
       "You want a steady sizzle, not a raging sear.)",
       "Turn the brisket over and cook for a few minutes more to brown the other side",
-      "3 Sauté the onions and garlic: When the brisket has browned, remove it from the pot and set aside",
+      "3 Saut\u00e9 the onions and garlic: When the brisket has browned, remove it from the pot and set aside",
       "There should be a couple tablespoons of fat rendered in the pot, if not, add some olive oil",
       "Add the chopped onions and increase the heat to high",
       "Sprinkle a little salt on the onions",
-      "Sauté, stirring often, until the onions are lightly browned, 5-8 minutes",
+      "Saut\u00e9, stirring often, until the onions are lightly browned, 5-8 minutes",
       "Stir in the garlic and cook 1-2 more minutes",
-      "4 Return brisket to pot, add herbs, stock, bring to simmer, cover, cook in oven: Preheat the oven to 300°F",
+      "4 Return brisket to pot, add herbs, stock, bring to simmer, cover, cook in oven: Preheat the oven to 300\u00b0F",
       "Use kitchen twine to tie together the bay leaves, rosemary and thyme",
       "Move the onions and garlic to the sides of the pot and nestle the brisket inside",
       "Add the beef stock and the tied-up herbs",
       "Bring the stock to a boil on the stovetop",
-      "Cover the pot, place the pot in the 300°F oven and cook for 3 hours",
+      "Cover the pot, place the pot in the 300\u00b0F oven and cook for 3 hours",
       "Carefully flip the brisket every hour so it cooks evenly",
       "5 Add carrots, continue to cook: After 3 hours, add the carrots",
       "Cover the pot and cook for 1 hour more, or until the carrots are cooked through and the brisket is falling-apart tender",
@@ -501,7 +495,7 @@ export default [
       "You can serve as is, or you can make a sauce with the drippings and some of the onions",
       "If you serve as is, skip this step",
       "To make a sauce, remove the carrots and half of the onions, set aside and cover them with foil",
-      "Pour the ingredients that are remaining into the pot into a blender, and purée until smooth",
+      "Pour the ingredients that are remaining into the pot into a blender, and pur\u00e9e until smooth",
       "If you want, add 1 tablespoon of mustard to the mix",
       "Put into a small pot and keep warm",
       "8 Slice the meat across the grain: Notice the lines of the muscle fibers of the roast",
@@ -523,7 +517,7 @@ export default [
       {
         _id: "recipe_bot-52824I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (8 slices)",
           "Broccoli (12 florets)",
           "Potatoes (1 Packet)",
@@ -563,7 +557,7 @@ export default [
       {
         _id: "recipe_bot-52826I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1kg)",
           "Onions (3)",
           "Garlic (4 cloves)",
@@ -609,7 +603,7 @@ export default [
       {
         _id: "recipe_bot-52834I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tbls)",
           "Onions (1)",
           "Garlic (1 clove)",
@@ -632,7 +626,7 @@ export default [
       "Tip the flour into a bowl with a big pinch of salt and pepper, then toss the steak in the seasoned flour",
       "Add the steak pieces to the pan, splashing in a little oil if the pan looks particularly dry, and fry for 3-4 mins, until well coloured",
       "Tip the onions and mushrooms back into the pan",
-      "Whisk the crème fraîche, mustard and beef stock together, then pour into the pan",
+      "Whisk the cr\u00e8me fra\u00eeche, mustard and beef stock together, then pour into the pan",
       "Cook over a medium heat for around 5 mins",
       "Scatter with parsley, then serve with pappardelle or rice.",
     ],
@@ -649,7 +643,7 @@ export default [
       {
         _id: "recipe_bot-52842I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Rapeseed Oil (2 tblsp)",
           "Onion (1 finely chopped)",
           "Celery (1)",
@@ -671,7 +665,7 @@ export default [
       "Allow to sweat for 5 minutes",
       "Remove the lid",
       "Pour in the stock and add any chunky bits of broccoli stalk",
-      "Cook for 10 – 15 minutes until all the vegetables are soft",
+      "Cook for 10 \u2013 15 minutes until all the vegetables are soft",
       "Add the rest of the broccoli and cook for a further 5 minutes",
       "Carefully transfer to a blender and blitz until smooth",
       "Stir in the stilton, allowing a few lumps to remain",
@@ -690,7 +684,7 @@ export default [
       {
         _id: "recipe_bot-52848I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sausages (8 large)",
           "Tomato Sauce (1 Jar)",
           "Butter Beans (1200g)",
@@ -700,7 +694,7 @@ export default [
       },
     ],
     steps: [
-      "In a large casserole, fry the sausages until brown all over – about 10 mins",
+      "In a large casserole, fry the sausages until brown all over \u2013 about 10 mins",
       "Add the tomato sauce, stirring well, then stir in the beans, treacle or sugar and mustard",
       "Bring to the simmer, cover and cook for 30 mins",
       "Great served with crusty bread or rice.",
@@ -718,7 +712,7 @@ export default [
       {
         _id: "recipe_bot-52855I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Banana (1 large)",
           "Eggs (2 medium)",
           "Baking Powder (pinch)",
@@ -730,7 +724,7 @@ export default [
       },
     ],
     steps: [
-      "In a bowl, mash the banana with a fork until it resembles a thick purée",
+      "In a bowl, mash the banana with a fork until it resembles a thick pur\u00e9e",
       "Stir in the eggs, baking powder and vanilla",
       "Heat a large non-stick frying pan or pancake pan over a medium heat and brush with half the oil",
       "Using half the batter, spoon two pancakes into the pan, cook for 1-2 mins each side, then tip onto a plate",
@@ -750,7 +744,7 @@ export default [
       {
         _id: "recipe_bot-52873I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (2 tbs)",
           "Butter (25g)",
           "Beef (750g)",
@@ -803,7 +797,7 @@ export default [
       {
         _id: "recipe_bot-52874I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1kg)",
           "Plain Flour (2 tbs)",
           "Rapeseed Oil (2 tbs)",
@@ -853,7 +847,7 @@ export default [
       {
         _id: "recipe_bot-52878I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (900g)",
           "Olive Oil (3 tbs)",
           "Shallots (3)",
@@ -875,7 +869,7 @@ export default [
     steps: [
       "Season the beef cubes with salt and black pepper",
       "Heat a tablespoon of oil in the frying pan and fry the meat over a high heat",
-      "Do this in three batches so that you don’t overcrowd the pan, transferring the meat to a large flameproof casserole dish once it is browned all over",
+      "Do this in three batches so that you don\u2019t overcrowd the pan, transferring the meat to a large flameproof casserole dish once it is browned all over",
       "Add extra oil if the pan seems dry",
       "In the same pan, add another tablespoon of oil and cook the shallots for 4-5 minutes, then add the garlic and fry for 30 seconds",
       "Add the bacon and fry until slightly browned",
@@ -883,16 +877,16 @@ export default [
       "Preheat the oven to 180C/350F/Gas 4",
       "Pour the stout into the frying pan and bring to the boil, stirring to lift any stuck-on browned bits from the bottom of the pan",
       "Pour the stout over the beef in the casserole dish and add the stock",
-      "Cover the casserole and place it in the oven for 1½-2 hours, or until the beef is tender and the sauce is reduced",
+      "Cover the casserole and place it in the oven for 1\u00bd-2 hours, or until the beef is tender and the sauce is reduced",
       "Skim off any surface fat, taste and add salt and pepper if necessary, then stir in the cornflour paste",
-      "Put the casserole dish on the hob – don’t forget that it will be hot – and simmer for 1-2 minutes, stirring, until thickened",
+      "Put the casserole dish on the hob \u2013 don\u2019t forget that it will be hot \u2013 and simmer for 1-2 minutes, stirring, until thickened",
       "Leave to cool",
       "Increase the oven to 200C/400F/Gas 6",
       "To make the pastry, put the flour and salt in a very large bowl",
       "Grate the butter and stir it into the flour in three batches",
-      "Gradually add 325ml/11fl oz cold water – you may not need it all – and stir with a round-bladed knife until the mixture just comes together",
+      "Gradually add 325ml/11fl oz cold water \u2013 you may not need it all \u2013 and stir with a round-bladed knife until the mixture just comes together",
       "Knead the pastry lightly into a ball on a lightly floured surface and set aside 250g/9oz for the pie lid",
-      "Roll the rest of the pastry out until about 2cm/¾in larger than the dish you’re using",
+      "Roll the rest of the pastry out until about 2cm/\u00bein larger than the dish you\u2019re using",
       "Line the dish with the pastry then pile in the filling, tucking the oysters in as well",
       "Brush the edge of the pastry with beaten egg",
       "Roll the remaining pastry until slightly larger than your dish and gently lift over the filling, pressing the edges firmly to seal, then trim with a sharp knife",
@@ -912,13 +906,13 @@ export default [
       {
         _id: "recipe_bot-52891I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Hazlenuts (50g)",
           "Butter (125g)",
           "Caster Sugar (150g)",
           "Lemon (Grated)",
           "Plain Flour (150g)",
-          "Baking Powder (½ tsp)",
+          "Baking Powder (\u00bd tsp)",
           "Blackberries (600g)",
           "Sugar (75g)",
           "Caster Sugar (2 tbs)",
@@ -932,14 +926,14 @@ export default [
     steps: [
       "For the biscuits, preheat the oven to 200C/180C (fan)/Gas 6 and line two large baking trays with baking parchment",
       "Scatter the nuts over a baking tray and roast in the oven for 6-8 minutes, or until golden-brown",
-      "Watch them carefully so that they don’t have a chance to burn",
+      "Watch them carefully so that they don\u2019t have a chance to burn",
       "Remove from the oven, tip onto a board and leave to cool",
       "Put the butter and sugar in a large bowl and beat with a wooden spoon until light and creamy",
       "Roughly chop the cooled nuts and add to the creamed butter and sugar, along with the lemon zest, flour and baking powder",
-      "Stir well until the mixture comes together and forms a ball – you may need to use your hands",
+      "Stir well until the mixture comes together and forms a ball \u2013 you may need to use your hands",
       "Divide the biscuit dough into 24 even pieces and roll into small balls",
       "Place the balls the prepared baking trays, spaced well apart to allow for spreading",
-      "Press the biscuits to flatten to around 1cm/½in thick",
+      "Press the biscuits to flatten to around 1cm/\u00bdin thick",
       "Bake the biscuits, one tray at a time, for 12 minutes or until very pale golden-brown",
       "Leave to cool on the trays",
       "They will be very soft when you take them out of the oven, but will crisp as they cool",
@@ -949,14 +943,14 @@ export default [
       "Stir in the lemon juice and heat gently for two minutes, or until the blackberries begin to soften and release their juices",
       "Remove and reserve 12 blackberries for decoration and continue cooking the rest",
       "Simmer the blackberries very gently for 15 minutes, stirring regularly until very soft and squidgy",
-      "Remove from the heat and press the berries and juice through a sieve over a bowl, using the bottom of a ladle to help you extract as much of the purée as possible",
-      "Leave the purée to cool and discard the seeds",
-      "You should end up with around 325ml/11fl oz of purée",
-      "Put the cream and yoghurt in a large bowl and whip with an electric whisk until soft peaks form when the whisk is removed from the bowl – the acidity of the fruit will thicken the cream further, so don’t take it too far",
-      "When the purée is completely cold, adjust the sweetness to taste by adding more sugar if needed",
+      "Remove from the heat and press the berries and juice through a sieve over a bowl, using the bottom of a ladle to help you extract as much of the pur\u00e9e as possible",
+      "Leave the pur\u00e9e to cool and discard the seeds",
+      "You should end up with around 325ml/11fl oz of pur\u00e9e",
+      "Put the cream and yoghurt in a large bowl and whip with an electric whisk until soft peaks form when the whisk is removed from the bowl \u2013 the acidity of the fruit will thicken the cream further, so don\u2019t take it too far",
+      "When the pur\u00e9e is completely cold, adjust the sweetness to taste by adding more sugar if needed",
       "Pour it into the bowl with the whipped cream and yoghurt and stir just once or twice until very lightly combined",
-      "Spoon the blackberry fool into individual wide, glass dishes – or one large, single bowl",
-      "It should look quite marbled, so don’t over-stir it",
+      "Spoon the blackberry fool into individual wide, glass dishes \u2013 or one large, single bowl",
+      "It should look quite marbled, so don\u2019t over-stir it",
       "Scatter a few tiny mint leaves on top and decorate with the reserved blackberries",
       "Sprinkle with a little sugar if you like and serve with the hazelnut biscuits.",
     ],
@@ -973,24 +967,24 @@ export default [
       {
         _id: "recipe_bot-52894I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (175g)",
           "Caster Sugar (175g)",
           "Self-raising Flour (140g)",
           "Almonds (50g)",
-          "Baking Powder (½ tsp)",
+          "Baking Powder (\u00bd tsp)",
           "Eggs (3 Medium)",
-          "Vanilla Extract (½ tsp)",
-          "Almond Extract (¼ teaspoon)",
+          "Vanilla Extract (\u00bd tsp)",
+          "Almond Extract (\u00bc teaspoon)",
           "Butter (175g)",
           "Caster Sugar (175g)",
           "Self-raising Flour (140g)",
           "Almonds (50g)",
-          "Baking Powder (½ tsp)",
+          "Baking Powder (\u00bd tsp)",
           "Eggs (3 Medium)",
-          "Vanilla Extract (½ tsp)",
-          "Almond Extract (¼ teaspoon)",
-          "Pink Food Colouring (½ tsp)",
+          "Vanilla Extract (\u00bd tsp)",
+          "Almond Extract (\u00bc teaspoon)",
+          "Pink Food Colouring (\u00bd tsp)",
           "Apricot (200g)",
           "Marzipan (1kg)",
           "Icing Sugar (Dusting)",
@@ -1001,10 +995,10 @@ export default [
       "Heat oven to 180C/160C fan/gas 4 and line the base and sides of a 20cm square tin with baking parchment (the easiest way is to cross 2 x 20cm-long strips over the base)",
       "To make the almond sponge, put the butter, sugar, flour, ground almonds, baking powder, eggs, vanilla and almond extract in a large bowl",
       "Beat with an electric whisk until the mix comes together smoothly",
-      "Scrape into the tin, spreading to the corners, and bake for 25-30 mins – when you poke in a skewer, it should come out clean",
+      "Scrape into the tin, spreading to the corners, and bake for 25-30 mins \u2013 when you poke in a skewer, it should come out clean",
       "Cool in the tin for 10 mins, then transfer to a wire rack to finish cooling while you make the second sponge",
       "For the pink sponge, line the tin as above",
-      "Mix all the ingredients together as above, but don’t add the almond extract",
+      "Mix all the ingredients together as above, but don\u2019t add the almond extract",
       "Fold in some pink food colouring",
       "Then scrape it all into the tin and bake as before",
       "To assemble, heat the jam in a small pan until runny, then sieve",
@@ -1036,7 +1030,7 @@ export default [
       {
         _id: "recipe_bot-52904I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Goose Fat (3 tsp)",
           "Beef Shin (600g)",
           "Bacon (100g)",
@@ -1060,11 +1054,11 @@ export default [
       "Season the beef and fry until golden brown, about 3-5 mins, then turn over and fry the other side until the meat is browned all over, adding more fat if necessary",
       "Do this in 2-3 batches, transferring the meat to a colander set over a bowl when browned",
       "In the same pan, fry the bacon, shallots or pearl onions, mushrooms, garlic and bouquet garni until lightly browned",
-      "Mix in the tomato purée and cook for a few mins, stirring into the mixture",
+      "Mix in the tomato pur\u00e9e and cook for a few mins, stirring into the mixture",
       "This enriches the bourguignon and makes a great base for the stew",
       "Then return the beef and any drained juices to the pan and stir through",
-      "Pour over the wine and about 100ml water so the meat bobs up from the liquid, but isn’t completely covered",
-      "Bring to the boil and use a spoon to scrape the caramelised cooking juices from the bottom of the pan – this will give the stew more flavour",
+      "Pour over the wine and about 100ml water so the meat bobs up from the liquid, but isn\u2019t completely covered",
+      "Bring to the boil and use a spoon to scrape the caramelised cooking juices from the bottom of the pan \u2013 this will give the stew more flavour",
       "Heat oven to 150C/fan 130C/gas 2",
       "Make a cartouche: tear off a square of foil slightly larger than the casserole, arrange it in the pan so it covers the top of the stew and trim away any excess foil",
       "Then cook for 3 hrs",
@@ -1095,7 +1089,7 @@ export default [
       {
         _id: "recipe_bot-52913I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Plain Flour (375g)",
           "Caster Sugar (50g)",
           "Yeast (7g)",
@@ -1130,13 +1124,13 @@ export default [
     recipe_id: "recipeBot-R23",
     post_id: "recipeBot-P23",
     user_created: "recipeBot",
-    name: "Boulangère Potatoes",
+    name: "Boulang\u00e8re Potatoes",
     description: "Side | French",
     ingredients_sec: [
       {
         _id: "recipe_bot-52914I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Onions (2 finely chopped)",
           "Thyme (sprigs of fresh)",
           "Olive Oil (2 tbs)",
@@ -1165,14 +1159,14 @@ export default [
       {
         _id: "recipe_bot-52928I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Water (1/2 cup)",
           "Yeast (2 parts)",
           "Sugar (1/2 cup)",
           "Milk (1/2 cup)",
           "Butter (6 tblsp)",
           "Eggs (2)",
-          "Salt (1 ½ tsp)",
+          "Salt (1 \u00bd tsp)",
           "Flour (2-1/2 cups)",
           "Oil (for frying)",
           "Lemon (garnish)",
@@ -1187,7 +1181,7 @@ export default [
       "Into the same bowl, add 1/2 cup sugar, warm milk, melted butter, eggs and salt, and whisk until combined",
       "Place a dough hook on the mixer, add the flour with the machine on, until a smooth but slightly sticky dough forms",
       "Place dough in a bowl, cover with plastic wrap, and allow to proof for 1 1/2 hours",
-      "Cut dough into 12 pieces, and roll out into long oval-like shapes about 1/4 inch thick that resemble a beaver’s tail",
+      "Cut dough into 12 pieces, and roll out into long oval-like shapes about 1/4 inch thick that resemble a beaver\u2019s tail",
       "In a large, deep pot, heat oil to 350 degrees",
       "Gently place beavertail dough into hot oil and cook for 30 to 45 seconds on each side until golden brown",
       "Drain on paper towels, and garnish as desired",
@@ -1207,7 +1201,7 @@ export default [
       {
         _id: "recipe_bot-52940I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken (1 whole)",
           "Tomato (1 chopped)",
           "Onions (2 chopped)",
@@ -1253,7 +1247,7 @@ export default [
       {
         _id: "recipe_bot-52952I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1/2 lb)",
           "Salt (pinch)",
           "Pepper (pinch)",
@@ -1301,7 +1295,7 @@ export default [
       {
         _id: "recipe_bot-52959I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Fennel (2 medium)",
           "Parsley (2 tbs chopped)",
           "Lemon (Juice of 1)",
@@ -1336,7 +1330,7 @@ export default [
       {
         _id: "recipe_bot-52961I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Ricotta (500g)",
           "Eggs (4 large)",
           "Flour (3 tbs)",
@@ -1352,7 +1346,7 @@ export default [
       "Mash the ricotta and beat well with the egg yolks, stir in the flour, sugar, cinnamon, grated lemon rind and the rum and mix well",
       "You can do this in a food processor",
       "Beat the egg whites until stiff, fold in and pour into a buttered and floured 25cm cake tin",
-      "Bake in the oven at 180ºC/160ºC fan/gas 4 for about 40 minutes, or until it is firm",
+      "Bake in the oven at 180\u00baC/160\u00baC fan/gas 4 for about 40 minutes, or until it is firm",
       "Serve hot or cold dusted with icing sugar.",
     ],
     tags: ["Cake", "Baking", "Desert", "Sweet", "Alcoholic", "Calorific"],
@@ -1368,7 +1362,7 @@ export default [
       {
         _id: "recipe_bot-52965I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (3 Medium)",
           "Olive Oil (1 tbs)",
           "Bacon (2 strips)",
@@ -1416,7 +1410,7 @@ export default [
       {
         _id: "recipe_bot-52979I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (100g)",
           "Flour (150g)",
           "Beef Stock (700ml)",
@@ -1459,7 +1453,7 @@ export default [
       {
         _id: "recipe_bot-52995I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (2)",
           "Red Onions (1)",
           "Garlic (2 cloves)",
@@ -1479,17 +1473,17 @@ export default [
     steps: [
       "Preheat oven to 450 degrees",
       "Wash and dry all produce",
-      "Cut sweet potatoes into ½-inch-thick wedges",
+      "Cut sweet potatoes into \u00bd-inch-thick wedges",
       "Toss on a baking sheet with a drizzle of oil, salt, and pepper",
       "Roast until browned and tender, 20-25 minutes",
       "Meanwhile, halve and peel onion",
-      "Slice as thinly as possible until you have ¼ cup (½ cup for 4 servings); finely chop remaining onion",
+      "Slice as thinly as possible until you have \u00bc cup (\u00bd cup for 4 servings); finely chop remaining onion",
       "Peel and finely chop garlic",
       "Halve lime; squeeze juice into a small bowl",
       "Halve buns",
       "Add 1 TBSP butter (2 TBSP for 4) to a separate small microwave-safe bowl; microwave until melted, 30 seconds",
       "Brush onto cut sides of buns",
-      "To bowl with lime juice, add sliced onion, ¼ tsp sugar (½ tsp for 4 servings), and a pinch of salt",
+      "To bowl with lime juice, add sliced onion, \u00bc tsp sugar (\u00bd tsp for 4 servings), and a pinch of salt",
       "Stir to combine; set aside to quick-pickle",
       "Heat a drizzle of oil in a large pan over medium-high heat",
       "Add chopped onion and season with salt and pepper",
@@ -1497,12 +1491,12 @@ export default [
       "Add garlic and cook until fragrant, 30 seconds more",
       "Add pork and season with salt and pepper",
       "Cook, breaking up meat into pieces, until browned and cooked through, 4-6 minutes",
-      "While pork cooks, in a third small bowl, combine BBQ sauce, pickling liquid from onion, 3 TBSP ketchup (6 TBSP for 4 servings), ½ tsp sugar (1 tsp for 4), and ¼ cup water (⅓ cup for 4)",
+      "While pork cooks, in a third small bowl, combine BBQ sauce, pickling liquid from onion, 3 TBSP ketchup (6 TBSP for 4 servings), \u00bd tsp sugar (1 tsp for 4), and \u00bc cup water (\u2153 cup for 4)",
       "Once pork is cooked through, add BBQ sauce mixture to pan",
       "Cook, stirring, until sauce is thickened, 2-3 minutes",
       "Taste and season with salt and pepper",
       "Meanwhile, toast buns in oven or toaster oven until golden, 3-5 minutes",
-      "Divide toasted buns between plates and fill with as much BBQ pork as you’d like",
+      "Divide toasted buns between plates and fill with as much BBQ pork as you\u2019d like",
       "Top with pickled onion and hot sauce",
       "Serve with sweet potato wedges on the side.",
     ],
@@ -1519,7 +1513,7 @@ export default [
       {
         _id: "recipe_bot-52997I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Rice (White)",
           "Onion (1)",
           "Lime (1)",
@@ -1544,8 +1538,8 @@ export default [
       "Trim and halve cucumber lengthwise; thinly slice crosswise into half-moons",
       "Halve, peel, and medium dice onion",
       "Trim, peel, and grate carrot",
-      "In a medium bowl, combine cucumber, juice from half the lime, ¼ tsp sugar (½ tsp for 4 servings), and a pinch of salt",
-      "In a small bowl, combine mayonnaise, a pinch of garlic, a squeeze of lime juice, and as much sriracha as you’d like",
+      "In a medium bowl, combine cucumber, juice from half the lime, \u00bc tsp sugar (\u00bd tsp for 4 servings), and a pinch of salt",
+      "In a small bowl, combine mayonnaise, a pinch of garlic, a squeeze of lime juice, and as much sriracha as you\u2019d like",
       "Season with salt and pepper",
       "Heat a drizzle of oil in a large pan over medium-high heat",
       "Add onion and cook, stirring, until softened, 4-5 minutes",
@@ -1572,7 +1566,7 @@ export default [
       {
         _id: "recipe_bot-53013I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Minced Beef (400g)",
           "Olive Oil (2 tbs)",
           "Sesame Seed Burger Buns (2)",
@@ -1618,7 +1612,7 @@ export default [
       {
         _id: "recipe_bot-53018I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Bacon (2 sliced)",
           "Kielbasa (1 lb)",
           "Pork (1 lb)",
@@ -1673,7 +1667,7 @@ export default [
       {
         _id: "recipe_bot-53036I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (4 large)",
           "Spring Onions (1  bunch)",
           "Plain Flour (100g)",
@@ -1724,7 +1718,7 @@ export default [
       {
         _id: "recipe_bot-53053I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1lb)",
           "Vegetable Oil (5 tbs)",
           "Cinnamon Stick (1)",
@@ -1763,7 +1757,7 @@ export default [
       {
         _id: "recipe_bot-53060I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Filo Pastry (1 Packet)",
           "Minced Beef (150g)",
           "Onion (150g)",
@@ -1779,7 +1773,7 @@ export default [
       "Grease a round baking tray and put a layer of pastry in it",
       "Cover with a thin layer of filling and cover this with another layer of filo pastry which must be well coated in oil",
       "Put another layer of filling and cover with pastry",
-      "When you have five or six layers, cover with filo pastry, bake at 200ºC/392ºF for half an hour and cut in quarters and serve.",
+      "When you have five or six layers, cover with filo pastry, bake at 200\u00baC/392\u00baF for half an hour and cut in quarters and serve.",
     ],
     tags: ["Streetfood", "Onthego"],
     photo: "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
@@ -1794,7 +1788,7 @@ export default [
       {
         _id: "recipe_bot-53068I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Garlic (3 cloves)",
           "Onion (1 sliced)",
           "Beef (2 Lbs)",
@@ -1837,7 +1831,7 @@ export default [
       {
         _id: "recipe_bot-53069I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1 lb)",
           "Soy Sauce (5 tablespoons)",
           "Lemon (1)",
@@ -1885,7 +1879,7 @@ export default [
       {
         _id: "recipe_bot-53070I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (2kg cut cubes)",
           "Beef Stock (1)",
           "Soy Sauce (1 tbs)",
@@ -1935,7 +1929,7 @@ export default [
       {
         _id: "recipe_bot-53071I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1.5kg)",
           "Beef Stock Concentrate (1)",
           "Tomato Puree (8 ounces)",
@@ -1993,7 +1987,7 @@ export default [
       {
         _id: "recipe_bot-53076I1",
         title: "Main Ingredients",
-        "ingredients:": ["Bread (2)", "Egg (2)", "Salt (0.5)"],
+        ingredients: ["Bread (2)", "Egg (2)", "Salt (0.5)"],
       },
     ],
     steps: ["Make and enjoy"],
@@ -2010,7 +2004,7 @@ export default [
       {
         _id: "recipe_bot-53078I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beetroot (3)",
           "Olive Oil (4 tbs)",
           "Chicken Stock Cube (1)",
@@ -2040,7 +2034,7 @@ export default [
       {
         _id: "recipe_bot-53080I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Buckwheat (1/2 cup)",
           "Flour (2/3 Cup)",
           "Salt (1/2 tsp)",
@@ -2081,7 +2075,7 @@ export default [
       {
         _id: "recipe_bot-52765I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Enchilada sauce (14 oz jar)",
           "shredded Monterey Jack cheese (3 Cups)",
           "corn tortillas (6)",
@@ -2097,10 +2091,10 @@ export default [
       "Remove chicken from the pot and shred with two forks",
       "Preheat oven to 375 F degrees",
       "Start layering the casserole",
-      "Start with about ¼ cup of the leftover Enchilada sauce over the bottom of a baking dish",
+      "Start with about \u00bc cup of the leftover Enchilada sauce over the bottom of a baking dish",
       "I used a longer baking dish, so that I can put 2 corn tortillas across",
-      "Place 2 tortillas on the bottom, top with ⅓ of the chicken and ⅓ of the remaining sauce",
-      "Sprinkle with ⅓ of the cheese and repeat starting with 2 more tortillas, then chicken, sauce, cheese",
+      "Place 2 tortillas on the bottom, top with \u2153 of the chicken and \u2153 of the remaining sauce",
+      "Sprinkle with \u2153 of the cheese and repeat starting with 2 more tortillas, then chicken, sauce, cheese",
       "Repeat with last layer with the remaining ingredients, tortillas, chicken, sauce and cheese",
       "Bake for 20 to 30 minutes uncovered, until bubbly and cheese has melted and started to brown on top",
       "Serve warm.",
@@ -2118,7 +2112,7 @@ export default [
       {
         _id: "recipe_bot-52776I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Plain chocolate (250g)",
           "Butter (175g)",
           "Milk (2 tablespoons)",
@@ -2129,7 +2123,7 @@ export default [
       },
     ],
     steps: [
-      "Preheat the oven to 180°C/350°F/Gas Mark 4",
+      "Preheat the oven to 180\u00b0C/350\u00b0F/Gas Mark 4",
       "Grease and line the base of an 8 in round spring form cake tin with baking parchment",
       "Break the chocolate into a heatproof bowl and place over a saucepan of gently simmering water and stir until it melts",
       "(or melt in the microwave for 2-3 mins stirring occasionally)",
@@ -2153,7 +2147,7 @@ export default [
       {
         _id: "recipe_bot-52779I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (250g)",
           "Butter (125g)",
           "Egg (1)",
@@ -2194,7 +2188,7 @@ export default [
       {
         _id: "recipe_bot-52788I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "salted butter (250g)",
           "dark soft brown sugar (225g)",
           "golden syrup (150g)",
@@ -2205,7 +2199,7 @@ export default [
       },
     ],
     steps: [
-      "Preheat the oven to 180°C/fan 160°C/gas mark 4 and grease and line a 25cm x 20cm tin",
+      "Preheat the oven to 180\u00b0C/fan 160\u00b0C/gas mark 4 and grease and line a 25cm x 20cm tin",
       "Melt the butter, sugar, syrup and orange zest in a large saucepan over a medium heat",
       "The aim is to dissolve all the ingredients so that they are smooth, but to not lose any volume through boiling so be careful not to overheat",
       "Add the oats and stir well until evenly coated",
@@ -2228,20 +2222,20 @@ export default [
       {
         _id: "recipe_bot-52795I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken (1.2 kg)",
           "Onion (5 thinly sliced)",
           "Tomatoes (2 finely chopped)",
           "Garlic (8 cloves chopped)",
           "Ginger paste (1 tbsp)",
-          "Vegetable oil (¼ cup)",
+          "Vegetable oil (\u00bc cup)",
           "Cumin seeds (2 tsp)",
           "Coriander seeds (3 tsp)",
           "Turmeric powder (1 tsp)",
           "Chilli powder (1 tsp)",
           "Green chilli (2)",
           "Yogurt (1 cup)",
-          "Cream (¾ cup)",
+          "Cream (\u00be cup)",
           "fenugreek (3 tsp Dried)",
           "Garam masala (1 tsp)",
           "Salt (To taste)",
@@ -2252,19 +2246,19 @@ export default [
       "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it",
       "Once the oil is hot, add sliced onion and fry them until deep golden brown",
       "Then take them out on a plate and set aside",
-      "To the same pot, add the chopped garlic and sauté for a minute",
+      "To the same pot, add the chopped garlic and saut\u00e9 for a minute",
       "Then add the chopped tomatoes and cook until tomatoes turn soft",
       "This would take about 5 minutes",
       "Then return the fried onion to the pot and stir",
-      "Add ginger paste and sauté well",
+      "Add ginger paste and saut\u00e9 well",
       "Now add the cumin seeds, half of the coriander seeds and chopped green chillies",
       "Give them a quick stir",
-      "Next goes in the spices – turmeric powder and red chilli powder",
-      "Sauté the spices well for couple of minutes",
+      "Next goes in the spices \u2013 turmeric powder and red chilli powder",
+      "Saut\u00e9 the spices well for couple of minutes",
       "Add the chicken pieces to the wok, season it with salt to taste and cook the chicken covered on medium-low heat until the chicken is almost cooked through",
       "This would take about 15 minutes",
-      "Slowly sautéing the chicken will enhance the flavor, so do not expedite this step by putting it on high heat",
-      "When the oil separates from the spices, add the beaten yogurt keeping the heat on lowest so that the yogurt doesn’t split",
+      "Slowly saut\u00e9ing the chicken will enhance the flavor, so do not expedite this step by putting it on high heat",
+      "When the oil separates from the spices, add the beaten yogurt keeping the heat on lowest so that the yogurt doesn\u2019t split",
       "Sprinkle the remaining coriander seeds and add half of the dried fenugreek leaves",
       "Mix well",
       "Finally add the cream and give a final mix to combine everything well",
@@ -2284,7 +2278,7 @@ export default [
       {
         _id: "recipe_bot-52796I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (2 tablespoons)",
           "Olive Oil (3 tablespoons)",
           "Chicken (5 boneless)",
@@ -2342,7 +2336,7 @@ export default [
       {
         _id: "recipe_bot-52818I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "macaroni (500g)",
           "chicken stock (2 cups)",
           "heavy cream (1/2 cup)",
@@ -2381,7 +2375,7 @@ export default [
       {
         _id: "recipe_bot-52819I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "cajun (2 tbsp)",
           "cayenne pepper (1 tsp)",
           "white fish (4 fillets)",
@@ -2403,7 +2397,7 @@ export default [
       "On a large plate, mix the cajun spice and cayenne pepper with a little seasoning and use to coat the fish all over",
       "Heat a little oil in a frying pan, add in the fish and cook over a medium heat until golden",
       "Reduce the heat and continue frying until the fish is cooked through, about 10 minutes",
-      "Cook in batches if you don’t have enough room in the pan",
+      "Cook in batches if you don\u2019t have enough room in the pan",
       "Meanwhile, prepare the dressing by combining all the ingredients with a little seasoning",
       "Soften the tortillas by heating in the microwave for 5-10 seconds",
       "Pile high with the avocado, lettuce and spring onion, add a spoonful of salsa, top with large flakes of fish and drizzle over the dressing.",
@@ -2421,10 +2415,10 @@ export default [
       {
         _id: "recipe_bot-52830I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Breasts (4 - 6)",
           "Vinaigrette Dressing (1 bottle)",
-          "Cumin (1½ tablespoon)",
+          "Cumin (1\u00bd tablespoon)",
           "Smoked Paprika (1 tablespoon)",
           "Garlic (1 teaspoon)",
           "Refried Beans (1 can)",
@@ -2472,7 +2466,7 @@ export default [
       {
         _id: "recipe_bot-52831I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken (450 grams Boneless skin)",
           "Ginger (1 tablespoon)",
           "Garlic (1 clove)",
@@ -2511,8 +2505,8 @@ export default [
       {
         _id: "recipe_bot-52832I1",
         title: "Main Ingredients",
-        "ingredients:": [
-          "Olive Oil (1½ tbsp)",
+        ingredients: [
+          "Olive Oil (1\u00bd tbsp)",
           "Bacon (3 rashers (100g) chopped dry-cured)",
           "Shallots (12 small)",
           "Chicken Legs (2 (460g))",
@@ -2546,7 +2540,7 @@ export default [
       "Scatter in the garlic and fry briefly, then, with the heat medium-high, pour in the brandy or Cognac, stirring the bottom of the pan to deglaze",
       "The alcohol should sizzle and start to evaporate so there is not much left",
       "Return the chicken legs and thighs to the pan along with any juices, then pour in a little of the wine, stirring the bottom of the pan again",
-      "Stir in the rest of the wine, the stock and tomato purée, drop in the bouquet garni, season with pepper and a pinch of salt, then return the bacon and shallots to the pan",
+      "Stir in the rest of the wine, the stock and tomato pur\u00e9e, drop in the bouquet garni, season with pepper and a pinch of salt, then return the bacon and shallots to the pan",
       "Cover, lower the heat to a gentle simmer, add the chicken breasts and cook for 50 mins-1hr",
       "Just before ready to serve, heat the oil for the mushrooms in a large non-stick frying pan",
       "Add the mushrooms and fry over a high heat for a few mins until golden",
@@ -2572,7 +2566,7 @@ export default [
       {
         _id: "recipe_bot-52839I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Linguine Pasta (280g)",
           "Sugar Snap Peas (200g)",
           "Olive Oil (2 tblsp)",
@@ -2614,8 +2608,8 @@ export default [
       {
         _id: "recipe_bot-52840I1",
         title: "Main Ingredients",
-        "ingredients:": [
-          "Clams (1½ kg)",
+        ingredients: [
+          "Clams (1\u00bd kg)",
           "Butter (50g)",
           "Bacon (150g)",
           "Onion (1 finely chopped)",
@@ -2634,14 +2628,14 @@ export default [
       "Tip the clams into a large pan with 500ml of water",
       "Cover, bring to the boil and simmer for 2 mins until the clams have just opened",
       "Tip the contents of the pan into a colander over a bowl to catch the clam stock",
-      "When cool enough to handle, remove the clams from their shells – reserving a handful of empty shells for presentation if you want",
+      "When cool enough to handle, remove the clams from their shells \u2013 reserving a handful of empty shells for presentation if you want",
       "Strain the clam stock into a jug, leaving any grit in the bottom of the bowl",
       "You should have around 800ml stock",
       "Heat the butter in the same pan and sizzle the bacon for 3-4 mins until it starts to brown",
       "Stir in the onion, thyme and bay and cook everything gently for 10 mins until the onion is soft and golden",
       "Scatter over the flour and stir in to make a sandy paste, cook for 2 mins more, then gradually stir in the clam stock then the milk and the cream",
       "Throw in the potatoes, bring everything to a simmer and leave to bubble away gently for 10 mins or until the potatoes are cooked",
-      "Use a fork to crush a few of the potato chunks against the side of the pan to help thicken – you still want lots of defined chunks though",
+      "Use a fork to crush a few of the potato chunks against the side of the pan to help thicken \u2013 you still want lots of defined chunks though",
       "Stir through the clam meat and the few clam shells, if you've gone down that route, and simmer for a minute to reheat",
       "Season with plenty of black pepper and a little salt, if needed, then stir through the parsley just before ladling into bowls or hollowed-out crusty rolls.",
     ],
@@ -2658,7 +2652,7 @@ export default [
       {
         _id: "recipe_bot-52841I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (3 tbsp)",
           "Onions (2 chopped)",
           "Celery (2 sticks)",
@@ -2668,7 +2662,7 @@ export default [
           "Tomato Puree (5 tblsp)",
           "Sugar (2 tblsp)",
           "White Vinegar (2 tblsp)",
-          "Chopped Tomatoes (1½ kg)",
+          "Chopped Tomatoes (1\u00bd kg)",
           "Passata (500g)",
           "Vegetable Stock Cube (3)",
           "Whole Milk (400ml)",
@@ -2677,15 +2671,15 @@ export default [
     ],
     steps: [
       "Put the oil, onions, celery, carrots, potatoes and bay leaves in a big casserole dish, or two saucepans",
-      "Fry gently until the onions are softened – about 10-15 mins",
+      "Fry gently until the onions are softened \u2013 about 10-15 mins",
       "Fill the kettle and boil it",
-      "Stir in the tomato purée, sugar, vinegar, chopped tomatoes and passata, then crumble in the stock cubes",
+      "Stir in the tomato pur\u00e9e, sugar, vinegar, chopped tomatoes and passata, then crumble in the stock cubes",
       "Add 1 litre boiling water and bring to a simmer",
       "Cover and simmer for 15 mins until the potato is tender, then remove the bay leaves",
-      "Purée with a stick blender (or ladle into a blender in batches) until very smooth",
+      "Pur\u00e9e with a stick blender (or ladle into a blender in batches) until very smooth",
       "Season to taste and add a pinch more sugar if it needs it",
       "The soup can now be cooled and chilled for up to 2 days, or frozen for up to 3 months",
-      "To serve, reheat the soup, stirring in the milk – try not to let it boil",
+      "To serve, reheat the soup, stirring in the milk \u2013 try not to let it boil",
       "Serve in small bowls with cheesy sausage rolls.",
     ],
     tags: ["Baking"],
@@ -2701,7 +2695,7 @@ export default [
       {
         _id: "recipe_bot-52846I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (50g)",
           "Onion (1 chopped)",
           "Mushrooms (100g)",
@@ -2721,11 +2715,11 @@ export default [
       "Put the butter in a medium-size saucepan and place over a medium heat",
       "Add the onion and leave to cook for 5 mins, stirring occasionally",
       "Add the mushrooms to the saucepan with the onions",
-      "Once the onion and mushrooms are almost cooked, stir in the flour – this will make a thick paste called a roux",
+      "Once the onion and mushrooms are almost cooked, stir in the flour \u2013 this will make a thick paste called a roux",
       "If you are using a stock cube, crumble the cube into the roux now and stir well",
-      "Put the roux over a low heat and stir continuously for 2 mins – this will cook the flour and stop the sauce from having a floury taste",
+      "Put the roux over a low heat and stir continuously for 2 mins \u2013 this will cook the flour and stop the sauce from having a floury taste",
       "Take the roux off the heat",
-      "Slowly add the fresh stock, if using, or pour in 500ml water if you’ve used a stock cube, stirring all the time",
+      "Slowly add the fresh stock, if using, or pour in 500ml water if you\u2019ve used a stock cube, stirring all the time",
       "Once all the liquid has been added, season with pepper, a pinch of nutmeg and mustard powder",
       "Put the saucepan back onto a medium heat and slowly bring it to the boil, stirring all the time",
       "Once the sauce has thickened, place on a very low heat",
@@ -2748,7 +2742,7 @@ export default [
       {
         _id: "recipe_bot-52850I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tbsp)",
           "Onion (1 chopped)",
           "Chicken Breast (200g)",
@@ -2784,7 +2778,7 @@ export default [
       {
         _id: "recipe_bot-52853I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Banana (1)",
           "Cacao (3 tbsp)",
           "Avocado (1)",
@@ -2802,7 +2796,7 @@ export default [
       "The perfect ratio in order to avoid the dish tasting too much of either is to use equal amounts of both",
       "Taste and add a few drops of stevia if you feel you need more sweetness",
       "Fill little cups or shot glasses with the mousse, sprinkle with the cacao powder or nibs and serve",
-      "Tip If you don’t have a frozen banana to hand you can just use a normal one and then chill the mousse before serving for a cooling dessert.",
+      "Tip If you don\u2019t have a frozen banana to hand you can just use a normal one and then chill the mousse before serving for a cooling dessert.",
     ],
     tags: [],
     photo: "https://www.themealdb.com/images/media/meals/uttuxy1511382180.jpg",
@@ -2817,7 +2811,7 @@ export default [
       {
         _id: "recipe_bot-52856I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Plain Flour (300g)",
           "Butter (75g)",
           "Cream Cheese (100g)",
@@ -2837,18 +2831,18 @@ export default [
       "First, make the pastry",
       "Tip the ingredients into a food processor with 1 /4 tsp salt",
       "Blend until the mixture resembles breadcrumbs",
-      "Drizzle 2-3 tsp cold water into the funnel while the blade is running – the mixture should start to clump together",
+      "Drizzle 2-3 tsp cold water into the funnel while the blade is running \u2013 the mixture should start to clump together",
       "Tip onto a work surface and bring together, kneading briefly into a ball",
       "Pat into a disc, wrap in cling film, and chill for at least 20 mins",
       "Heat oven to 200C/180C fan/gas 6",
       "Remove the pastry from the fridge and leave at room temperature for 5 mins to soften",
-      "Flour the work surface, then unwrap the pastry and roll to a circle the thickness of a £1 coin",
-      "Use the pastry to line a deep, 23cm round fluted tin – mine was about 3cm deep",
+      "Flour the work surface, then unwrap the pastry and roll to a circle the thickness of a \u00a31 coin",
+      "Use the pastry to line a deep, 23cm round fluted tin \u2013 mine was about 3cm deep",
       "Press the pastry into the corners and up the sides, making sure there are no gaps",
       "Leave 1cm pastry overhanging (save some of the pastry scraps for later)",
       "Line with baking parchment (scrunch it up first to make it more pliable) and fill with baking beans",
       "Blind-bake for 15-20 mins until the sides are set, then remove the parchment and beans and return to the oven for 5 mins until golden brown",
-      "Trim the pastry so it’s flush with the top of the tin – a small serrated knife is best for this",
+      "Trim the pastry so it\u2019s flush with the top of the tin \u2013 a small serrated knife is best for this",
       "If there are any cracks, patch them up with the pastry scraps",
       "Meanwhile, weigh the butter, syrup and sugars into a pan, and add 1 /4 tsp salt",
       "Heat until the butter has melted and the sugar dissolved, stirring until smooth",
@@ -2873,7 +2867,7 @@ export default [
       {
         _id: "recipe_bot-52860I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Dark Chocolate (200g)",
           "Milk Chocolate (100g)",
           "Salted Butter (250g)",
@@ -2910,7 +2904,7 @@ export default [
       {
         _id: "recipe_bot-52870I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chickpeas (400g)",
           "Olive Oil (1 tblsp)",
           "Paprika (pinch)",
@@ -2953,7 +2947,7 @@ export default [
       {
         _id: "recipe_bot-52875I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Stock (450ml)",
           "Chicken Breast (3)",
           "Butter (75g)",
@@ -2997,11 +2991,11 @@ export default [
       "For the pastry, put the flour and butter in a food processor and blend on the pulse setting until the mixture resembles fine breadcrumbs",
       "With the motor running, add the beaten egg and water and blend until the mixture forms a ball",
       "Portion off 250g/10oz of pastry for the lid",
-      "Roll the remaining pastry out on a lightly floured surface, turning the pastry frequently until around 5mm/¼in thick and 4cm/1½in larger than the pie dish",
+      "Roll the remaining pastry out on a lightly floured surface, turning the pastry frequently until around 5mm/\u00bcin thick and 4cm/1\u00bdin larger than the pie dish",
       "Lift the pastry over the rolling pin and place it gently into the pie dish",
       "Press the pastry firmly up the sides, making sure there are no air bubbles",
       "Leave the excess pastry overhanging the sides",
-      "Cut the chicken breasts into 3cm/1¼in pieces",
+      "Cut the chicken breasts into 3cm/1\u00bcin pieces",
       "Stir the chicken, ham and leeks into the cooled sauce",
       "Pour the chicken filling into the pie dish",
       "Brush the rim of the dish with beaten egg",
@@ -3025,7 +3019,7 @@ export default [
       {
         _id: "recipe_bot-52879I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (1.5kg)",
           "Butter (30g)",
           "Double Cream (5 tblsp)",
@@ -3054,13 +3048,13 @@ export default [
       "For the filling, melt the butter in a large pan",
       "Add the shallots, carrots and celery and gently fry until soft, then add the garlic",
       "Pour in the wine and cook for 1 minute",
-      "Stir in the tomato purée, chopped tomatoes and stock and cook for 10–15 minutes, until thickened",
+      "Stir in the tomato pur\u00e9e, chopped tomatoes and stock and cook for 10\u201315 minutes, until thickened",
       "Add the shredded chicken, olives and parsley",
       "Season to taste with salt and pepper",
       "Preheat the oven to 180C/160C Fan/Gas 4",
       "Put the filling in a 20x30cm/8x12in ovenproof dish and top with the mashed potato",
-      "Grate over the Gruyère",
-      "Bake for 30–35 minutes, until piping hot and the potato is golden-brown.",
+      "Grate over the Gruy\u00e8re",
+      "Bake for 30\u201335 minutes, until piping hot and the potato is golden-brown.",
     ],
     tags: ["Meat", "Dairy"],
     photo: "https://www.themealdb.com/images/media/meals/uwvxpv1511557015.jpg",
@@ -3075,13 +3069,13 @@ export default [
       {
         _id: "recipe_bot-52897I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Vegetable Oil (450ml)",
           "Plain Flour (400g)",
           "Bicarbonate Of Soda (2 tsp)",
           "Sugar (550ml)",
           "Eggs (5)",
-          "Salt (½ tsp)",
+          "Salt (\u00bd tsp)",
           "Cinnamon (2 tsp)",
           "Carrots (500g grated)",
           "Walnuts (150g)",
@@ -3114,7 +3108,7 @@ export default [
       {
         _id: "recipe_bot-52898I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "White Flour (500g)",
           "Salt (1 tsp)",
           "Yeast (7g)",
@@ -3144,9 +3138,9 @@ export default [
       "Cover the bowl with cling film and set aside in a warm place for one hour, or until the dough has doubled in size",
       "Lightly grease a baking tray",
       "For the filling, knock the dough back to its original size and turn out onto a lightly floured work surface",
-      "Roll the dough out into a rectangle 0.5cm/¼in thick",
+      "Roll the dough out into a rectangle 0.5cm/\u00bcin thick",
       "Brush all over with the melted butter, then sprinkle over the brown sugar, cinnamon and dried fruit",
-      "Roll the dough up into a tight cylinder , cut ten 4cm/1½in slice and place them onto a lightly greased baking sheet, leaving a little space between each slice",
+      "Roll the dough up into a tight cylinder , cut ten 4cm/1\u00bdin slice and place them onto a lightly greased baking sheet, leaving a little space between each slice",
       "Cover with a tea towel and set aside to rise for 30 minutes",
       "Preheat oven to 190C/375F/Gas 5",
       "Bake the buns in the oven for 20-25 minutes, or until risen and golden-brown",
@@ -3167,7 +3161,7 @@ export default [
       {
         _id: "recipe_bot-52905I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Single Cream (142ml)",
           "Caster Sugar (25g)",
           "Dark Chocolate (100g)",
@@ -3193,8 +3187,8 @@ export default [
       "Mix a spoonful into the chocolate, then gently fold in the rest",
       "Working quickly, fill the ramekins, wipe the rims clean and run your thumb around the edges",
       "Turn oven down to 200C/fan 180C/gas 6, place the ramekins onto the baking tray, then bake for 8-10 mins until risen with a slight wobble",
-      "Don’t open the oven door too early as this may make them collapse",
-      "Once the soufflés are ready, dust with icing sugar, scoop a small hole from their tops, then pour in some of the hot chocolate sauce",
+      "Don\u2019t open the oven door too early as this may make them collapse",
+      "Once the souffl\u00e9s are ready, dust with icing sugar, scoop a small hole from their tops, then pour in some of the hot chocolate sauce",
       "Replace the lids and serve straight away.",
     ],
     tags: ["DinnerParty", "Desert", "Pudding", "Chocolate"],
@@ -3210,7 +3204,7 @@ export default [
       {
         _id: "recipe_bot-52910I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Puff Pastry (320g)",
           "Dark Brown Soft Sugar (4 tbs)",
           "Braeburn Apples (3)",
@@ -3230,15 +3224,15 @@ export default [
       "Take the pastry out of the fridge and leave at room temperature for 10 mins, then unroll",
       "Heat the grill to high and heat the oven to 180C/160C fan/gas 4",
       "Cut out 2 x 13cm circles of pastry, using a plate as a guide, and place on a non-stick baking sheet",
-      "Sprinkle each circle with 1 tbsp sugar and grill for 5 mins to caramelise, watching carefully so that the sugar doesn’t burn",
+      "Sprinkle each circle with 1 tbsp sugar and grill for 5 mins to caramelise, watching carefully so that the sugar doesn\u2019t burn",
       "Remove from the grill",
       "Can be done a few hours ahead, and left, covered, out of the fridge",
       "Peel, quarter and core the apples, cut into 2mm-thin slices and arrange on top of the pastry",
       "Sprinkle over the remaining sugar and pop in the oven for 20-25 mins until the pastry is cooked through and golden, and the apples are softened",
       "Remove and allow to cool slightly",
       "Warm 3 tbsp of the red wine jelly in a small pan over a low heat with 1 tsp water to make it a little more runny, then brush over the top of the tarts",
-      "Tip the crème fraîche into a bowl, sift over the icing sugar and cardamom, and mix together",
-      "Carefully lift the warm tarts onto serving plates and serve with the cardamom crème fraîche.",
+      "Tip the cr\u00e8me fra\u00eeche into a bowl, sift over the icing sugar and cardamom, and mix together",
+      "Carefully lift the warm tarts onto serving plates and serve with the cardamom cr\u00e8me fra\u00eeche.",
     ],
     tags: ["Tart", "Baking"],
     photo: "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg",
@@ -3253,7 +3247,7 @@ export default [
       {
         _id: "recipe_bot-52920I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tbs)",
           "Mushrooms (300g)",
           "Chicken Legs (4)",
@@ -3268,7 +3262,7 @@ export default [
       "Heat the oil in a large flameproof casserole dish and stir-fry the mushrooms until they start to soften",
       "Add the chicken legs and cook briefly on each side to colour them a little",
       "Pour in the passata, crumble in the stock cube and stir in the olives",
-      "Season with black pepper – you shouldn’t need salt",
+      "Season with black pepper \u2013 you shouldn\u2019t need salt",
       "Cover and simmer for 40 mins until the chicken is tender",
       "Sprinkle with parsley and serve with pasta and a salad, or mash and green veg, if you like.",
     ],
@@ -3285,7 +3279,7 @@ export default [
       {
         _id: "recipe_bot-52923I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Shortcrust Pastry (375g)",
           "Eggs (2 large)",
           "Muscovado Sugar (175g)",
@@ -3299,16 +3293,16 @@ export default [
     ],
     steps: [
       "Preheat the oven to fan 170C/ conventional 190C/gas 5",
-      "Roll out the pastry on a lightly floured surface so it’s slightly thinner than straight from the pack",
+      "Roll out the pastry on a lightly floured surface so it\u2019s slightly thinner than straight from the pack",
       "Then cut out 18-20 rounds with a 7.5cm fluted cutter, re-rolling the trimmings",
       "Use the rounds to line two deep 12-hole tart tins (not muffin tins)",
       "If you only have a regular-sized, 12-hole tart tin you will be able to make a few more slightly shallower tarts",
       "Beat the eggs in a large bowl and combine with the rest of the ingredients except the walnuts",
       "Tip this mixture into a pan and stir continuously for 3-4 minutes until the butter melts, and the mixture bubbles and starts to thicken",
       "It should be thick enough to coat the back of a wooden spoon",
-      "Don’t overcook, and be sure to stir all the time as the mixture can easily burn",
+      "Don\u2019t overcook, and be sure to stir all the time as the mixture can easily burn",
       "Remove from the heat and stir in the nuts",
-      "Spoon the filling into the unbaked tart shells so it’s level with the pastry",
+      "Spoon the filling into the unbaked tart shells so it\u2019s level with the pastry",
       "Bake for 15-18 minutes until set and pale golden",
       "Leave in the tin to cool for a few minutes before lifting out on to a wire rack",
       "Serve warm or cold.",
@@ -3326,7 +3320,7 @@ export default [
       {
         _id: "recipe_bot-52934I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken (1.5kg)",
           "Butter (25g)",
           "Olive Oil (6 tblsp)",
@@ -3337,7 +3331,7 @@ export default [
           "Garlic (6 cloves sliced)",
           "Basmati Rice (300g)",
           "Tomato Puree (drizzle)",
-          "Paprika (½ tsp)",
+          "Paprika (\u00bd tsp)",
           "Bay Leaves (4)",
           "Thyme (Handful)",
           "Chicken Stock (350ml)",
@@ -3350,7 +3344,7 @@ export default [
       },
     ],
     steps: [
-      "Preheat the oven to 180°C/Gas mark 4",
+      "Preheat the oven to 180\u00b0C/Gas mark 4",
       "Have the chicken joints ready to cook",
       "Heat the butter and 3 tbsp olive oil in a flameproof casserole or large frying pan",
       "Brown the chicken pieces in batches on both sides, seasoning them with salt and pepper as you go",
@@ -3381,7 +3375,7 @@ export default [
       {
         _id: "recipe_bot-52939I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Kale (1  bunch)",
           "Bacon (2 strips)",
           "Garlic (3 cloves Chopped)",
@@ -3403,7 +3397,7 @@ export default [
       "Place bacon on saucepan and cook until crispy",
       "Then add onions, garlic, thyme, stir for about a minute or more",
       "Add tomatoes; scotch bonnet pepper, smoked paprika",
-      "Sauté for about 2-3 more minutes",
+      "Saut\u00e9 for about 2-3 more minutes",
       "Finally add vegetable, salt, mix well, and steamed for about 6-8 minutes or until leaves are tender",
       "Add a tiny bit of water as needed",
       "Adjust seasonings and turn off the heat",
@@ -3431,7 +3425,7 @@ export default [
       {
         _id: "recipe_bot-52956I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken (8 oz)",
           "Salt (pinch)",
           "Pepper (pinch)",
@@ -3472,7 +3466,7 @@ export default [
       {
         _id: "recipe_bot-52966I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Mars Bar (6 chopped)",
           "Butter (150g)",
           "Rice Krispies (120g)",
@@ -3503,7 +3497,7 @@ export default [
       {
         _id: "recipe_bot-52969I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Tomatoes (4)",
           "Olive Oil (2 tbs)",
           "Onion (1 Diced)",
@@ -3519,9 +3513,9 @@ export default [
       },
     ],
     steps: [
-      "In a large cast iron skillet or sauté pan with a lid, heat oil over medium high heat",
-      "Add the onion and sauté for 2-3 minutes, until softened",
-      "Add the peppers and garlic, and sauté for an additional 3-5 minutes",
+      "In a large cast iron skillet or saut\u00e9 pan with a lid, heat oil over medium high heat",
+      "Add the onion and saut\u00e9 for 2-3 minutes, until softened",
+      "Add the peppers and garlic, and saut\u00e9 for an additional 3-5 minutes",
       "Add the tomatoes, cumin, paprika, salt, and chili powder",
       "Mix well and bring the mixture to a simmer",
       "Reduce the heat to medium low and continue to simmer, uncovered, 10-15 minutes until the mixture has thickened to your desired consistency",
@@ -3543,7 +3537,7 @@ export default [
       {
         _id: "recipe_bot-52976I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Cashew Nuts (250g)",
           "Icing Sugar (100g)",
           "Egg Yolks (2)",
@@ -3577,7 +3571,7 @@ export default [
       {
         _id: "recipe_bot-52977I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Lentils (1 cup)",
           "Onion (1 large)",
           "Carrots (1 large)",
@@ -3596,8 +3590,8 @@ export default [
     ],
     steps: [
       "Pick through your lentils for any foreign debris, rinse them 2 or 3 times, drain, and set aside",
-      "Fair warning, this will probably turn your lentils into a solid block that you’ll have to break up later",
-      "In a large pot over medium-high heat, sauté the olive oil and the onion with a pinch of salt for about 3 minutes, then add the carrots and cook for another 3 minutes",
+      "Fair warning, this will probably turn your lentils into a solid block that you\u2019ll have to break up later",
+      "In a large pot over medium-high heat, saut\u00e9 the olive oil and the onion with a pinch of salt for about 3 minutes, then add the carrots and cook for another 3 minutes",
       "Add the tomato paste and stir it around for around 1 minute",
       "Now add the cumin, paprika, mint, thyme, black pepper, and red pepper as quickly as you can and stir for 10 seconds to bloom the spices",
       "Congratulate yourself on how amazing your house now smells",
@@ -3623,7 +3617,7 @@ export default [
       {
         _id: "recipe_bot-52988I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Almonds (50g)",
           "Bramley Apples (2 large)",
           "Candied Peel (200g)",
@@ -3646,7 +3640,7 @@ export default [
       "(You can chop the almonds and apples in a food processor, but the peel must be done by hand.) Grate three quarters of the nutmeg (sounds a lot but it's correct)",
       "Mix the almonds, apples, candied peel, nutmeg, raisins, flour, breadcrumbs, light muscovado sugar, eggs and 2 tbsp brandy or cognac in a large bowl",
       "Holding the butter in its wrapper, grate a quarter of it into the bowl, then stir everything together",
-      "Repeat until all the butter is grated, then stir for 3-4 mins – the mixture is ready when it subsides slightly after each stir",
+      "Repeat until all the butter is grated, then stir for 3-4 mins \u2013 the mixture is ready when it subsides slightly after each stir",
       "Ask the family to stir too, and get everyone to make a wish",
       "Generously butter two 1.2 litre bowls and put a circle of baking parchment in the bottom of each",
       "Pack in the pudding mixture",
@@ -3680,7 +3674,7 @@ export default [
       {
         _id: "recipe_bot-52989I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Orange (3)",
           "Demerara Sugar (1 tbs)",
           "Grand Marnier (2 tbs)",
@@ -3718,7 +3712,7 @@ export default [
       {
         _id: "recipe_bot-52990I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (200g)",
           "Muscovado Sugar (200g)",
           "Plain Flour (200g)",
@@ -3731,8 +3725,8 @@ export default [
           "Currants (250g)",
           "Pecan Nuts (100g)",
           "Lemon (Grated zest of 1)",
-          "Mixed Spice (1 ½ tbsp)",
-          "Rose water (1 ½ tbsp)",
+          "Mixed Spice (1 \u00bd tbsp)",
+          "Rose water (1 \u00bd tbsp)",
           "Vanilla Extract (1/2 tsp)",
           "Baking Powder (1/2 tsp)",
         ],
@@ -3747,7 +3741,7 @@ export default [
       "Mix in the sherry (the mix will look curdled), then add the peel, cherries, raisins, cherries, nuts, lemon zest, spice, rosewater and vanilla",
       "Beat together to mix, then stir in the baking powder",
       "Spoon mixture into the tin and smooth the top, making a slight dip in the centre",
-      "Bake for 30 mins, then lower temperature to 150C/fan 130C/gas 2 and bake a further 2-2¼ hrs, until a skewer insterted in the middle comes out clean",
+      "Bake for 30 mins, then lower temperature to 150C/fan 130C/gas 2 and bake a further 2-2\u00bc hrs, until a skewer insterted in the middle comes out clean",
       "Leave to cool in the tin, then take out of the tin and peel off the lining paper",
       "When completely cold, wrap well in cling film and foil to store until ready to decorate",
       "The cake will keep for several months.",
@@ -3765,7 +3759,7 @@ export default [
       {
         _id: "recipe_bot-52998I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef Brisket (3 Lbs)",
           "Small Potatoes (10)",
           "Carrots (5)",
@@ -3798,7 +3792,7 @@ export default [
       {
         _id: "recipe_bot-52999I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Kale (1  bunch)",
           "Italian Fennel Sausages (8)",
           "Cabbage (1 Head chopped)",
@@ -3812,12 +3806,12 @@ export default [
       },
     ],
     steps: [
-      "Preheat the oven to 350°",
+      "Preheat the oven to 350\u00b0",
       'Remove the stems from one bunch of Tuscan kale and tear the leaves into 1" pieces (mustard greens, collards, spinach, and chard are great, too)',
       "Coarsely chop half a head of green cabbage",
       "Combine the greens in a large baking dish and add 4 cloves of thinly sliced garlic",
-      "Adding some sliced onions and shiitake mushrooms at this point is optional, but highly recommended (I'll sauté the onions and mushrooms in a cast iron baking dish right on the stove before adding to the greens)",
-      "Coat the greens with some olive oil and pour ½ cup chicken stock or broth over everything",
+      "Adding some sliced onions and shiitake mushrooms at this point is optional, but highly recommended (I'll saut\u00e9 the onions and mushrooms in a cast iron baking dish right on the stove before adding to the greens)",
+      "Coat the greens with some olive oil and pour \u00bd cup chicken stock or broth over everything",
       "Cover the dish with foil and bake until the greens are wilted, about 15 minutes",
       "Remove foil and season with salt and pepper",
       "Continue to bake until cabbage is tender, about 20-25 minutes more",
@@ -3838,7 +3832,7 @@ export default [
       {
         _id: "recipe_bot-53011I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Quinoa (225g)",
           "Butter (25g)",
           "Red Chilli (1 chopped)",
@@ -3877,7 +3871,7 @@ export default [
       {
         _id: "recipe_bot-53016I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Breast (1)",
           "Pickle Juice (1/4 cup)",
           "Egg (1)",
@@ -3919,7 +3913,7 @@ export default [
       {
         _id: "recipe_bot-53037I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (Knob)",
           "Pork Chops (2)",
           "Bacon (4)",
@@ -3957,7 +3951,7 @@ export default [
       {
         _id: "recipe_bot-53055I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Minced Beef (500g)",
           "Minced Pork (250g)",
           "Onion (1)",
@@ -3980,7 +3974,7 @@ export default [
       "Add the chopped parsley, all sorts of paprika, baking soda, dried breadcrumbs, water, Vegeta, salt, and pepper",
       "Mix well with the hand mixer fitted with the dough hooks",
       "Cover the bowl with cling film/ plastic foil and leave to rest for 1 or 2 hours in the refrigerator",
-      "Take portions of the meat mixture, about 50-55 g/ 1.7-1.9 oz/ ¼ cup portions, and form the cevapi",
+      "Take portions of the meat mixture, about 50-55 g/ 1.7-1.9 oz/ \u00bc cup portions, and form the cevapi",
       "The rolls should be about as thick as your thumb and about 7-10 cm/ 3-4 inches long",
       "I had 18 sausages",
       "The recipe can be easily doubled",
@@ -4003,7 +3997,7 @@ export default [
       {
         _id: "recipe_bot-53056I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (600g)",
           "Courgettes (1 chopped)",
           "Carrots (1 chopped)",
@@ -4021,7 +4015,7 @@ export default [
       },
     ],
     steps: [
-      "Preheat oven to 200°C fan / 220°C / 425°F / Gas mark 7",
+      "Preheat oven to 200\u00b0C fan / 220\u00b0C / 425\u00b0F / Gas mark 7",
       "If you have not bought diced lamb, cut your lamb shoulder or leg into large chunks and place to one side",
       "Chunks of chopped lamb of a red chopping board",
       "Make oil marinade -",
@@ -4056,7 +4050,7 @@ export default [
       {
         _id: "recipe_bot-53058I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Cannellini Beans (2 cans)",
           "Vegetable Oil (3 tbs)",
           "Tomatoes (2 cups)",
@@ -4069,9 +4063,9 @@ export default [
     ],
     steps: [
       "Heat the oil in a pan",
-      "Add the chopped vegetables and sauté until tender",
+      "Add the chopped vegetables and saut\u00e9 until tender",
       "Take a pot, empty the beans together with the vegetables into it, put the sausages inside and cook for further 20 minutes on a low heat",
-      "Or, put it in an oven and bake it at a temperature of 180ºC/350ºF for 30 minutes",
+      "Or, put it in an oven and bake it at a temperature of 180\u00baC/350\u00baF for 30 minutes",
       "This dish is even better reheated the next day.",
     ],
     tags: ["Warming", "Soup", "Beans"],
@@ -4087,7 +4081,7 @@ export default [
       {
         _id: "recipe_bot-53063I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef Brisket (2)",
           "Bread (2)",
           "Lettuce (1)",
@@ -4120,7 +4114,7 @@ export default [
       {
         _id: "recipe_bot-53072I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Egg Plants (1 large)",
           "Breadcrumbs (1 cup)",
           "Sesame Seed (50g)",
@@ -4156,7 +4150,7 @@ export default [
       {
         _id: "recipe_bot-53077I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Unsalted Butter (3 tbs)",
           "Onion (1 large)",
           "Cabbage (1 medium)",
@@ -4173,9 +4167,9 @@ export default [
     ],
     steps: [
       "Add the butter to a large Dutch oven or other heavy-duty pot over medium heat",
-      "When the butter has melted, add the onion and sauté until translucent",
+      "When the butter has melted, add the onion and saut\u00e9 until translucent",
       "Add the cabbage, carrot, and celery",
-      "Sauté until the vegetables begin to soften, stirring frequently, about 3 minutes",
+      "Saut\u00e9 until the vegetables begin to soften, stirring frequently, about 3 minutes",
       "Add the bay leaf and vegetable stock and bring to a boil over high heat",
       "Reduce the heat to low and simmer, covered, until the vegetables are crisp-tender, about 15 minutes",
       "Add the potatoes and bring it back to a boil over high heat",
@@ -4199,7 +4193,7 @@ export default [
       {
         _id: "recipe_bot-52785I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Toor dal (1 cup)",
           "Water (2-1/2 cups)",
           "Salt (1 tsp)",
@@ -4247,7 +4241,7 @@ export default [
       {
         _id: "recipe_bot-52899I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Almonds (100g)",
           "Butter (180g)",
           "Muscovado Sugar (180g)",
@@ -4281,10 +4275,10 @@ export default [
       "Spoon the mixture into the prepared tin and spread level using the back of a spoon",
       "Arrange the whole almonds close together in neat circles on the top of the cake",
       "Bake in the oven for 45 mins",
-      "Lower the oven temperature to 160C/140 C fan/Gas Mark 3 and cook for a further 60–80 minutes",
+      "Lower the oven temperature to 160C/140 C fan/Gas Mark 3 and cook for a further 60\u201380 minutes",
       "Check the cake after 50 minutes by inserting a wooden or metal skewer into the cake",
-      "When it’s done it should have just a few crumbs attached",
-      "Check every 10 minutes - it’s important not to overcook this cake so the centre will be a little soft",
+      "When it\u2019s done it should have just a few crumbs attached",
+      "Check every 10 minutes - it\u2019s important not to overcook this cake so the centre will be a little soft",
       "When cooked, remove the cake briefly from the oven, put the milk and sugar into a small pan and heat gently until the sugar has dissolved",
       "Brush over the top of the cake and return the cake to the oven for 2-3 mins",
       "Remove and allow the cake to cool in the tin",
@@ -4303,7 +4297,7 @@ export default [
       {
         _id: "recipe_bot-52907I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sea Salt (Handful)",
           "Bay Leaf (4)",
           "Garlic (4 cloves)",
@@ -4324,7 +4318,7 @@ export default [
       "As soon as the wine starts to bubble, turn the heat down to the lowest setting and cook for 2 hours, checking occasionally that the liquid is just barely simmering",
       "(If you own a heat diffuser, it would be good to use it here.) After 2 hours, the duck legs should be submerged in their own fat and the meat should feel incredibly tender when prodded",
       "Leave to cool",
-      "The duck legs are now cooked and can be eaten immediately – or you can follow the next step if you like them crisp",
+      "The duck legs are now cooked and can be eaten immediately \u2013 or you can follow the next step if you like them crisp",
       "If you are preparing ahead, pack the duck legs tightly into a plastic container or jar and pour over the fat, but not the liquid at the bottom of the pan",
       "Cover and leave in the fridge for up to a month, or freeze for up to 3 months",
       "The liquid you are left with makes a tasty gravy, which can be chilled or frozen until needed",
@@ -4346,7 +4340,7 @@ export default [
       {
         _id: "recipe_bot-52791I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "strawberries (500g)",
           "double cream (400ml)",
           "meringue nests (3 x 7.5cm)",
@@ -4356,9 +4350,9 @@ export default [
       },
     ],
     steps: [
-      "Purée half the strawberries in a blender",
+      "Pur\u00e9e half the strawberries in a blender",
       "Chop the remaining strawberries, reserving four for decoration",
-      "Whip the double cream until stiff peaks form, then fold in the strawberry purée and crushed meringue",
+      "Whip the double cream until stiff peaks form, then fold in the strawberry pur\u00e9e and crushed meringue",
       "Fold in the chopped strawberries and ginger cordial, if using",
       "Spoon equal amounts of the mixture into four cold wine glasses",
       "Serve garnished with the remaining strawberries and a sprig of mint.",
@@ -4376,7 +4370,7 @@ export default [
       {
         _id: "recipe_bot-52888I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (250g)",
           "Plain Flour (350g)",
           "Lemon (Juice of 1/2)",
@@ -4398,13 +4392,13 @@ export default [
       "Tip flour into the bowl of a food processor with half the butter and pulse to the texture of breadcrumbs",
       "Pour in the lemon juice and 100ml iced water, and pulse to a dough",
       "Tip in the rest of the butter and pulse a few times until the dough is heavily flecked with butter",
-      "It is important that you don’t overdo this as the flecks of butter are what makes the pastry flaky",
+      "It is important that you don\u2019t overdo this as the flecks of butter are what makes the pastry flaky",
       "On a floured surface roll the pastry out to a neat rectangle about 20 x 30cm",
       "Fold the two ends of the pastry into the middle (See picture 1), then fold in half (pic 2)",
       "Roll the pastry out again and refold the same way 3 more times resting the pastry for at least 15 mins each time between roll and fold, then leave to rest in the fridge for at least 30 mins before using",
       "To make the filling, melt the butter in a large saucepan",
       "Take it off the heat and stir in all the other ingredients until completely mixed, then set aside",
-      "To make the cakes, roll the pastry out until it’s just a little thicker than a £1 coin and cut out 8 rounds about 12cm across",
+      "To make the cakes, roll the pastry out until it\u2019s just a little thicker than a \u00a31 coin and cut out 8 rounds about 12cm across",
       "Re-roll the trimming if needed",
       "Place a good heaped tablespoon of mixture in the middle of each round, brush the edges of the rounds with water, then gather the pastry around the filling and squeeze it together (pic 3)",
       "Flip them over so the smooth top is upwards and pat them into a smooth round",
@@ -4428,7 +4422,7 @@ export default [
       {
         _id: "recipe_bot-52895I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sausages (2)",
           "Bacon (3)",
           "Mushrooms (2)",
@@ -4458,7 +4452,7 @@ export default [
       "Gently turn over and season again",
       "Cook for a further 2-3 minutes until tender but still holding their shape",
       "For the black pudding, cut the black pudding into 3-4 slices and remove the skin",
-      "Place on the grill plate and cook for 1½-2 minutes each side until slightly crispy",
+      "Place on the grill plate and cook for 1\u00bd-2 minutes each side until slightly crispy",
       "For 'proper' fried bread it's best to cook it in a separate pan",
       "Ideally, use bread that is a couple of days old",
       "Heat a frying pan to a medium heat and cover the base with oil",
@@ -4483,7 +4477,7 @@ export default [
       {
         _id: "recipe_bot-52944I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Red Snapper (2 Pounds)",
           "Vegetable Oil (1/2 cup)",
           "Garlic (1 clove peeled crushed)",
@@ -4531,7 +4525,7 @@ export default [
       {
         _id: "recipe_bot-52955I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Stock (3 cups)",
           "Salt (1/4 tsp)",
           "Sugar (1/4 tsp)",
@@ -4566,7 +4560,7 @@ export default [
       {
         _id: "recipe_bot-53031I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1lb)",
           "Onion (1)",
           "Chicken Stock Cube (1)",
@@ -4602,8 +4596,8 @@ export default [
       "Bring to a boil, cover and turn down to simmer, cook until tender",
       "Test the rice tenderness after about 35 minutes",
       "Now take some of the soup from meat and add to the top of the bread pieces in baking dish to saturate.Add cooked rice on top of bread pieces",
-      "Slowly spoon remainder of soup onto rice, looking at glass dish sides to see level of soup, should reach just to top of rice, don’t worry, this doesn’t have to be exact",
-      "Now you’re ready to make the sauce and fry the meat to put on top",
+      "Slowly spoon remainder of soup onto rice, looking at glass dish sides to see level of soup, should reach just to top of rice, don\u2019t worry, this doesn\u2019t have to be exact",
+      "Now you\u2019re ready to make the sauce and fry the meat to put on top",
       "To prepare red sauce: In a pan, add a little oil or butter, crushed tomato, a half teaspoon of tomato paste, salt & pepper, 2 cloves of fresh crushed garlic and cumin",
       "Add also approximately 3 tablespoons of vinegar, stir this until you smell aroma and it is a bit smooth",
       "It should be a bit thick, not watery, but if too thick you can add a bit of water",
@@ -4626,7 +4620,7 @@ export default [
       {
         _id: "recipe_bot-53073I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Egg Plants (1 lb)",
           "Sugar (2 tbs)",
           "Salt (1 tsp)",
@@ -4646,8 +4640,8 @@ export default [
       "Place in a medium bowl",
       "Add 1 Tbsp",
       "sugar, 1 tsp",
-      "Diamond Crystal or ½ tsp",
-      "Morton kosher salt, and ½ tsp",
+      "Diamond Crystal or \u00bd tsp",
+      "Morton kosher salt, and \u00bd tsp",
       "freshly ground black pepper",
       "Toss to evenly coat eggplant and let sit at room temperature at least 20 minutes and up to 2 hours",
       "Peel and thinly slice 8 garlic cloves",
@@ -4657,19 +4651,19 @@ export default [
       "Using a slotted spoon, transfer garlic chips to a plate; season lightly with salt",
       "Place 4 oz",
       "ground pork in same pot and break up into small pieces with wooden spoon",
-      "Season with ¼ tsp",
+      "Season with \u00bc tsp",
       "Diamond Crystal or Morton kosher salt and cook, undisturbed, until deeply browned underneath, about 5 minutes",
       "Using a slotted spoon, transfer to another plate, leaving fat behind in the pot",
       "Place eggplant on a clean kitchen towel and blot away any moisture the salt has drawn out",
       "Working in batches and adding more oil if needed, cook eggplant in the same pot until lightly browned, about 3 minutes per side",
       "Transfer to a plate with pork",
-      "Pour 1½ cups of water into the pot and scrape up browned bits from the bottom with a wooden spoon",
+      "Pour 1\u00bd cups of water into the pot and scrape up browned bits from the bottom with a wooden spoon",
       "Add remaining garlic, 3 Tbsp",
       "coconut vinegar or unseasoned rice vinegar, 2 Tbsp",
       "soy sauce, 2 bay leaves, 1 tsp",
       "freshly ground black pepper, and remaining 1 Tbsp",
       "Bring to a simmer, then return pork and eggplant to pot",
-      "Reduce heat to medium-low, partially cover, and simmer until eggplant is tender and silky and sauce is reduced by half, 20–25 minutes",
+      "Reduce heat to medium-low, partially cover, and simmer until eggplant is tender and silky and sauce is reduced by half, 20\u201325 minutes",
       "Taste and season with more salt and pepper and add a little more sugar if needed",
       "Top with garlic chips and serve with cooked white rice",
     ],
@@ -4686,7 +4680,7 @@ export default [
       {
         _id: "recipe_bot-52802I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Floury Potatoes (900g)",
           "Olive Oil (2 tbsp)",
           "Semi-skimmed Milk (600ml)",
@@ -4700,7 +4694,7 @@ export default [
           "Parsley (Large handful)",
           "Dill (Handful)",
           "Lemon (Grated zest of 1)",
-          "Gruyère (25g grated)",
+          "Gruy\u00e8re (25g grated)",
           "Lemon (Juice of 1)",
         ],
       },
@@ -4710,14 +4704,14 @@ export default [
       "Lower the heat, cover, then simmer gently for 15 minutes until tender",
       "Drain, then return to the pan over a low heat for 30 seconds to drive off any excess water",
       "Mash with 1 tbsp olive oil, then season",
-      "02.Meanwhile put the milk in a large sauté pan, add the fish and bring to the boil",
+      "02.Meanwhile put the milk in a large saut\u00e9 pan, add the fish and bring to the boil",
       "Remove from the heat, cover and stand for 3 minutes",
       "Remove the fish (reserving the milk) and pat dry with kitchen paper, then gently flake into an ovenproof dish, discarding the skin and any bones",
       "03.Heat the remaining oil in a pan, stir in the flour and cook for 30 seconds",
       "Gradually stir in 200-250ml of the reserved milk (discard the rest)",
       "Grate in nutmeg, season, then bubble until thick",
       "Stir in the cream",
-      "04.Preheat the oven to 190°C/fan170°C/gas 5",
+      "04.Preheat the oven to 190\u00b0C/fan170\u00b0C/gas 5",
       "Grate the artichokes and add to the dish with the leek, prawns and herbs",
       "Stir the lemon zest and juice into the sauce, then pour over",
       "Mix gently with a wooden spoon",
@@ -4738,7 +4732,7 @@ export default [
       {
         _id: "recipe_bot-52815I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (3 tablespoons)",
           "Onion (1)",
           "Garlic (2 cloves)",
@@ -4753,7 +4747,7 @@ export default [
     ],
     steps: [
       "Place a large saucepan over medium heat and add oil",
-      "When hot, add chopped vegetables and sauté until softened, 5 to 10 minutes",
+      "When hot, add chopped vegetables and saut\u00e9 until softened, 5 to 10 minutes",
       "Add 6 cups water, lentils, thyme, bay leaves and salt",
       "Bring to a boil, then reduce to a fast simmer",
       "Simmer lentils until they are tender and have absorbed most of the water, 20 to 25 minutes",
@@ -4774,7 +4768,7 @@ export default [
       {
         _id: "recipe_bot-52835I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Clotted Cream (227g)",
           "Butter (25g)",
           "Corn Flour (1 tsp)",
@@ -4788,7 +4782,7 @@ export default [
     steps: [
       "In a medium saucepan, stir the clotted cream, butter and cornflour over a low-ish heat and bring to a low simmer",
       "Turn off the heat and keep warm",
-      "Meanwhile, put the cheese and nutmeg in a small bowl and add a good grinding of black pepper, then stir everything together (don’t add any salt at this stage)",
+      "Meanwhile, put the cheese and nutmeg in a small bowl and add a good grinding of black pepper, then stir everything together (don\u2019t add any salt at this stage)",
       "Put the pasta in another pan with 2 tsp salt, pour over some boiling water and cook following pack instructions (usually 3-4 mins)",
       "When cooked, scoop some of the cooking water into a heatproof jug or mug and drain the pasta, but not too thoroughly",
       "Add the pasta to the pan with the clotted cream mixture, then sprinkle over the cheese and gently fold everything together over a low heat using a rubber spatula",
@@ -4810,7 +4804,7 @@ export default [
       {
         _id: "recipe_bot-52896I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sausages (4)",
           "Bacon (4)",
           "Mushrooms (4)",
@@ -4841,7 +4835,7 @@ export default [
       "Gently turn over and season again",
       "Cook for a further 2-3 minutes until tender but still holding their shape",
       "For the black pudding, cut the black pudding into 3-4 slices and remove the skin",
-      "Place on the grill plate and cook for 1½-2 minutes each side until slightly crispy",
+      "Place on the grill plate and cook for 1\u00bd-2 minutes each side until slightly crispy",
       "For 'proper' fried bread it's best to cook it in a separate pan",
       "Ideally, use bread that is a couple of days old",
       "Heat a frying pan to a medium heat and cover the base with oil",
@@ -4873,7 +4867,7 @@ export default [
       {
         _id: "recipe_bot-52903I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (50g)",
           "Olive Oil (1 tbs)",
           "Onion (1 kg)",
@@ -4883,7 +4877,7 @@ export default [
           "Dry White Wine (250ml)",
           "Beef Stock (1L)",
           "Bread (4 sliced)",
-          "Gruyère (140g)",
+          "Gruy\u00e8re (140g)",
         ],
       },
     ],
@@ -4892,8 +4886,8 @@ export default [
       "Add the onions and fry with the lid on for 10 mins until soft",
       "Sprinkle in the sugar and cook for 20 mins more, stirring frequently, until caramelised",
       "The onions should be really golden, full of flavour and soft when pinched between your fingers",
-      "Take care towards the end to ensure that they don’t burn",
-      "Add the garlic for the final few mins of the onions’ cooking time, then sprinkle in the flour and stir well",
+      "Take care towards the end to ensure that they don\u2019t burn",
+      "Add the garlic for the final few mins of the onions\u2019 cooking time, then sprinkle in the flour and stir well",
       "Increase the heat and keep stirring as you gradually add the wine, followed by the hot stock",
       "Cover and simmer for 15-20 mins",
       "To serve, turn on the grill, and toast the bread",
@@ -4915,16 +4909,16 @@ export default [
       {
         _id: "recipe_bot-52906I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (75g)",
           "Leek (1kg)",
-          "Salt (½ tsp)",
+          "Salt (\u00bd tsp)",
           "Creme Fraiche (300ml)",
           "Egg (1)",
           "Egg Yolks (3)",
-          "Nutmeg (¼ teaspoon)",
+          "Nutmeg (\u00bc teaspoon)",
           "Plain Flour (225g)",
-          "Salt (½ tsp)",
+          "Salt (\u00bd tsp)",
           "Butter (60g)",
           "Lard (60g)",
           "Cheddar Cheese (50g)",
@@ -4943,12 +4937,12 @@ export default [
       "Cover and cook for ?10 minutes until soft",
       "Uncover the pan, increase the heat and cook ?for 2 minutes, stirring occasionally, until the liquid has evaporated",
       "Spoon onto a plate and leave to cool",
-      "03.Preheat the oven to 200°C/fan180°C/gas 6",
+      "03.Preheat the oven to 200\u00b0C/fan180\u00b0C/gas 6",
       "Line the pastry case with baking paper and baking beans or rice and blind bake for 15-20 minutes until the edges are biscuit-coloured",
       "Remove the paper and beans/rice and return the case to the oven for 7-10 minutes until the base is crisp and lightly golden",
       "Remove and set aside",
-      "Reduce the oven temperature to 190°C/fan170°C/gas 5",
-      "04.Put the crème fraîche into a bowl with the whole egg, egg yolks and nutmeg",
+      "Reduce the oven temperature to 190\u00b0C/fan170\u00b0C/gas 5",
+      "04.Put the cr\u00e8me fra\u00eeche into a bowl with the whole egg, egg yolks and nutmeg",
       "Lightly beat together, then season",
       "Stir in the leeks",
       "Spoon ?the mixture into the tart case and bake for 35-40 minutes until set ?and lightly golden",
@@ -4968,14 +4962,14 @@ export default [
       {
         _id: "recipe_bot-52915I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Eggs (3)",
           "Butter (2 knobs)",
           "Parmesan (1 tsp)",
           "Tarragon Leaves (3 chopped)",
           "Parsley (1 tbs chopped)",
           "Chives (1 tbs chopped)",
-          "Gruyère (4 tbs)",
+          "Gruy\u00e8re (4 tbs)",
         ],
       },
     ],
@@ -4988,13 +4982,13 @@ export default [
       "Season the eggs with the Parmesan and a little salt and pepper, and pour into the pan",
       "Let the eggs bubble slightly for a couple of seconds, then take a wooden fork or spatula and gently draw the mixture in from the sides of the pan a few times, so it gathers in folds in the centre",
       "Leave for a few seconds, then stir again to lightly combine uncooked egg with cooked",
-      "Leave briefly again, and when partly cooked, stir a bit faster, stopping while there’s some barely cooked egg left",
+      "Leave briefly again, and when partly cooked, stir a bit faster, stopping while there\u2019s some barely cooked egg left",
       "With the pan flat on the heat, shake it back and forth a few times to settle the mixture",
       "It should slide easily in the pan and look soft and moist on top",
       "A quick burst of heat will brown the underside",
       "Grip the handle underneath",
       "Tilt the pan down away from you and let the omelette fall to the edge",
-      "Fold the side nearest to you over by a third with your fork, and keep it rolling over, so the omelette tips onto a plate – or fold it in half, if that’s easier",
+      "Fold the side nearest to you over by a third with your fork, and keep it rolling over, so the omelette tips onto a plate \u2013 or fold it in half, if that\u2019s easier",
       "For a neat finish, cover the omelette with a piece of kitchen paper and plump it up a bit with your fingers",
       "Rub the other knob of butter over to glaze",
       "Serve immediately.",
@@ -5012,7 +5006,7 @@ export default [
       {
         _id: "recipe_bot-52918I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Prawns (6 large)",
           "Olive Oil (3 tbs)",
           "Dry White Wine (150ml)",
@@ -5046,14 +5040,14 @@ export default [
       "Put into a pan of cold water, bring to the boil and cook for 5 mins until almost tender",
       "Drain in a colander",
       "Peel a strip of zest from the orange",
-      "Put the zest, star anise, bay and ½ tsp harissa into the pan",
+      "Put the zest, star anise, bay and \u00bd tsp harissa into the pan",
       "Fry gently, uncovered, for 5-10 mins, until the vegetables are soft, sweet and golden",
-      "Stir in the tomato purée, cook for 2 mins, then add the tomatoes and stock",
+      "Stir in the tomato pur\u00e9e, cook for 2 mins, then add the tomatoes and stock",
       "Simmer for 10 mins until the sauce thickens slightly",
       "Season to taste",
       "The sauce can be made ahead, then reheated later in the day",
       "Meantime, scrub the mussels or clams and pull away any stringy beards",
-      "Any that are open should be tapped sharply on the worktop – if they don’t close after a few seconds, discard them",
+      "Any that are open should be tapped sharply on the worktop \u2013 if they don\u2019t close after a few seconds, discard them",
       "Reheat the sauce if necessary, then stir the potato, chunks of fish and prawns very gently into the stew",
       "Bring back to the boil, then cover and gently simmer for 3 mins",
       "Scatter the mussels or clams over the stew, then cover and cook for 2 mins more or until the shells have opened wide",
@@ -5062,7 +5056,7 @@ export default [
       "Scatter with the thyme leaves",
       "To make the quick rouille, stir the rest of the harissa through the mayonnaise",
       "Serve the stew in bowls, topped with spoonfuls of rouille, which will melt into the sauce and enrich it",
-      "Have some good bread ready, as you’ll definitely want to mop up the juices.",
+      "Have some good bread ready, as you\u2019ll definitely want to mop up the juices.",
     ],
     tags: ["Fish", "Seafood", "Shellfish"],
     photo: "https://www.themealdb.com/images/media/meals/vptqpw1511798500.jpg",
@@ -5077,7 +5071,7 @@ export default [
       {
         _id: "recipe_bot-52919I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (225g)",
           "Fennel (1 small)",
           "Garlic (1 clove finely chopped)",
@@ -5109,7 +5103,7 @@ export default [
       {
         _id: "recipe_bot-52957I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Cream Cheese (1 1/4 oz)",
           "Sugar (1 1/4 cup)",
           "Vanilla Extract (1 teaspoon)",
@@ -5122,11 +5116,11 @@ export default [
       },
     ],
     steps: [
-      "Preheat oven to 400ºF (200ºC), and prepare two cookie sheets with parchment paper",
+      "Preheat oven to 400\u00baF (200\u00baC), and prepare two cookie sheets with parchment paper",
       "In a bowl, mix cream cheese, sugar, and vanilla until fully combined",
       "Lightly flour the surface and roll out puff pastry on top to flatten",
       "Cut each sheet of puff pastry into 9 equal squares",
-      "On the top right and bottom left of the pastry, cut an L shape approximately ½ inch (1 cm) from the edge",
+      "On the top right and bottom left of the pastry, cut an L shape approximately \u00bd inch (1 cm) from the edge",
       "NOTE: This L shape should reach all the way down and across the square, however both L shapes should not meet at the ends",
       "Your pastry should look like a picture frame with two corners still intact",
       "Take the upper right corner and fold down towards the inner bottom corner",
@@ -5149,7 +5143,7 @@ export default [
       {
         _id: "recipe_bot-52996I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Breasts (2)",
           "Carrots (12 ounces)",
           "Potatoes (5)",
@@ -5168,8 +5162,8 @@ export default [
     steps: [
       "Preheat oven to 425 degrees",
       "Wash and dry all produce",
-      "Trim, peel, and cut carrots on a diagonal into ¼-inch-thick pieces",
-      "Dice potatoes into ½-inch pieces",
+      "Trim, peel, and cut carrots on a diagonal into \u00bc-inch-thick pieces",
+      "Dice potatoes into \u00bd-inch pieces",
       "Halve, peel, and thinly slice onion",
       "Toss carrots on a baking sheet with a drizzle of oil, salt, and pepper",
       "Roast until browned and tender, 15-20 minutes",
@@ -5179,7 +5173,7 @@ export default [
       "While potatoes cook, heat a drizzle of oil in a large pan over medium-high heat",
       "Add onion and cook, stirring occasionally, until lightly browned and softened, 8-10 minutes",
       "Sprinkle with 1 tsp sugar (2 tsp for 4 servings)",
-      "Stir in stock concentrate and 2 TBSP water (¼ cup for 4); season with salt and pepper",
+      "Stir in stock concentrate and 2 TBSP water (\u00bc cup for 4); season with salt and pepper",
       "Cook until jammy, 2-3 minutes more",
       "Turn off heat; transfer to a small bowl",
       "Wash out pan",
@@ -5188,7 +5182,7 @@ export default [
       "Add chicken and cook until browned and cooked through, 5-6 minutes per side",
       "In the last 1-2 minutes of cooking, top with caramelized onion and cheese",
       "Cover pan until cheese melts",
-      "(If your pan doesn’t have a lid, cover with a baking sheet!)",
+      "(If your pan doesn\u2019t have a lid, cover with a baking sheet!)",
       "Heat pot with drained potatoes over low heat; mash with sour cream, 2 TBSP butter (4 TBSP for 4 servings), salt, pepper, and a splash of water (or milk, for extra richness) until smooth",
       "Divide chicken, roasted carrots, and mashed potatoes between plates.",
     ],
@@ -5205,7 +5199,7 @@ export default [
       {
         _id: "recipe_bot-53025I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Broad Beans (2 cups)",
           "Parsley (1/3 cup)",
           "Olive Oil (Dash)",
@@ -5218,7 +5212,7 @@ export default [
     steps: [
       "As the cooking time varies depending on the quality and age of the beans, it is good to cook them in advance and to reheat them when you are ready to serve",
       "Cook the drained beans in a fresh portion of unsalted water in a large saucepan with the lid on until tender, adding water to keep them covered, and salt when the beans have softened",
-      "They take 2–2 1/2 hours of gentle simmering",
+      "They take 2\u20132 1/2 hours of gentle simmering",
       "When the beans are soft, let the liquid reduce",
       "It is usual to take out a ladle or two of the beans and to mash them with some of the cooking liquid, then stir this back into the beans",
       "This is to thicken the sauce",
@@ -5226,7 +5220,7 @@ export default [
       "Pass round the dressing ingredients for everyone to help themselves: a bottle of extra-virgin olive oil, the quartered lemons, salt and pepper, a little saucer with the crushed garlic, one with chili-pepper flakes, and one with ground cumin",
       "The beans are eaten gently crushed with the fork, so that they absorb the dressing",
       "Optional Garnishes",
-      "Peel hard-boiled eggs—1 per person—to cut up in the bowl with the beans",
+      "Peel hard-boiled eggs\u20141 per person\u2014to cut up in the bowl with the beans",
       "Top the beans with a chopped cucumber-and-tomato salad and thinly sliced mild onions or scallions",
       "Otherwise, pass round a good bunch of scallions and quartered tomatoes and cucumbers cut into sticks",
       "Serve with tahina cream sauce (page 65) or salad (page 67), with pickles and sliced onions soaked in vinegar for 30 minutes",
@@ -5249,7 +5243,7 @@ export default [
       {
         _id: "recipe_bot-53030I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (4 cups)",
           "Water (1 1/2 cups)",
           "Salt (1/4 tsp)",
@@ -5260,7 +5254,7 @@ export default [
     ],
     steps: [
       "Mix the flour and salt then pour one cup of water and start kneading",
-      "If you feel the dough is still not coming together or too dry, gradually add the remaining water until you get a dough that is very elastic so that when you pull it and it won’t be torn",
+      "If you feel the dough is still not coming together or too dry, gradually add the remaining water until you get a dough that is very elastic so that when you pull it and it won\u2019t be torn",
       "Let the dough rest for just 10 minutes then divide the dough into 6-8 balls depending on the size you want for your feteer",
       "Warm up the butter/ghee or oil you are using and pour into a deep bowl",
       "Immerse the dough balls into the warm butter",
@@ -5279,7 +5273,7 @@ export default [
       "Repeat for the remaining 4 balls to make a second one",
       "With your hands lightly press the folded feteer to spread it on the baking dish",
       "Place in preheated oven for 10 minutes when the feteer starts puffing turn on the broiler to brown the top",
-      "When it is done add little butter on top and cover so it won’t get dry.",
+      "When it is done add little butter on top and cover so it won\u2019t get dry.",
     ],
     tags: [],
     photo: "https://www.themealdb.com/images/media/meals/9f4z6v1598734293.jpg",
@@ -5294,7 +5288,7 @@ export default [
       {
         _id: "recipe_bot-53043I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Haddock (600g)",
           "Potatoes (300g)",
           "Green Chilli (1 chopped)",
@@ -5344,7 +5338,7 @@ export default [
       {
         _id: "recipe_bot-53061I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sardines (500g)",
           "Vegetable Oil (Dash)",
           "Flour (To Glaze)",
@@ -5370,7 +5364,7 @@ export default [
       {
         _id: "recipe_bot-53064I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Fettuccine (1 lb)",
           "Heavy Cream (1/2 cup)",
           "Butter (1/2 cup)",
@@ -5400,7 +5394,7 @@ export default [
       {
         _id: "recipe_bot-53079I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (2 tbs)",
           "Onion (1 sliced)",
           "Carrots (2 medium)",
@@ -5440,7 +5434,7 @@ export default [
       {
         _id: "recipe_bot-52764I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Raw king prawns (500g)",
           "Olive oil (3 tablespoons)",
           "Chopped onion (1)",
@@ -5483,7 +5477,7 @@ export default [
       {
         _id: "recipe_bot-52829I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Macaroni (8 ounces (230 grams))",
           "Plain Flour (1/3 cup)",
           "Mustard Powder (3/4 teaspoon)",
@@ -5555,7 +5549,7 @@ export default [
       {
         _id: "recipe_bot-52951I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Breast (1 1/2)",
           "Plain Flour (3/4 cup)",
           "Egg (1)",
@@ -5607,7 +5601,7 @@ export default [
       {
         _id: "recipe_bot-53012I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter Beans (400g)",
           "Olive Oil (3 tbs)",
           "Onion (1 chopped)",
@@ -5628,7 +5622,7 @@ export default [
       "Drain, then set aside",
       "Heat oven to 180C/160C fan/gas 4",
       "Heat the olive oil in a large frying pan, tip in the onion and garlic, then cook over a medium heat for 10 mins until softened but not browned",
-      "Add the tomato purée, cook for a further min, add remaining ingredients, then simmer for 2-3 mins",
+      "Add the tomato pur\u00e9e, cook for a further min, add remaining ingredients, then simmer for 2-3 mins",
       "Season generously, then stir in the beans",
       "Tip into a large ovenproof dish, then bake for approximately 1 hr, uncovered and without stirring, until the beans are tender",
       "The beans will absorb all the fabulous flavours and the sauce will thicken",
@@ -5647,7 +5641,7 @@ export default [
       {
         _id: "recipe_bot-53021I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Cabbage (1)",
           "Butter (2 tbs)",
           "Onion (1 chopped)",
@@ -5693,7 +5687,7 @@ export default [
       {
         _id: "recipe_bot-53041I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sardines (8)",
           "Olive Oil (2 tbs)",
           "Garlic (3 cloves)",
@@ -5727,7 +5721,7 @@ export default [
       {
         _id: "recipe_bot-53074I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Egg Plants (6)",
           "Coconut Milk (1 can)",
           "Lemon Juice (1 tbs)",
@@ -5739,7 +5733,7 @@ export default [
     ],
     steps: [
       "Prepare the eggplants for grilling by pricking them all over with a fork",
-      "This is so it won’t burst during the grilling process as the natural water in it heats up",
+      "This is so it won\u2019t burst during the grilling process as the natural water in it heats up",
       "Grill the eggplants, turning them over frequently to ensure even cooking",
       "Grill until the skins are dark brown, even black and the eggplant is soft when you touch it",
       "Soak the grilled eggplant in a bowl of water to cool it down",
@@ -5765,7 +5759,7 @@ export default [
       {
         _id: "recipe_bot-52773I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Salmon (1 lb)",
           "Olive oil (1 tablespoon)",
           "Soy Sauce (2 tablespoons)",
@@ -5779,7 +5773,7 @@ export default [
       "Whisk to blend well",
       "Combine the salmon and the Glaze together",
       "Heat up a skillet on medium-low heat",
-      "Add the oil, Pan-fry the salmon on both sides until it’s completely cooked inside and the glaze thickens",
+      "Add the oil, Pan-fry the salmon on both sides until it\u2019s completely cooked inside and the glaze thickens",
       "Garnish with sesame and serve immediately.",
     ],
     tags: ["Fish", "Breakfast", "DateNight"],
@@ -5795,13 +5789,13 @@ export default [
       {
         _id: "recipe_bot-52787I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chocolate Chips (2 cups)",
           "Heavy Cream (2 tbs)",
-          "Condensed Milk (1 – 14-ounce can)",
+          "Condensed Milk (1 \u2013 14-ounce can)",
           "Vanilla Extract (1 tsp)",
-          "White Chocolate Chips (1-⅓ cups)",
-          "Miniature Marshmallows (1-½ cups)",
+          "White Chocolate Chips (1-\u2153 cups)",
+          "Miniature Marshmallows (1-\u00bd cups)",
         ],
       },
     ],
@@ -5833,7 +5827,7 @@ export default [
       {
         _id: "recipe_bot-52954I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Mushrooms (1/3 cup)",
           "Wood Ear Mushrooms (1/3 cup)",
           "Tofu (2/3 Cup)",
@@ -5844,7 +5838,7 @@ export default [
           "Sesame Seed Oil (1 tsp)",
           "Pepper (1/4 tsp)",
           "Hotsauce (1/2 tsp)",
-          "Vinegar (1-½ cups)",
+          "Vinegar (1-\u00bd cups)",
           "Soy Sauce (1 tsp)",
           "Cornstarch (1 tbs)",
           "Water (2 tbs)",
@@ -5874,7 +5868,7 @@ export default [
       {
         _id: "recipe_bot-52967I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Self-raising Flour (750g)",
           "Sugar (6 tablespoons)",
           "Eggs (2)",
@@ -5887,7 +5881,7 @@ export default [
       "Make sure you use the right flour which is basically one with raising agents",
       "Adjust the amount of sugar to your taste and try using different flavours to have variety whenever you have them",
       "You can use Coconut milk instead of regular milk, you can also add desiccated coconut to the dry flour or other spices like powdered cloves or cinnamon",
-      "For “healthy looking” mandazis do not roll the dough too thin before frying and use the procedure I have indicated above",
+      "For \u201chealthy looking\u201d mandazis do not roll the dough too thin before frying and use the procedure I have indicated above",
       "Mix the flour,cinnamon and sugar in a suitable bowl",
       "In a separate bowl whisk the egg into the milk",
       "Make a well at the centre of the flour and add the milk and egg mixture and slowly mix to form a dough",
@@ -5911,7 +5905,7 @@ export default [
       {
         _id: "recipe_bot-52993I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (5)",
           "Broccoli (1)",
           "Garlic (2 cloves)",
@@ -5966,7 +5960,7 @@ export default [
       {
         _id: "recipe_bot-53007I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Digestive Biscuits (100g)",
           "Almonds (85g)",
           "Butter (85g)",
@@ -5983,7 +5977,7 @@ export default [
     steps: [
       "Heat oven to 160C/140C fan/gas 3",
       "Crush the biscuits and most of the almonds inside a plastic food bag using a rolling pin",
-      "Mix with the butter, then press into the bottom of a deep, oval, 23cm dish (or something similar in size – a roasting tin, baking dish or cake tin will work)",
+      "Mix with the butter, then press into the bottom of a deep, oval, 23cm dish (or something similar in size \u2013 a roasting tin, baking dish or cake tin will work)",
       "Bake for 10 mins until crisp",
       "Stir or mash together the yogurt and mascarpone, then whisk in the eggs, one at a time",
       "Stir in the lemon and orange zests, then stir in most of the honey, reserving about 3 tbsp",
@@ -6006,7 +6000,7 @@ export default [
       {
         _id: "recipe_bot-53035I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Floury Potatoes (800g)",
           "Butter (50g)",
           "Garlic Clove (3 chopped)",
@@ -6024,7 +6018,7 @@ export default [
       "Peel and cut the potatoes into even, medium-sized chunks",
       "Put in a large pan filled with cold salted water, bring to the boil and cook for 10-15 mins until a knife can be inserted into the potatoes easily",
       "STEP 2",
-      "Meanwhile, melt the butter in a large sauté pan over a medium heat",
+      "Meanwhile, melt the butter in a large saut\u00e9 pan over a medium heat",
       "Add the garlic, cabbage, spring onions and some seasoning",
       "Stir occasionally until the cabbage is wilted but still retains a little bite, then set aside",
       "STEP 3",
@@ -6048,7 +6042,7 @@ export default [
       {
         _id: "recipe_bot-52781I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "whole wheat (300g soaked overnight in water)",
           "lamb loin chops (2kg cut into 3cm cubes)",
           "olive oil (120ml)",
@@ -6070,8 +6064,8 @@ export default [
       "Drain and rinse the soaked wheat, put it in a medium pan with lots of water, bring to a boil and simmer for an hour, until cooked",
       "Drain and set aside",
       "Season the lamb with a teaspoon of salt and some black pepper",
-      "Put one tablespoon of oil in a large, deep sauté pan for which you have a lid; place on a medium-high heat",
-      "Add some of the lamb – don't overcrowd the pan – and sear for four minutes on all sides",
+      "Put one tablespoon of oil in a large, deep saut\u00e9 pan for which you have a lid; place on a medium-high heat",
+      "Add some of the lamb \u2013 don't overcrowd the pan \u2013 and sear for four minutes on all sides",
       "Transfer to a bowl, and repeat with the remaining lamb, adding oil as needed",
       "Lower the heat to medium and add a tablespoon of oil to the pan",
       "Add the shallots and fry for four minutes, until caramelised",
@@ -6095,7 +6089,7 @@ export default [
       {
         _id: "recipe_bot-52890I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (50g)",
           "Self-raising Flour (250g)",
           "Vanilla (1 small)",
@@ -6107,7 +6101,7 @@ export default [
       },
     ],
     steps: [
-      "Put a deep roasting tin onto the bottom shelf of the oven, and make sure that there’s another shelf directly above it",
+      "Put a deep roasting tin onto the bottom shelf of the oven, and make sure that there\u2019s another shelf directly above it",
       "Pull the roasting tin out on its shelf, fill two-thirds with boiling water from the kettle, then carefully slide it back in",
       "Heat oven to 180C/160C fan/gas 4",
       "Tear off a large sheet of foil and greaseproof paper (about 30 x 40cm)",
@@ -6120,7 +6114,7 @@ export default [
       "Spread the jam all over, leaving a gap along one edge, then roll up from the opposite edge",
       "Pinch the jam-free edge into the dough where it meets, and pinch the ends roughly, too",
       "Carefully lift onto the greased paper, join-side down (you might find a flat baking sheet helpful for this), loosely bring up the paper and foil around it, then scrunch together along the edges and ends to seal",
-      "The roly-poly will puff quite a bit during cooking so don’t wrap it tightly",
+      "The roly-poly will puff quite a bit during cooking so don\u2019t wrap it tightly",
       "Lift the parcel directly onto the rack above the tin and cook for 1 hr",
       "Let the pudding sit for 5 mins before unwrapping, then carefully open the foil and paper, and thickly slice to serve.",
     ],
@@ -6137,7 +6131,7 @@ export default [
       {
         _id: "recipe_bot-52937I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Thighs (12)",
           "Lime (1/2)",
           "Spring Onions (1  bunch)",
@@ -6162,15 +6156,15 @@ export default [
       },
     ],
     steps: [
-      "To make the jerk marinade, combine all the ingredients in a food processor along with 1 tsp salt, and blend to a purée",
-      "If you’re having trouble getting it to blend, just keep turning off the blender, stirring the mixture, and trying again",
-      "Eventually it will start to blend up – don’t be tempted to add water, as you want a thick paste",
-      "Taste the jerk mixture for seasoning – it should taste pretty salty, but not unpleasantly, puckering salty",
-      "You can now throw in more chillies if it’s not spicy enough for you",
+      "To make the jerk marinade, combine all the ingredients in a food processor along with 1 tsp salt, and blend to a pur\u00e9e",
+      "If you\u2019re having trouble getting it to blend, just keep turning off the blender, stirring the mixture, and trying again",
+      "Eventually it will start to blend up \u2013 don\u2019t be tempted to add water, as you want a thick paste",
+      "Taste the jerk mixture for seasoning \u2013 it should taste pretty salty, but not unpleasantly, puckering salty",
+      "You can now throw in more chillies if it\u2019s not spicy enough for you",
       "If it tastes too salty and sour, try adding in a bit more brown sugar until the mixture tastes well balanced",
       "Make a few slashes in the chicken thighs and pour the marinade over the meat, rubbing it into all the crevices",
       "Cover and leave to marinate overnight in the fridge",
-      "If you want to barbecue your chicken, get the coals burning 1 hr or so before you’re ready to cook",
+      "If you want to barbecue your chicken, get the coals burning 1 hr or so before you\u2019re ready to cook",
       "Authentic jerked meats are not exactly grilled as we think of grilling, but sort of smoke-grilled",
       "To get a more authentic jerk experience, add some wood chips to your barbecue, and cook your chicken over slow, indirect heat for 30 mins",
       "To cook in the oven, heat to 180C/160C fan/gas 4",
@@ -6196,7 +6190,7 @@ export default [
       {
         _id: "recipe_bot-52938I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Plain Flour (4 cups)",
           "Salt (1 tsp)",
           "Curry Powder (1 tsp)",
@@ -6233,8 +6227,8 @@ export default [
       "Sprinkle in allspice and black pepper",
       "Mix together and set aside",
       "Heat oil in a skillet until hot",
-      "Add onions and sauté until translucent",
-      "Add hot pepper, garlic and thyme and continue to sauté for another minute",
+      "Add onions and saut\u00e9 until translucent",
+      "Add hot pepper, garlic and thyme and continue to saut\u00e9 for another minute",
       "Add 1/4 teaspoon salt",
       "Add seasoned ground beef and toss to mix, breaking up any clumps, and let cook until the meat is no longer pink",
       "Add ketchup and more salt to taste",
@@ -6257,7 +6251,7 @@ export default [
       "Place on a parchment-lined baking sheet and continue to work until you have rolled all the dough and filled the patties",
       "Second Method: If you had pre-cut the dough into individual pieces, work with one piece of dough at a time",
       "Roll it out on a floured surface into a 5-inch circle or a little larger",
-      "Don’t worry if the edges are not perfect",
+      "Don\u2019t worry if the edges are not perfect",
       "Place 3 heaping tablespoons of the filling on one side of the circle",
       "Dip a finger into the water and moisten the edges of the pastry",
       "Fold over the other half and press to seal",
@@ -6284,7 +6278,7 @@ export default [
       {
         _id: "recipe_bot-53033I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sushi Rice (300g)",
           "Mirin (1 tbs)",
           "Pickle Juice (Garnish)",
@@ -6295,7 +6289,7 @@ export default [
     steps: [
       "STEP 1",
       "Rinsing and soaking your rice is key to achieving the perfect texture",
-      "Measure the rice into a bowl, cover with cold water, then use your fingers to massage the grains of rice – the water will become cloudy",
+      "Measure the rice into a bowl, cover with cold water, then use your fingers to massage the grains of rice \u2013 the water will become cloudy",
       "Drain and rinse again with fresh water",
       "Repeat five more times until the water stays clear",
       "STEP 2",
@@ -6317,7 +6311,7 @@ export default [
       {
         _id: "recipe_bot-53034I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Vegetable Oil (1 tbs)",
           "Onion (1 large)",
           "Pork (1 chopped)",
@@ -6353,7 +6347,7 @@ export default [
       {
         _id: "recipe_bot-52769I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Fries (250 Grams)",
           "Doner Meat (500 Grams)",
           "Garlic sauce (Topping)",
@@ -6393,7 +6387,7 @@ export default [
       {
         _id: "recipe_bot-52813I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken (1 whole)",
           "Oil (2 quarts neutral frying)",
           "Egg White (1)",
@@ -6415,7 +6409,7 @@ export default [
       },
     ],
     steps: [
-      "Preheat fryer to 350°F",
+      "Preheat fryer to 350\u00b0F",
       "Thoroughly mix together all the spice mix ingredients",
       "Combine spice mix with flour, brown sugar and salt",
       "Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture",
@@ -6424,7 +6418,7 @@ export default [
       "Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit",
       "Fry chicken in batches",
       "Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes",
-      "Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F",
+      "Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165\u00b0F",
       "Let chicken drain on a few paper towels when it comes out of the fryer",
       "Serve hot.",
     ],
@@ -6441,7 +6435,7 @@ export default [
       {
         _id: "recipe_bot-52820I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "chicken breast (4 pounded to 1cm thickness)",
           "plain flour (2 tablespoons)",
           "egg (1 beaten)",
@@ -6462,7 +6456,7 @@ export default [
       },
     ],
     steps: [
-      "Prep:15min  ›  Cook:30min  ›  Ready in:45min",
+      "Prep:15min  \u203a  Cook:30min  \u203a  Ready in:45min",
       "For the curry sauce: Heat oil in medium non-stick saucepan, add onion and garlic and cook until softened",
       "Stir in carrots and cook over low heat for 10 to 12 minutes",
       "Add flour and curry powder; cook for 1 minute",
@@ -6492,7 +6486,7 @@ export default [
       {
         _id: "recipe_bot-52859I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Digestive Biscuits (300g)",
           "Butter (150g)",
           "Condensed Milk (400g)",
@@ -6531,7 +6525,7 @@ export default [
       {
         _id: "recipe_bot-52868I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Vegetable Oil (1 tbls)",
           "Onion (1 finely chopped)",
           "Garlic (2 cloves chopped)",
@@ -6568,7 +6562,7 @@ export default [
       {
         _id: "recipe_bot-52887I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Smoked Haddock (300g)",
           "Bay Leaves (2)",
           "Milk (300ml)",
@@ -6594,7 +6588,7 @@ export default [
       "Meanwhile, put the haddock and bay leaves in a frying pan, cover with the milk, then poach for 10 mins until the flesh flakes",
       "Remove from the milk, peel away the skin, then flake the flesh into thumbsize pieces",
       "Place the eggs in a pan, cover with water, bring to the boil, then reduce to a simmer",
-      "Leave for 4½-5 mins, plunge into cold water, then peel and cut the eggs into quarters",
+      "Leave for 4\u00bd-5 mins, plunge into cold water, then peel and cut the eggs into quarters",
       "Gently mix the fish, eggs, parsley, coriander and rice together in the pan",
       "Serve hot, sprinkled with a few extra herbs.",
     ],
@@ -6611,7 +6605,7 @@ export default [
       {
         _id: "recipe_bot-52945I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sake (2 tbs)",
           "Soy Sauce (2 tbs)",
           "Sesame Seed Oil (2 tbs)",
@@ -6636,8 +6630,8 @@ export default [
       "In a medium frying pan, combine remaining sake mixture, chillies, vinegar and sugar",
       "Mix together and add spring onion, garlic, water chestnuts and peanuts",
       "Heat sauce slowly over medium heat until aromatic",
-      "Meanwhile, remove chicken from marinade and sauté in a large frying pan until juices run clear",
-      "When sauce is aromatic, add sautéed chicken and let simmer together until sauce thickens.",
+      "Meanwhile, remove chicken from marinade and saut\u00e9 in a large frying pan until juices run clear",
+      "When sauce is aromatic, add saut\u00e9ed chicken and let simmer together until sauce thickens.",
     ],
     tags: [],
     photo: "https://www.themealdb.com/images/media/meals/1525872624.jpg",
@@ -6652,7 +6646,7 @@ export default [
       {
         _id: "recipe_bot-52946I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Prawns (400g)",
           "Soy Sauce (2 tbs)",
           "Tomato Puree (1 tsp)",
@@ -6670,9 +6664,9 @@ export default [
     ],
     steps: [
       "Mix the cornflour and 1 tbsp soy sauce, toss in the prawns and set aside for 10 mins",
-      "Stir the vinegar, remaining soy sauce, tomato purée, sugar and 2 tbsp water together to make a sauce",
-      "When you’re ready to cook, heat a large frying pan or wok until very hot, then add 1 tbsp oil",
-      "Fry the prawns until they are golden in places and have opened out– then tip them out of the pan",
+      "Stir the vinegar, remaining soy sauce, tomato pur\u00e9e, sugar and 2 tbsp water together to make a sauce",
+      "When you\u2019re ready to cook, heat a large frying pan or wok until very hot, then add 1 tbsp oil",
+      "Fry the prawns until they are golden in places and have opened out\u2013 then tip them out of the pan",
       "Heat the remaining oil and add the peanuts, chillies and water chestnuts",
       "Stir-fry for 2 mins or until the peanuts start to colour, then add the ginger and garlic and fry for 1 more min",
       "Tip in the prawns and sauce and simmer for 2 mins until thickened slightly",
@@ -6691,7 +6685,7 @@ export default [
       {
         _id: "recipe_bot-52971I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (5 Large)",
           "Olive Oil (2 tbs)",
           "Green Pepper (1)",
@@ -6739,7 +6733,7 @@ export default [
       {
         _id: "recipe_bot-52974I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (4 tbs)",
           "Lamb (750g)",
           "Saffron (1 1/2 tsp)",
@@ -6774,7 +6768,7 @@ export default [
       {
         _id: "recipe_bot-52978I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (2 large)",
           "Butter (2 tbs)",
           "Cheese (150g)",
@@ -6786,8 +6780,8 @@ export default [
     ],
     steps: [
       "If you order kumpir in Turkey, the standard filling is first, lots of butter mashed into the potato, followed by cheese",
-      "There’s then a row of other toppings that you can just point at to your heart’s content – sweetcorn, olives, salami, coleslaw, Russian salad, allsorts – and you walk away with an over-stuffed potato because you got ever-excited by the choices on offer",
-      "Grate (roughly – you can use as much as you like) 150g of cheese",
+      "There\u2019s then a row of other toppings that you can just point at to your heart\u2019s content \u2013 sweetcorn, olives, salami, coleslaw, Russian salad, allsorts \u2013 and you walk away with an over-stuffed potato because you got ever-excited by the choices on offer",
+      "Grate (roughly \u2013 you can use as much as you like) 150g of cheese",
       "Finely chop one onion and one sweet red pepper",
       "Put these ingredients into a large bowl with a good sprinkling of salt and pepper, chilli flakes (optional).",
     ],
@@ -6804,7 +6798,7 @@ export default [
       {
         _id: "recipe_bot-53015I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Yeast (1/4 ounce)",
           "Water (1/4 cup)",
           "Water (1 1/2 cups)",
@@ -6833,7 +6827,7 @@ export default [
       "Gently roll dough 1/2-inch thick with floured rolling pin",
       "Cut with floured doughnut cutter",
       "Cover and let rise until double, 30-40 minutes",
-      "Heat vegetable oil in deep fryer to 350°",
+      "Heat vegetable oil in deep fryer to 350\u00b0",
       "Slide doughnuts into hot oil with wide spatula",
       "Turn doughnuts as they rise to the surface",
       "Fry until golden brown, about 1 minute on each side",
@@ -6858,7 +6852,7 @@ export default [
       {
         _id: "recipe_bot-53027I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Brown Lentils (1 1/2 cups)",
           "Rice (1 1/2 cups)",
           "Coriander (1/2 tsp)",
@@ -6881,7 +6875,7 @@ export default [
       "Drain the rice from its soaking water",
       "Combine the par-cooked lentils and the rice in the saucepan over medium-high heat with 1 tbsp cooking oil, salt, pepper, and coriander",
       "Cook for 3 minutes, stirring regularly",
-      "Add warm water to cover the rice and lentil mixture by about 1 1/2 inches (you’ll probably use about 3 cups of water here)",
+      "Add warm water to cover the rice and lentil mixture by about 1 1/2 inches (you\u2019ll probably use about 3 cups of water here)",
       "Bring to a boil; the water should reduce a bit",
       "Now cover and cook until all the liquid has been absorbed and both the rice and lentils are well cooked through (about 20 minutes)",
       "Keep covered and undisturbed for 5 minutes or so",
@@ -6908,7 +6902,7 @@ export default [
       {
         _id: "recipe_bot-52782I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "olive oil (2 tbsp)",
           "ginger (4cm piece finely chopped)",
           "garlic (2 cloves peeled and chopped)",
@@ -6925,8 +6919,8 @@ export default [
           "coriander (2 tbsp chopped)",
           "lemon juice (1 tbsp)",
           "garlic (2 cloves)",
-          "clove (½ tsp ground)",
-          "cinnamon (½ tsp ground)",
+          "clove (\u00bd tsp ground)",
+          "cinnamon (\u00bd tsp ground)",
           "tomatoes (2 medium)",
         ],
       },
@@ -6977,21 +6971,21 @@ export default [
       {
         _id: "recipe_bot-52805I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Cashew nuts (12)",
-          "Khus khus (½ tbsp)",
-          "Cumin seeds (½ tbsp)",
+          "Khus khus (\u00bd tbsp)",
+          "Cumin seeds (\u00bd tbsp)",
           "Onions (3 sliced thinly)",
           "Ginger garlic paste (2 tsp)",
           "Garlic (4 whole)",
           "Mint (Leaves)",
           "Cilantro (Leaves)",
-          "Saffron (½ tsp dissolved in ½ cup warm milk)",
+          "Saffron (\u00bd tsp dissolved in \u00bd cup warm milk)",
           "Ghee (2 tbsp)",
           "Basmati rice (2 Cups)",
-          "Full fat yogurt (½ cup)",
+          "Full fat yogurt (\u00bd cup)",
           "Cumin Seeds (1 tbsp)",
-          "Bay leaf (½)",
+          "Bay leaf (\u00bd)",
           "Cinnamon (1 thin piece)",
           "Cloves (3)",
           "Cardamom (2)",
@@ -7005,18 +6999,18 @@ export default [
       "Grind the cashew, poppy seeds and cumin seeds into a smooth paste, using as little water as possible",
       "Set aside",
       "Deep fry the sliced onions when it is hot",
-      "Don’t overcrowd the oil",
+      "Don\u2019t overcrowd the oil",
       "When the onions turn light brown, remove from oil and drain on paper towel",
       "The fried onion will crisp up as it drains",
       "Also fry the cashewnuts till golden brown",
       "Set aside",
       "Wash the rice and soak in water for twenty minutes",
       "Meanwhile, take a big wide pan, add oil in medium heat, add the sliced onions, add the blended paste, to it add the green chillies, ginger garlic paste and garlic and fry for a minute",
-      "Then add the tomatoes and sauté them well till they are cooked and not mushy",
-      "Then to it add the red chilli powder, biryani powder, mint, coriander leaves and sauté them well",
+      "Then add the tomatoes and saut\u00e9 them well till they are cooked and not mushy",
+      "Then to it add the red chilli powder, biryani powder, mint, coriander leaves and saut\u00e9 them well",
       "Add the yogurt and mix well",
       "I always move the skillet away from the heat when adding yogurt which prevents it from curdling",
-      "Now after returning the skillet back to the stove, add the washed lamb and salt and ½ cup water and mix well",
+      "Now after returning the skillet back to the stove, add the washed lamb and salt and \u00bd cup water and mix well",
       "Cook for 1 hour and cook it covered in medium low heat or put it in a pressure cooker for 6 whistles",
       "If the water is not drained totally, heat it by keeping it open",
       "Take another big pan, add thrice the cup of rice you use, and boil it",
@@ -7032,7 +7026,7 @@ export default [
       "And switch off",
       "Mix and serve hot!",
       "If you are cooking in oven, do make sure to cook in a big oven safe pan and cover it tight and then keep in oven for the final step",
-      "You can skip biryani masala if you don’t have and add just garam masala (1 tsp and red chilli powder – 3 tsp instead of 1 tsp)",
+      "You can skip biryani masala if you don\u2019t have and add just garam masala (1 tsp and red chilli powder \u2013 3 tsp instead of 1 tsp)",
       "If it is spicy in the end, squeeze some lemon, it will reduce the heat and enhance the flavors also.",
     ],
     tags: ["Curry", "Meat"],
@@ -7048,7 +7042,7 @@ export default [
       {
         _id: "recipe_bot-52808I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Onion (2 quartered)",
           "Sunflower Oil (4 tbsp)",
           "Garlic (4 cloves)",
@@ -7059,7 +7053,7 @@ export default [
           "Cardamom (6 bashed to break shells)",
           "Cloves (4)",
           "Bay Leaf (2)",
-          "Tomato Purée (1 tbsp)",
+          "Tomato Pur\u00e9e (1 tbsp)",
           "Lamb (1kg cubed)",
           "Greek yogurt (150ml)",
           "Coriander (Garnish chopped)",
@@ -7070,7 +7064,7 @@ export default [
       "Put the onions in a food processor and whizz until very finely chopped",
       "Heat the oil in a large heavy-based pan, then fry the onion with the lid on, stirring every now and then, until it is really golden and soft",
       "Add the garlic and ginger, then fry for 5 mins more",
-      "Tip the curry paste, all the spices and the bay leaves into the pan, with the tomato purée",
+      "Tip the curry paste, all the spices and the bay leaves into the pan, with the tomato pur\u00e9e",
       "Stir well over the heat for about 30 secs, then add the meat and 300ml water",
       "Stir to mix, turn down the heat, then add the yogurt",
       "Cover the pan, then gently simmer for 40-60 mins until the meat is tender and the sauce nice and thick",
@@ -7089,17 +7083,17 @@ export default [
       {
         _id: "recipe_bot-52821I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tbsp)",
           "Red Chilli (1 finely sliced)",
-          "Thai red curry paste (2 ½ tbsp)",
+          "Thai red curry paste (2 \u00bd tbsp)",
           "vegetable stock cube (1)",
           "coconut milk (400ml can)",
           "fish sauce (2 tsp)",
           "rice noodles (100g)",
           "lime (2 juice of 1, the other halved)",
           "king prawns (150g)",
-          "coriander (½ small pack)",
+          "coriander (\u00bd small pack)",
         ],
       },
     ],
@@ -7127,15 +7121,15 @@ export default [
       {
         _id: "recipe_bot-52843I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (2 tblsp)",
           "Onion (1 finely sliced)",
           "Carrots (2 chopped)",
           "Lamb Leg (500g)",
           "Garlic (2 cloves minced)",
-          "Cumin (½ tsp)",
-          "Ginger (½ tsp)",
-          "Saffron (¼ tsp)",
+          "Cumin (\u00bd tsp)",
+          "Ginger (\u00bd tsp)",
+          "Saffron (\u00bc tsp)",
           "Cinnamon (1 tsp)",
           "Honey (1 tblsp)",
           "Apricot (100g)",
@@ -7155,7 +7149,7 @@ export default [
       "Give it a good stir and bring to the boil",
       "Turn down to a simmer, put the lid on and cook for 1 hour",
       "Remove the lid and cook for a further 30 mins, then stir in the squash",
-      "Cook for 20 – 30 mins more until the squash is soft and the lamb is tender",
+      "Cook for 20 \u2013 30 mins more until the squash is soft and the lamb is tender",
       "Serve alongside rice or couscous and sprinkle with parsley and pine nuts, if using.",
     ],
     tags: [],
@@ -7171,7 +7165,7 @@ export default [
       {
         _id: "recipe_bot-52844I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tblsp)",
           "Bacon (2)",
           "Onion (1 finely chopped)",
@@ -7196,7 +7190,7 @@ export default [
       "Add the bacon to the pan and cook for just a few mins until starting to turn golden",
       "Add the onion, celery and carrot, and cook over a medium heat for 5 mins, stirring occasionally, until softened",
       "Add the garlic and cook for 1 min, then tip in the mince and cook, stirring and breaking it up with a wooden spoon, for about 6 mins until browned all over",
-      "Stir in the tomato purée and cook for 1 min, mixing in well with the beef and vegetables",
+      "Stir in the tomato pur\u00e9e and cook for 1 min, mixing in well with the beef and vegetables",
       "Tip in the chopped tomatoes",
       "Fill each can half full with water to rinse out any tomatoes left in the can, and add to the pan",
       "Add the honey and season to taste",
@@ -7205,9 +7199,9 @@ export default [
       "To assemble the lasagne, ladle a little of the ragu sauce into the bottom of the roasting tin or casserole dish, spreading the sauce all over the base",
       "Place 2 sheets of lasagne on top of the sauce overlapping to make it fit, then repeat with more sauce and another layer of pasta",
       "Repeat with a further 2 layers of sauce and pasta, finishing with a layer of pasta",
-      "Put the crème fraîche in a bowl and mix with 2 tbsp water to loosen it and make a smooth pourable sauce",
+      "Put the cr\u00e8me fra\u00eeche in a bowl and mix with 2 tbsp water to loosen it and make a smooth pourable sauce",
       "Pour this over the top of the pasta, then top with the mozzarella",
-      "Sprinkle Parmesan over the top and bake for 25–30 mins until golden and bubbling",
+      "Sprinkle Parmesan over the top and bake for 25\u201330 mins until golden and bubbling",
       "Serve scattered with basil, if you like.",
     ],
     tags: [],
@@ -7223,7 +7217,7 @@ export default [
       {
         _id: "recipe_bot-52877I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Lamb Shoulder (500g)",
           "Flour (1 tbls)",
           "Vegetable Oil (Dash)",
@@ -7264,7 +7258,7 @@ export default [
       {
         _id: "recipe_bot-52884I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (100g)",
           "Lamb (900g)",
           "Lamb Kidney (3)",
@@ -7285,7 +7279,7 @@ export default [
       "Sprinkle over the flour, allow to cook for a couple of mins, shake over the Worcestershire sauce, pour in the stock, then bring to the boil",
       "Stir in the meat and bay leaves, then turn off the heat",
       "Arrange the sliced potatoes on top of the meat, then drizzle with a little more dripping",
-      "Cover, then place in the oven for about 1½ hrs until the potatoes are cooked",
+      "Cover, then place in the oven for about 1\u00bd hrs until the potatoes are cooked",
       "Remove the lid, brush the potatoes with a little more dripping, then turn the oven up to brown the potatoes, or finish under the grill for 5-8 mins until brown.",
     ],
     tags: [],
@@ -7301,7 +7295,7 @@ export default [
       {
         _id: "recipe_bot-52973I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (2 tbs)",
           "Onion (1 medium finely diced)",
           "Chickpeas (250g)",
@@ -7339,7 +7333,7 @@ export default [
       {
         _id: "recipe_bot-52987I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sour Cream (1/4 cup)",
           "Chopped Onion (2 tbs)",
           "Dried Oregano (1/2 tbs)",
@@ -7373,7 +7367,7 @@ export default [
       {
         _id: "recipe_bot-53009I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Garlic (2 cloves)",
           "Sea Salt (2 tsp)",
           "Olive Oil (4 tbs)",
@@ -7389,8 +7383,8 @@ export default [
       "Whisk together the oil, lemon juice, zest, dill and garlic",
       "Mix in the lamb and combine well",
       "Cover and marinate for at least 2 hrs or overnight in the fridge",
-      "If you’re going to use bamboo skewers, soak them in cold water",
-      "If you’ve prepared the lamb the previous day, take it out of the fridge 30 mins before cooking",
+      "If you\u2019re going to use bamboo skewers, soak them in cold water",
+      "If you\u2019ve prepared the lamb the previous day, take it out of the fridge 30 mins before cooking",
       "Thread the meat onto the soaked or metal skewers",
       "Heat the grill to high or have a hot griddle pan or barbecue ready",
       "Cook the skewers for 2-3 mins on each side, basting with the remaining marinade",
@@ -7410,7 +7404,7 @@ export default [
       {
         _id: "recipe_bot-53010I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Bulgur Wheat (25g)",
           "Lamb Mince (500g)",
           "Cumin (1 tsp)",
@@ -7446,7 +7440,7 @@ export default [
       {
         _id: "recipe_bot-53083I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Lamb (50g)",
           "Prunes (120g)",
           "Lemon Juice (1 tbs)",
@@ -7489,7 +7483,7 @@ export default [
       {
         _id: "recipe_bot-52777I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "mozzarella balls (200 g)",
           "baby plum tomatoes (250 g)",
           "fresh basil (1  bunch)",
@@ -7529,7 +7523,7 @@ export default [
       {
         _id: "recipe_bot-52827I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Peanuts (85g)",
           "Coconut cream (400ml can)",
           "Massaman curry paste (4 tbsp)",
@@ -7569,7 +7563,7 @@ export default [
       {
         _id: "recipe_bot-52864I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Mushrooms (30g)",
           "Chestnuts (240g)",
           "Challots (3)",
@@ -7587,7 +7581,7 @@ export default [
     ],
     steps: [
       "Soak the dried mushrooms in 350ml boiling water and set aside until needed",
-      "Blitz ¾ of the chestnuts with 150ml water until creamy",
+      "Blitz \u00be of the chestnuts with 150ml water until creamy",
       "Roughly chop the remaining chestnuts",
       "Heat 2 tbsp olive oil in a large non-stick frying pan",
       "Fry the shallots with a pinch of salt until softened, then add the garlic, chopped chestnuts and rosemary, and fry for 2 mins more",
@@ -7603,7 +7597,7 @@ export default [
       "Using your fingers, carefully separate the sheets and transfer to a clean tea towel",
       "Spread a good spoonful of the sauce on the bottom two thirds of each sheet, then, rolling away from yourself, roll up the shorter ends",
       "Cut each roll in half, then position the rolls of pasta cut-side up in a pie dish that you are happy to serve from at the table",
-      "If you have any mushroom sauce remaining after you’ve rolled up all the sheets, simply push it into some of the exposed rolls of pasta",
+      "If you have any mushroom sauce remaining after you\u2019ve rolled up all the sheets, simply push it into some of the exposed rolls of pasta",
       "Pour the rest of the sauce over the top of the pasta, then bake for 10 mins or until the pasta no longer has any resistance when tested with a skewer",
       "Meanwhile, put the breadcrumbs, the last 2 tbsp olive oil, sage leaves and some seasoning in a bowl, and toss everything together",
       "Scatter the rotolo with the crumbs and sage, then bake for another 10 mins, until the top is golden and the sage leaves are crispy",
@@ -7622,7 +7616,7 @@ export default [
       {
         _id: "recipe_bot-52865I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sunflower Oil (1 tbls)",
           "Paneer (225g)",
           "Ginger (2)",
@@ -7639,13 +7633,13 @@ export default [
       },
     ],
     steps: [
-      "Heat the oil in a frying pan over high heat until it’s shimmering hot",
+      "Heat the oil in a frying pan over high heat until it\u2019s shimmering hot",
       "Add the paneer, then turn the heat down a little",
-      "Fry until it starts to brown at the edges, then turn it over and brown on each side – the paneer will brown faster than you think, so don’t walk away",
+      "Fry until it starts to brown at the edges, then turn it over and brown on each side \u2013 the paneer will brown faster than you think, so don\u2019t walk away",
       "Remove the paneer from the pan and drain on kitchen paper",
       "Put the ginger, cumin, turmeric, ground coriander and chilli in the pan, and fry everything for 1 min",
       "Add the tomatoes, mashing them with the back of a spoon and simmer everything for 5 mins until the sauce smells fragrant",
-      "Add a splash of water if it’s too thick",
+      "Add a splash of water if it\u2019s too thick",
       "Season well",
       "Add the peas and simmer for a further 2 mins, then stir in the paneer and sprinkle over the garam masala",
       "Divide between two bowls, top with coriander leaves and serve with naan bread, roti or rice.",
@@ -7663,12 +7657,12 @@ export default [
       {
         _id: "recipe_bot-52876I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Vegetable Oil (2 tbs)",
           "Minced Beef (500g)",
           "Onion (1 chopped)",
           "Tomato Puree (1 tbls)",
-          "Plain Flour (1 ½ tbsp)",
+          "Plain Flour (1 \u00bd tbsp)",
           "Mushrooms (75g)",
           "Beef Stock (250ml)",
           "Worcestershire Sauce (Dash)",
@@ -7680,7 +7674,7 @@ export default [
     steps: [
       "Preheat the oven to 200C/400F/Gas 6",
       "Heat the oil in a deep frying pan and fry the beef mince for 4-5 minutes, breaking it up with a wooden spoon as it browns",
-      "Add the onion and cook for 2-3 minutes, then stir in the tomato purée and cook for 2-3 more minutes",
+      "Add the onion and cook for 2-3 minutes, then stir in the tomato pur\u00e9e and cook for 2-3 more minutes",
       "Stir in the flour and cook for a further minute, then add the chopped mushrooms, the stout or beef stock and a couple of dashes of Worcestershire sauce",
       "Bring to the boil, then reduce the heat, cover the pan with a lid and leave to simmer for 20 minutes",
       "Set aside and leave to cool, then turn the meat mixture into a one litre pie dish",
@@ -7704,7 +7698,7 @@ export default [
       {
         _id: "recipe_bot-52880I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Cumin (2 tsp)",
           "Rapeseed Oil (1 tbs)",
           "Red Onions (2 finely chopped)",
@@ -7717,7 +7711,7 @@ export default [
           "Pepper (1 tsp)",
           "Coriander (3 tbs)",
           "Plain Flour (340g)",
-          "Salt (½ tsp)",
+          "Salt (\u00bd tsp)",
           "Milk (90 ml)",
           "Lard (150g)",
           "Egg Yolks (Beaten)",
@@ -7737,7 +7731,7 @@ export default [
       "When the lard has melted, increase the heat and bring to the boil",
       "Pour the boiling liquid into the flour, and use a wooden spoon to combine until cool enough to handle",
       "Bring together into a ball",
-      "Dust a work surface with flour and, working quickly, knead the dough briefly – it will be soft and moist",
+      "Dust a work surface with flour and, working quickly, knead the dough briefly \u2013 it will be soft and moist",
       "Set aside a third of the pastry and roll the rest out on a well-floured surface",
       "Line the pie dish with the pastry, pressing it right up the sides until it pokes just over the top of the tin",
       "Add the filling into the pastry-lined tin bit by bit",
@@ -7746,7 +7740,7 @@ export default [
       "Pinch the edges to seal and trim the excess",
       "Poke a hole in the top of the pie and insert a small tube made from aluminium foil to allow steam to escape",
       "Brush the top of the pie with a little beaten egg yolk, and bake in the preheated oven for 30 minutes (put a tray on the shelf below to catch any drips)",
-      "Then reduce the temperature to 160C/325F/Gas 3 and cook for a further 1¼ hours until golden-brown",
+      "Then reduce the temperature to 160C/325F/Gas 3 and cook for a further 1\u00bc hours until golden-brown",
       "Leave to cool completely before refrigerating for two hours, or overnight",
       "Run a knife around the edge of the pie, remove from the tin and serve with chutneys, salads or pickles.",
     ],
@@ -7763,7 +7757,7 @@ export default [
       {
         _id: "recipe_bot-52900I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (175g)",
           "Caster Sugar (175g)",
           "Eggs (3)",
@@ -7799,7 +7793,7 @@ export default [
       {
         _id: "recipe_bot-52927I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef Brisket (1)",
           "Salt (3 tbs)",
           "Black Pepper (3 tbs)",
@@ -7849,7 +7843,7 @@ export default [
       {
         _id: "recipe_bot-52947I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Tofu (450g)",
           "Minced Beef (100g)",
           "Sesame Seed Oil (1/2 tbs)",
@@ -7873,7 +7867,7 @@ export default [
     steps: [
       "Add a small pinch of salt and sesame oil to minced beef",
       "Mix well and set aside",
-      "Mix 1 tablespoon of cornstarch with 2 and ½ tablespoons of water in a small bowl to make water starch",
+      "Mix 1 tablespoon of cornstarch with 2 and \u00bd tablespoons of water in a small bowl to make water starch",
       "Cut tofu into square cubes (around 2cms)",
       "Bring a large amount of water to a boil and then add a pinch of salt",
       "Slide the tofu in and cook for 1 minute",
@@ -7908,7 +7902,7 @@ export default [
       {
         _id: "recipe_bot-52968I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Goat Meat (1 kg)",
           "Corn Flour (1 kg)",
           "Tomatoes (2)",
@@ -7945,7 +7939,7 @@ export default [
       {
         _id: "recipe_bot-52991I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (225g)",
           "Plain Flour (350g)",
           "Caster Sugar (100g)",
@@ -7957,14 +7951,14 @@ export default [
     ],
     steps: [
       "To make the pastry, rub 225g cold, diced butter into 350g plain flour, then mix in 100g golden caster sugar and a pinch of salt",
-      "Combine the pastry into a ball – don’t add liquid – and knead it briefly",
+      "Combine the pastry into a ball \u2013 don\u2019t add liquid \u2013 and knead it briefly",
       "The dough will be fairly firm, like shortbread dough",
       "You can use the dough immediately, or chill for later",
       "Preheat the oven to 200C/gas 6/fan 180C",
       "Line 18 holes of two 12-hole patty tins, by pressing small walnut-sized balls of pastry into each hole",
       "Spoon 280g mincemeat into the pies",
       "Take slightly smaller balls of pastry than before and pat them out between your hands to make round lids, big enough to cover the pies",
-      "Top the pies with their lids, pressing the edges gently together to seal – you don’t need to seal them with milk or egg as they will stick on their own",
+      "Top the pies with their lids, pressing the edges gently together to seal \u2013 you don\u2019t need to seal them with milk or egg as they will stick on their own",
       "(The pies may now be frozen for up to 1 month)",
       "Beat 1 small egg and brush the tops of the pies",
       "Bake for 20 mins until golden",
@@ -7984,7 +7978,7 @@ export default [
       {
         _id: "recipe_bot-53006I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (500g)",
           "Aubergine (1 large)",
           "Greek Yogurt (150g)",
@@ -8001,7 +7995,7 @@ export default [
       "Brown the beef in a deep ovenproof frying pan over a high heat for 5 mins",
       "Meanwhile, prick the aubergine with a fork, then microwave on High for 3-5 mins until soft",
       "Mix the yogurt, egg and parmesan together, then add a little seasoning",
-      "Stir the tomatoes, purée and potatoes in with the beef with some seasoning and heat through",
+      "Stir the tomatoes, pur\u00e9e and potatoes in with the beef with some seasoning and heat through",
       "Smooth the surface of the beef mixture with the back of a spoon, then slice the cooked aubergine and arrange on top",
       "Pour the yogurt mixture over the aubergines, smooth out evenly, then grill until the topping has set and turned golden.",
     ],
@@ -8018,7 +8012,7 @@ export default [
       {
         _id: "recipe_bot-53029I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Mulukhiyah (800g)",
           "Onion (1 chopped)",
           "Beef (300g)",
@@ -8035,7 +8029,7 @@ export default [
       "Add 1 liter of water or just enough to cover the meat",
       "Cook over medium heat until the meat is done (I usually do this in the pressure cooker and press them for 5 min)",
       "Add the frozen mulukhyia and stir until it thaws completely and then comes to a boil",
-      "In another pan add the 1/4 to 1/2 cup of olive oil and the cloves of garlic and cook over medium low heat until you can smell the garlic (don’t brown it, it will become bitter)",
+      "In another pan add the 1/4 to 1/2 cup of olive oil and the cloves of garlic and cook over medium low heat until you can smell the garlic (don\u2019t brown it, it will become bitter)",
       "Add the oil and garlic to the mulukhyia and lower the heat and simmer for 5-10 minutes",
       "Add salt to taste",
       "Serve with a generous amount of lemon juice",
@@ -8054,7 +8048,7 @@ export default [
       {
         _id: "recipe_bot-53038I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (1kg)",
           "Milk (200ml)",
           "Butter (50g)",
@@ -8088,7 +8082,7 @@ export default [
       {
         _id: "recipe_bot-53047I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Carrots (6 chopped)",
           "Onion (1 sliced)",
           "Garlic Clove (4)",
@@ -8102,7 +8096,7 @@ export default [
     ],
     steps: [
       "Step 1",
-      "Preheat oven to 180° C",
+      "Preheat oven to 180\u00b0 C",
       "Step 2",
       "Combine carrots, onion, garlic, cumin seeds, coriander seeds, salt and olive oil in a bowl and mix well",
       "Transfer on a baking tray",
@@ -8134,7 +8128,7 @@ export default [
       {
         _id: "recipe_bot-53048I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Peanuts (50g)",
           "Chilli (15g)",
           "Prawns (10g)",
@@ -8159,7 +8153,7 @@ export default [
       "Fry the aromatics until fragrant",
       "Remove from pan and leave aside",
       "Blend fried ingredients with tamarind paste and water until fine",
-      "Then, sauté the blended ingredients in oil heated over low heat",
+      "Then, saut\u00e9 the blended ingredients in oil heated over low heat",
       "Continue cooking until the oil separates from the paste and turns a darker shade",
       "Skin and cut potatoes into small chunks and boil them in a pot of water until knife-tender",
       "Once ready, remove them from the pot and leave aside",
@@ -8169,10 +8163,10 @@ export default [
       "Boil noodles to soften them if bought dried",
       "Also mix black soy sauce with water",
       "To fry one portion of mee goreng mamak, heat oil and add 1/4 of the following ingredients in this order: garlic, onion, paste",
-      "Sauté until fragrant",
+      "Saut\u00e9 until fragrant",
       "Optionally, add prawns",
       "Add in 1/4 amount of tofu, boiled potatoes, cabbage, Chinese flowering cabbage and prawn fritters",
-      "Sauté for another 30 seconds",
+      "Saut\u00e9 for another 30 seconds",
       "Add noodles to the wok",
       "Add 3 tablespoons of dark soy sauce mixture",
       "Mix evenly for the next 1 minute",
@@ -8194,7 +8188,7 @@ export default [
       {
         _id: "recipe_bot-53059I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Mushrooms (150g)",
           "Buckwheat (50g)",
           "Vegetable Oil (4 tbs)",
@@ -8210,8 +8204,8 @@ export default [
     ],
     steps: [
       "Chop the onion and garlic, slice the mushrooms and wash the buckwheat",
-      "Heat the oil and lightly sauté the onion",
-      "Add the mushrooms and the garlic and continue to sauté",
+      "Heat the oil and lightly saut\u00e9 the onion",
+      "Add the mushrooms and the garlic and continue to saut\u00e9",
       "Add the salt, vegetable seasoning, buckwheat and the bay leaf and cover with water",
       "Simmer gently and just before it is completely cooked, add pepper, sour cream mixed with flour, the chopped parsley and vinegar to taste.",
     ],
@@ -8228,7 +8222,7 @@ export default [
       {
         _id: "recipe_bot-53086I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Bread (1 large)",
           "Olive Oil (1 1/2 L)",
           "Garlic (Half)",
@@ -8259,7 +8253,7 @@ export default [
       {
         _id: "recipe_bot-52851I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Red Chilli (1 large)",
           "Ginger (0.5)",
           "Garlic (1 large)",
@@ -8294,14 +8288,14 @@ export default [
       {
         _id: "recipe_bot-52858I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (85g)",
           "Sour Cream (140g)",
           "Sugar (1tbsp)",
           "Cream Cheese (900g)",
           "Caster Sugar (250g)",
           "Plain Flour (3 tbs)",
-          "Lemon Juice (1 ½ teaspoons)",
+          "Lemon Juice (1 \u00bd teaspoons)",
           "Eggs (3 Large)",
           "Sour Cream (250ml)",
           "Sour Cream (150ml)",
@@ -8324,14 +8318,14 @@ export default [
       "Swap the paddle attachment for the whisk",
       "Continue by adding the vanilla, lemon zest and juice",
       "Whisk in the eggs and yolk, one at a time, scraping the bowl and whisk at least twice",
-      "Stir the 284ml carton of soured cream until smooth, then measure 200ml/7fl oz (just over 3⁄4 of the carton)",
+      "Stir the 284ml carton of soured cream until smooth, then measure 200ml/7fl oz (just over 3\u20444 of the carton)",
       "Continue on low speed as you add the measured soured cream (reserve the rest)",
       "Whisk to blend, but don't over-beat",
       "The batter should be smooth, light and somewhat airy",
       "Brush the sides of the springform tin with melted butter and put on a baking sheet",
       "Pour in the filling - if there are any lumps, sink them using a knife - the top should be as smooth as possible",
       "Bake for 10 minutes",
-      "Reduce oven temperature to fan 90C/conventional 110C/gas 1⁄4 and bake for 25 minutes more",
+      "Reduce oven temperature to fan 90C/conventional 110C/gas 1\u20444 and bake for 25 minutes more",
       "If you gently shake the tin, the filling should have a slight wobble",
       "Turn off the oven and open the oven door for a cheesecake that's creamy in the centre, or leave it closed if you prefer a drier texture",
       "Let cool in the oven for 2 hours",
@@ -8355,7 +8349,7 @@ export default [
       {
         _id: "recipe_bot-52924I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Custard (125g)",
           "Caster Sugar (50g)",
           "Cocoa (5 tbs)",
@@ -8397,7 +8391,7 @@ export default [
       {
         _id: "recipe_bot-53051I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Coconut Milk (2 cups)",
           "Water (2 cups)",
           "Ginger Paste (1/4 tsp)",
@@ -8461,21 +8455,21 @@ export default [
       {
         _id: "recipe_bot-52810I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Veal (4 meaty shanks)",
-          "Flour (½ cup)",
+          "Flour (\u00bd cup)",
           "Olive Oil (2 tablespoons)",
           "Butter (3 tablespoons)",
-          "Onion (1 medium chopped into ½-inch pieces)",
-          "Carrots (1 chopped into ½-inch pieces)",
-          "Celery (1 chopped into ½-inch pieces)",
-          "Fennel (1 bulb chopped into ½-inch pieces)",
+          "Onion (1 medium chopped into \u00bd-inch pieces)",
+          "Carrots (1 chopped into \u00bd-inch pieces)",
+          "Celery (1 chopped into \u00bd-inch pieces)",
+          "Fennel (1 bulb chopped into \u00bd-inch pieces)",
           "Garlic (3 cloves)",
           "Orange Zest (2 strips)",
-          "Marjoram (1 ½ teaspoons)",
+          "Marjoram (1 \u00bd teaspoons)",
           "Bay Leaf (1)",
           "Dry White Wine (1 cup)",
-          "Chicken Stock (½ cup)",
+          "Chicken Stock (\u00bd cup)",
           "Tomatoes (1 cup chopped with juice)",
           "Parsley (2 tablespoons chopped)",
           "Garlic (1 teaspoon minced)",
@@ -8490,7 +8484,7 @@ export default [
       "One at a time, roll the shanks around in the flour coat, and shake and pat the shank to remove any excuses flour",
       "Discard the remaining flour",
       "Browning the shanks: put the oil and 1 tablespoon of the butter in a wide Dutch oven or heavy braising pot (6 to 7 quart) and heat over medium-high heat",
-      "When the butter has melted and the oil is shimmering, lower the shanks into the pot, flat side down; if the shanks won’t fit without touching one another, do this in batches",
+      "When the butter has melted and the oil is shimmering, lower the shanks into the pot, flat side down; if the shanks won\u2019t fit without touching one another, do this in batches",
       "Brown the shanks, turning once with tongs, until both flat sides are well caramelized, about 5 minutes per side",
       "If the butter-oil mixture starts to burn, lower the heat just a bit",
       "Transfer the shanks to a large platter or tray and set aside",
@@ -8514,7 +8508,7 @@ export default [
       "Return the veal to the oven, uncovered, for another 15 minutes to caramelize it some",
       "Using a slotted spatula or spoon, carefully lift the shanks from the braising liquid, doing your best to keep them intact",
       "The shanks will be very tender and threatening to fall into pieces, and the marrow will be wobbly inside the bones, so this can be a bit tricky",
-      "But if they do break apart, don’t worry, the flavor won’t suffer at all",
+      "But if they do break apart, don\u2019t worry, the flavor won\u2019t suffer at all",
       "Arrange the shanks on a serving platter or other large plate, without stacking, and cover with foil to keep warm",
       "Finishing the sauce: Set the braising pot on top of the stove and evaluate the sauce: if there is a visible layer of fat floating on the surface, use a large spoon to skim it off and discard it",
       "Taste the sauce for concentration of flavor",
@@ -8522,10 +8516,10 @@ export default [
       "Taste again for salt and pepper",
       "If the sauce wants more zip, stir in a teaspoon or two of the remaining gremolata",
       "Portioning the veal shanks: if the shanks are reasonably sized, serve one per person",
-      "If the shanks are gargantuan or you’re dealing with modest appetites, pull apart the larger shanks, separating them at their natural seams, and serve smaller amounts",
+      "If the shanks are gargantuan or you\u2019re dealing with modest appetites, pull apart the larger shanks, separating them at their natural seams, and serve smaller amounts",
       "Be sure to give the marrow bones to whomever prizes them most",
       "Serving: Arrange the veal shanks on warm dinner plates accompanied by the risotto, if serving",
-      "Just before carrying the plates to the table, sprinkle on the remaining gremolata and then spoon over a generous amount of sauce – the contact with the hot liquid will aromatize the gremolata and perk up everyone’s appetite with the whiff of garlic and lemon.",
+      "Just before carrying the plates to the table, sprinkle on the remaining gremolata and then spoon over a generous amount of sauce \u2013 the contact with the hot liquid will aromatize the gremolata and perk up everyone\u2019s appetite with the whiff of garlic and lemon.",
     ],
     tags: [],
     photo: "https://www.themealdb.com/images/media/meals/wwuqvt1487345467.jpg",
@@ -8540,7 +8534,7 @@ export default [
       {
         _id: "recipe_bot-52943I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Oxtail (450g)",
           "Onion (1 chopped)",
           "Spring Onions (1)",
@@ -8580,7 +8574,7 @@ export default [
       {
         _id: "recipe_bot-52774I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "rice stick noodles (6oz/180g)",
           "dark soy sauce (2 tbsp)",
           "oyster sauce (2 tbsp)",
@@ -8619,7 +8613,7 @@ export default [
       {
         _id: "recipe_bot-52780I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (800g)",
           "Onions (3)",
           "Olive Oil (2 tblsp)",
@@ -8655,7 +8649,7 @@ export default [
       {
         _id: "recipe_bot-52804I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Vegetable Oil (Dash)",
           "Beef Gravy (1 Can)",
           "Potatoes (5 thin cut)",
@@ -8664,7 +8658,7 @@ export default [
       },
     ],
     steps: [
-      "Heat oil in a deep fryer or deep heavy skillet to 365°F (185°C)",
+      "Heat oil in a deep fryer or deep heavy skillet to 365\u00b0F (185\u00b0C)",
       "Warm gravy in saucepan or microwave",
       "Place the fries into the hot oil, and cook until light brown, about 5 minutes",
       "Remove to a paper towel lined plate to drain",
@@ -8684,7 +8678,7 @@ export default [
       {
         _id: "recipe_bot-52837I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Spaghetti (300g)",
           "Olive Oil (1 tbls)",
           "Onion (1 finely chopped)",
@@ -8700,7 +8694,7 @@ export default [
     steps: [
       "Cook the pasta following pack instructions",
       "Heat the oil in a non-stick frying pan and cook the onion, garlic and chilli for 3-4 mins to soften",
-      "Stir in the tomato purée and cook for 1 min, then add the pilchards with their sauce",
+      "Stir in the tomato pur\u00e9e and cook for 1 min, then add the pilchards with their sauce",
       "Cook, breaking up the fish with a wooden spoon, then add the olives and continue to cook for a few more mins",
       "Drain the pasta and add to the pan with 2-3 tbsp of the cooking water",
       "Toss everything together well, then divide between plates and serve, scattered with Parmesan.",
@@ -8718,7 +8712,7 @@ export default [
       {
         _id: "recipe_bot-52847I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Goose Fat (4 tbsp)",
           "Pork (350g)",
           "Onion (1 large)",
@@ -8744,7 +8738,7 @@ export default [
       "Add your fat and diced meat, cook for a few mins to seal the edges, giving it a quick stir to cook evenly",
       "Reduce the heat to low, add the sliced onion, whole garlic cloves, carrot and fennel seeds, and cook gently to soften the veg for a few mins",
       "Pour over the red wine vinegar, scraping any meaty bits off the bottom of the pan",
-      "Add the stock, tomato purée, and half the rosemary and parsley",
+      "Add the stock, tomato pur\u00e9e, and half the rosemary and parsley",
       "Bring to the boil and simmer for 10 mins, then season, cover with a lid and put into the oven for 2 hrs, removing the lid for the final hour of cooking",
       "Stir occasionally and add the beans with 30 mins to go",
       "Remove the pan from the oven and heat the grill",
@@ -8764,7 +8758,7 @@ export default [
       {
         _id: "recipe_bot-52854I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (100g)",
           "Eggs (2 large)",
           "Milk (300ml)",
@@ -8778,7 +8772,7 @@ export default [
     steps: [
       "Put the flour, eggs, milk, 1 tbsp oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter",
       "Set aside for 30 mins to rest if you have time, or start cooking straight away",
-      "Set a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper",
+      "Set a medium frying pan or cr\u00eape pan over a medium heat and carefully wipe it with some oiled kitchen paper",
       "When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go",
       "Serve with lemon wedges and sugar, or your favourite filling",
       "Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months.",
@@ -8796,13 +8790,13 @@ export default [
       {
         _id: "recipe_bot-52857I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Pumpkin (750g)",
           "Shortcrust Pastry (350g)",
           "Plain Flour (Dusting)",
           "Caster Sugar (140g)",
-          "Salt (½ tsp)",
-          "Nutmeg (½ tsp)",
+          "Salt (\u00bd tsp)",
+          "Nutmeg (\u00bd tsp)",
           "Cinnamon (1 tsp)",
           "Eggs (2 Beaten)",
           "Butter (25g)",
@@ -8824,7 +8818,7 @@ export default [
       "Increase oven to 220C/200C fan/gas 7",
       "Push the cooled pumpkin through a sieve into a large bowl",
       "In a separate bowl, combine the sugar, salt, nutmeg and half the cinnamon",
-      "Mix in the beaten eggs, melted butter and milk, then add to the pumpkin purée and stir to combine",
+      "Mix in the beaten eggs, melted butter and milk, then add to the pumpkin pur\u00e9e and stir to combine",
       "Pour into the tart shell and cook for 10 mins, then reduce the temperature to 180C/160C fan/gas 4",
       "Continue to bake for 35-40 mins until the filling has just set",
       "Leave to cool, then remove the pie from the tin",
@@ -8844,7 +8838,7 @@ export default [
       {
         _id: "recipe_bot-52861I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (50g)",
           "Peanut Cookies (175g)",
           "Gelatine Leafs (5)",
@@ -8888,7 +8882,7 @@ export default [
       {
         _id: "recipe_bot-52862I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Corn Flour (1 tsp)",
           "Orange (Juice of 2)",
           "Orange (Zest of 1)",
@@ -8935,7 +8929,7 @@ export default [
       {
         _id: "recipe_bot-52902I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (200g)",
           "Egg (1 large)",
           "Milk (4 tbs)",
@@ -8956,7 +8950,7 @@ export default [
       "Remove from the heat",
       "Mix together the oatmeal, flour and ginger and stir into the syrup mixture, followed by the egg and milk",
       "Pour the mixture into the tin and bake for 50 mins - 1 hr until the cake feels firm and a little crusty on top",
-      "Cool in the tin then wrap in more parchment and foil and keep for 3-5 days before eating if you can – it’ll become softer and stickier the longer you leave it, up to 2 weeks",
+      "Cool in the tin then wrap in more parchment and foil and keep for 3-5 days before eating if you can \u2013 it\u2019ll become softer and stickier the longer you leave it, up to 2 weeks",
     ],
     tags: ["Caramel"],
     photo: "https://www.themealdb.com/images/media/meals/qxuqtt1511724269.jpg",
@@ -8971,7 +8965,7 @@ export default [
       {
         _id: "recipe_bot-52916I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Pears (8)",
           "Caster Sugar (100g)",
           "Butter (100g)",
@@ -8989,14 +8983,14 @@ export default [
       "Tip the sugar, butter, star anise, cardamom and cinnamon into an ovenproof frying pan, about 20cm wide, and place over a high heat until bubbling",
       "Shake the pan and stir the buttery sauce until it separates and the sugar caramelises to a toffee colour",
       "Lay the pears in the pan, then cook in the sauce for 10-12 mins, tossing occasionally, until completely caramelised",
-      "Don’t worry about them burning – they won’t – but you want to caramelise them as much as possible",
-      "Splash in the brandy and let it flambé, then set the pears aside",
+      "Don\u2019t worry about them burning \u2013 they won\u2019t \u2013 but you want to caramelise them as much as possible",
+      "Splash in the brandy and let it flamb\u00e9, then set the pears aside",
       "Heat oven to 200C/fan 180C/gas 6",
-      "Roll the pastry out to the thickness of a £1 coin",
+      "Roll the pastry out to the thickness of a \u00a31 coin",
       "Using a plate slightly larger than the top of the pan, cut out a circle, then press the edges of the circle of pastry to thin them out",
       "When the pears have cooled slightly, arrange them in the pan, cut side up, in a floral shape, with the pears around the edge pointing inwards",
       "Rest the cinnamon stick on the top in the centre, with the cardamom pods scattered around",
-      "Drape the pastry over the pears, then tuck the edges down the pan sides and under the fruit (see Gordon’s guide)",
+      "Drape the pastry over the pears, then tuck the edges down the pan sides and under the fruit (see Gordon\u2019s guide)",
       "Pierce the pastry a few times, then bake for 15 mins",
       "If a lot of juice bubbles up the side of the pan, pour it off at this stage (see guide)",
       "Reduce oven to 180C/fan 160C/gas 4 and bake for 15 mins more until the pastry is golden",
@@ -9009,13 +9003,13 @@ export default [
     recipe_id: "recipeBot-R202",
     post_id: "recipeBot-P202",
     user_created: "recipeBot",
-    name: "Provençal Omelette Cake",
+    name: "Proven\u00e7al Omelette Cake",
     description: "Vegetarian | French",
     ingredients_sec: [
       {
         _id: "recipe_bot-52921I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Eggs (10)",
           "Olive Oil (1 tbs)",
           "Courgettes (2 finely chopped)",
@@ -9070,7 +9064,7 @@ export default [
       {
         _id: "recipe_bot-52922I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Tiger Prawns (450g)",
           "Olive Oil (4 tbs)",
           "Onion (1 large)",
@@ -9114,10 +9108,10 @@ export default [
       {
         _id: "recipe_bot-52930I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (4 cups)",
           "Butter (60ml)",
-          "Milk (½ cup)",
+          "Milk (\u00bd cup)",
           "Minced Beef (450g)",
           "Onion (1 finely chopped)",
           "Creamed Corn (500ml)",
@@ -9131,10 +9125,10 @@ export default [
     steps: [
       "In a large pot of salted water, cook the potatoes until they are very tender",
       "With a masher, coarsely crush the potatoes with at least 30 ml (2 tablespoons) of butter",
-      "With an electric mixer, purée with the milk",
+      "With an electric mixer, pur\u00e9e with the milk",
       "Season with salt and pepper",
       "Set aside",
-      "With the rack in the middle position, preheat the oven to 190 °C (375 °F)",
+      "With the rack in the middle position, preheat the oven to 190 \u00b0C (375 \u00b0F)",
       "In a large skillet, brown the onion in the remaining butter",
       "Add the meat and cook until golden brown",
       "Season with salt and pepper",
@@ -9159,8 +9153,8 @@ export default [
       {
         _id: "recipe_bot-52932I1",
         title: "Main Ingredients",
-        "ingredients:": [
-          "Butter (½ cup)",
+        ingredients: [
+          "Butter (\u00bd cup)",
           "Sugar (1 cup)",
           "Eggs (2)",
           "Vanilla Extract (1 tsp)",
@@ -9184,7 +9178,7 @@ export default [
       "In a large casserole, bring to boil the syrup, brown sugar, cream and butter and constantly stir",
       "Reduce heat and and gently cook 2 minutes or till sauce has reduced a little bit",
       "Pour sauce gently over cake",
-      "Bake at 325°f (160°c) about 35 minutes or till cake is light brown and when toothpick inserted comes out clean.",
+      "Bake at 325\u00b0f (160\u00b0c) about 35 minutes or till cake is light brown and when toothpick inserted comes out clean.",
     ],
     tags: ["Pudding"],
     photo: "https://www.themealdb.com/images/media/meals/yqqqwu1511816912.jpg",
@@ -9199,15 +9193,15 @@ export default [
       {
         _id: "recipe_bot-52958I1",
         title: "Main Ingredients",
-        "ingredients:": ["Peanut Butter (1 cup)", "Sugar (1/2 cup)", "Egg (1)"],
+        ingredients: ["Peanut Butter (1 cup)", "Sugar (1/2 cup)", "Egg (1)"],
       },
     ],
     steps: [
-      "Preheat oven to 350ºF (180ºC)",
+      "Preheat oven to 350\u00baF (180\u00baC)",
       "In a large bowl, mix together the peanut butter, sugar, and egg",
       "Scoop out a spoonful of dough and roll it into a ball",
       "Place the cookie balls onto a nonstick baking sheet",
-      "For extra decoration and to make them cook more evenly, flatten the cookie balls by pressing a fork down on top of them, then press it down again at a 90º angle to make a criss-cross pattern",
+      "For extra decoration and to make them cook more evenly, flatten the cookie balls by pressing a fork down on top of them, then press it down again at a 90\u00ba angle to make a criss-cross pattern",
       "Bake for 8-10 minutes or until the bottom of the cookies are golden brown",
       "Remove from baking sheet and cool",
       "Enjoy!",
@@ -9225,7 +9219,7 @@ export default [
       {
         _id: "recipe_bot-53014I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Water (150ml)",
           "Sugar (1 tsp)",
           "Yeast (15g)",
@@ -9241,9 +9235,9 @@ export default [
       },
     ],
     steps: [
-      "1 Preheat the oven to 230°C",
+      "1 Preheat the oven to 230\u00b0C",
       "2 Add the sugar and crumble the fresh yeast into warm water",
-      "3 Allow the mixture to stand for 10 – 15 minutes in a warm place (we find a windowsill on a sunny day works best) until froth develops on the surface",
+      "3 Allow the mixture to stand for 10 \u2013 15 minutes in a warm place (we find a windowsill on a sunny day works best) until froth develops on the surface",
       "4 Sift the flour and salt into a large mixing bowl, make a well in the middle and pour in the yeast mixture and olive oil",
       "5 Lightly flour your hands, and slowly mix the ingredients together until they bind",
       "6 Generously dust your surface with flour",
@@ -9251,7 +9245,7 @@ export default [
       "8 Place in a lightly oiled, non-stick baking tray (we use a round one, but any shape will do!)",
       "9 Spread the passata on top making sure you go to the edge",
       "10 Evenly place the mozzarella (or other cheese) on top, season with the oregano and black pepper, then drizzle with a little olive oil",
-      "11 Cook in the oven for 10 – 12 minutes until the cheese slightly colours",
+      "11 Cook in the oven for 10 \u2013 12 minutes until the cheese slightly colours",
       "12 When ready, place the basil leaf on top and tuck in!",
     ],
     tags: [],
@@ -9267,7 +9261,7 @@ export default [
       {
         _id: "recipe_bot-53017I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (1 cup)",
           "Salt (1/4 tsp)",
           "Egg (1 Yolk)",
@@ -9294,7 +9288,7 @@ export default [
       "Melt the remaining 4 tablespoons butter over medium heat, and add the meat mixture",
       "Cook over low heat, stirring occasionally, until all of the liquid has evaporated and the mixture is thick enough to hold its shape",
       "Remove from heat and let cool, then stir in 1 egg, and season with salt and pepper",
-      "Preheat oven to 350°F",
+      "Preheat oven to 350\u00b0F",
       'On a lightly floured surface, roll the dough out into a 13x8" rectangle (1/8" thick)',
       "Spoon the filling down the center of the rectangle lengthwise, leaving about an inch of space on each end",
       "Lightly brush the long sides with cold water, then fold one of the long sides over the filling and the other side over the top of that",
@@ -9316,7 +9310,7 @@ export default [
       {
         _id: "recipe_bot-53019I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (2 tbs)",
           "Chopped Onion (1/3 cup)",
           "Sauerkraut (1 1/2 cups)",
@@ -9364,7 +9358,7 @@ export default [
       {
         _id: "recipe_bot-53022I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (1 cup)",
           "Eggs (2)",
           "Milk (1 cup)",
@@ -9398,7 +9392,7 @@ export default [
       {
         _id: "recipe_bot-53039I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken (1.5kg)",
           "Red Chilli (3 chopped)",
           "Garlic (2 cloves)",
@@ -9443,7 +9437,7 @@ export default [
       {
         _id: "recipe_bot-53042I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Garlic (1 clove)",
           "Beef Fillet (2 small)",
           "Olive Oil (2 tbs)",
@@ -9468,7 +9462,7 @@ export default [
       "Leave for 1-2 hours",
       "STEP 2",
       "To make the sauce, put all the ingredients into a blender with 1 tbsp water and whizz until as smooth as possible",
-      "This will make more than you’ll need for the recipe but will keep for a week in an airtight jar",
+      "This will make more than you\u2019ll need for the recipe but will keep for a week in an airtight jar",
       "STEP 3",
       "Heat a griddle or frying pan to high",
       "Brush away the garlic and parsley stalks from the steaks and season well",
@@ -9490,7 +9484,7 @@ export default [
       {
         _id: "recipe_bot-53044I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Pork (2)",
           "White Wine (200ml)",
           "Paprika (1/2 tsp)",
@@ -9509,7 +9503,7 @@ export default [
       "Take a clear plastic bag and slip one of the pieces in",
       "Bash it into an escalope the size of a side-plate with a rolling pin and repeat with the remaining pieces",
       "STEP 2",
-      "Put the wine, paprika, some salt and pepper and the juice of ½ a lemon in a bowl and add the pork",
+      "Put the wine, paprika, some salt and pepper and the juice of \u00bd a lemon in a bowl and add the pork",
       "Leave to marinate for 20-30 minutes, while you get your barbecue to the stage where the coals are glowing but there are no flames",
       "STEP 3",
       "To make the chips, fill a basin with cool water and cut the potatoes into 3cm-thick chips",
@@ -9521,14 +9515,14 @@ export default [
       "Blanch for 8-10 minutes",
       "Remove from the oil and drain well",
       "Place on a tray to cool",
-      "Reheat the oil to 180C (make sure it’s hot or your chips will be soggy) and lower the basket of chips into the oil (again, do this in batches)",
+      "Reheat the oil to 180C (make sure it\u2019s hot or your chips will be soggy) and lower the basket of chips into the oil (again, do this in batches)",
       "Leave to cook for 2 minutes and then give them a little shake",
       "Cook for another minute or so until they are well coloured and crisp to the touch",
       "Drain well for a few minutes, tip into a bowl and sprinkle with sea salt",
       "STEP 5",
       "The pork will cook quickly so do it in 2 batches",
       "Take the pieces out of the marinade, rub them with oil, and drop them onto the barbecue (you could also use a chargrill)",
-      "Cook for 1 minute on each side – they may flare up as you do so",
+      "Cook for 1 minute on each side \u2013 they may flare up as you do so",
       "This should really be enough time as they will keep on cooking",
       "Take them off the barbecue and pile onto a plate",
       "Repeat with the remaining batch",
@@ -9549,7 +9543,7 @@ export default [
       {
         _id: "recipe_bot-53045I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Onions (2 finely chopped)",
           "Red Pepper (1 Diced)",
           "Coriander (Small bunch)",
@@ -9597,7 +9591,7 @@ export default [
       {
         _id: "recipe_bot-53046I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Plain Flour (2 tbs)",
           "Icing Sugar (2 tbs)",
           "Puff Pastry (375g)",
@@ -9663,7 +9657,7 @@ export default [
       {
         _id: "recipe_bot-53081I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (4)",
           "Carrots (3)",
           "Salt (1 tbs)",
@@ -9704,17 +9698,17 @@ export default [
       {
         _id: "recipe_bot-52783I1",
         title: "Main Ingredients",
-        "ingredients:": [
-          "olive oil (2½ tbsp)",
+        ingredients: [
+          "olive oil (2\u00bd tbsp)",
           "Italian fennel sausages (6 cut into 1.5cm-thick slices)",
           "onion (1 large peeled and chopped)",
           "fennel bulb (1 trimmed and roughly chopped; reserve any fronds to garnish)",
-          "smoky paprika (½ tsp)",
+          "smoky paprika (\u00bd tsp)",
           "garlic (1 clove, peeled and sliced)",
           "fennel seeds (2 tsp lightly toasted and then gently crushed)",
           "red wine (100ml)",
           "chopped tomatoes (400g tinned)",
-          "caster sugar (½ tsp)",
+          "caster sugar (\u00bd tsp)",
           "pitted black olives (50g cut in half lengthways)",
           "rigatoni (500g)",
           "pecorino (30g roughly crumbled into 0.5cm pieces)",
@@ -9731,14 +9725,14 @@ export default [
       "Transfer the sausages to a plate, then add the onion and fennel to the hot pan and fry for 15 minutes, stirring once in a while, until soft and caramelised; if the pan goes a bit dry, add a teaspoon or so of extra oil",
       "Stir in the paprika, garlic and half the fennel seeds, fry for two minutes more, then pour on the wine and boil for 30 seconds, to reduce by half",
       "Add the tomatoes, sugar, 100ml water, the seared sausage and half a teaspoon of salt, cover and simmer for 30 minutes; remove the lid after 10 minutes, and cook until the sauce is thick and rich",
-      "Remove from the heat, stir through the olives and remaining fennel seeds and set aside until you’re ready to serve",
+      "Remove from the heat, stir through the olives and remaining fennel seeds and set aside until you\u2019re ready to serve",
       "Bring a large pot of salted water to a boil, add the pasta and cook for 12-14 minutes (or according to the instructions on the packet), until al dente",
       "Meanwhile, reheat the sauce",
       "Drain the pasta, return it to the pot, stir in a tablespoon of oil, then divide between the bowls",
       "Put all the pesto ingredients except the basil in the small bowl of a food processor",
       "Add a tablespoon of water and blitz to a rough paste",
       "Add the basil, then blitz until just combined (the pesto has a much better texture if the basil is not overblended)",
-      "Spoon over the ragù and top with a spoonful of pesto",
+      "Spoon over the rag\u00f9 and top with a spoonful of pesto",
       "Finish with a sprinkling of chopped fennel fronds, if you have any, and serve at once.",
     ],
     tags: ["Pasta"],
@@ -9754,23 +9748,23 @@ export default [
       {
         _id: "recipe_bot-52786I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Miniature Marshmallows (2 cups)",
           "Chocolate Chips (3 cups)",
-          "Peanut Butter (½ cup)",
+          "Peanut Butter (\u00bd cup)",
           "Vanilla Extract (1 tsp)",
-          "Peanuts (1 ¼ cups)",
+          "Peanuts (1 \u00bc cups)",
         ],
       },
     ],
     steps: [
       "Line an 8-inch-square baking pan with wax paper or foil, and coat with non-stick spray",
-      "Pour ½ cup of the miniature marshmallows into the bottom of the lined baking dish",
+      "Pour \u00bd cup of the miniature marshmallows into the bottom of the lined baking dish",
       "In a microwave-safe bowl, combine the chocolate chips and peanut butter",
       "Microwave the chocolate mixture in 20-second intervals, stirring in between each interval, until the chocolate is melted",
       "Add the vanilla extract and stir well, until smooth",
       "Reserve 2 tablespoons of the chopped almonds or peanuts, and set aside",
-      "Fold 1 ½ cups of the miniature marshmallows and the remaining chopped nuts into the chocolate mixture",
+      "Fold 1 \u00bd cups of the miniature marshmallows and the remaining chopped nuts into the chocolate mixture",
       "Transfer the chocolate mixture into the prepared pan and spread into an even layer",
       "Immediately top with the reserved chopped nuts and the mallow bits or additional miniature marshmallows, if using",
       "Refrigerate for 4 hours, or until set",
@@ -9791,14 +9785,14 @@ export default [
       {
         _id: "recipe_bot-52809I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Mackerel (4)",
           "Red Chilli (18 dried)",
           "Ginger (1 inch)",
           "Garlic (8 cloves)",
           "Pepper (1.5 tsp)",
           "Cumin (1 tsp)",
-          "Turmeric (½ tsp)",
+          "Turmeric (\u00bd tsp)",
           "Cinnamon stick",
           "Cloves (4)",
           "Cardamom (2)",
@@ -9844,7 +9838,7 @@ export default [
       {
         _id: "recipe_bot-52811I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (5 tablespoons)",
           "Onion (1 chopped)",
           "Carrots (1 chopped)",
@@ -9858,15 +9852,15 @@ export default [
           "Kale (1 pound chopped)",
           "Wholegrain Bread (4 thick slices)",
           "Red Onions (1 thinly sliced)",
-          "Parmesan (½ cup freshly grated)",
+          "Parmesan (\u00bd cup freshly grated)",
         ],
       },
     ],
     steps: [
       "Put 2 tablespoons of the oil in a large pot over medium heat",
-      "When it’s hot, add onion, carrot, celery and garlic; sprinkle with salt and pepper and cook, stirring occasionally, until vegetables are soft, 5 to 10 minutes",
+      "When it\u2019s hot, add onion, carrot, celery and garlic; sprinkle with salt and pepper and cook, stirring occasionally, until vegetables are soft, 5 to 10 minutes",
       "Heat the oven to 500 degrees",
-      "Drain the beans; if they’re canned, rinse them as well",
+      "Drain the beans; if they\u2019re canned, rinse them as well",
       "Add them to the pot along with tomatoes and their juices and stock, rosemary and thyme",
       "Bring to a boil, then reduce heat so the soup bubbles steadily; cover and cook, stirring once or twice to break up the tomatoes, until the flavors meld, 15 to 20 minutes",
       "Fish out and discard rosemary and thyme stems, if you like, and stir in kale",
@@ -9889,7 +9883,7 @@ export default [
       {
         _id: "recipe_bot-52816I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (2 tablespoons)",
           "Carrots (2 small cut into chunks)",
           "Celery (2 small stalks)",
@@ -9909,7 +9903,7 @@ export default [
       },
     ],
     steps: [
-      "For the Lentils: Adjust oven rack to center position and preheat oven to 450°F to prepare for roasting eggplant",
+      "For the Lentils: Adjust oven rack to center position and preheat oven to 450\u00b0F to prepare for roasting eggplant",
       "Meanwhile, heat 2 tablespoons olive oil in a medium saucepan over medium heat until shimmering",
       "Add carrots, celery, and onion and cook, stirring, until softened but not browned, about 4 minutes",
       "Add garlic and cook, stirring, until fragrant, about 30 seconds",
@@ -9945,7 +9939,7 @@ export default [
       {
         _id: "recipe_bot-52901I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Self-raising Flour (225g)",
           "Caster Sugar (75g)",
           "Baking Powder (1 tsp)",
@@ -9981,7 +9975,7 @@ export default [
       {
         _id: "recipe_bot-52908I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Aubergine (2 large)",
           "Courgettes (4)",
           "Yellow Pepper (2)",
@@ -10007,11 +10001,11 @@ export default [
       "Pour the water away, replace the tomatoes and cover with cold water",
       "Leave to cool, then peel the skin away",
       "Quarter the tomatoes, scrape away the seeds with a spoon, then roughly chop the flesh",
-      "Set a sauté pan over medium heat and when hot, pour in 2 tbsp olive oil",
+      "Set a saut\u00e9 pan over medium heat and when hot, pour in 2 tbsp olive oil",
       "Brown the aubergines for 5 mins on each side until the pieces are soft",
       "Set them aside and fry the courgettes in another tbsp oil for 5 mins, until golden on both sides",
       "Repeat with the peppers",
-      "Don’t overcook the vegetables at this stage, as they have some more cooking left in the next step",
+      "Don\u2019t overcook the vegetables at this stage, as they have some more cooking left in the next step",
       "Tear up the basil leaves and set aside",
       "Cook the onion in the pan for 5 mins",
       "Add the garlic and fry for a further min",
@@ -10032,7 +10026,7 @@ export default [
       {
         _id: "recipe_bot-52933I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (2 tbs)",
           "Onions (2 chopped)",
           "Chicken Stock (4 qt)",
@@ -10074,7 +10068,7 @@ export default [
       {
         _id: "recipe_bot-52941I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Kidney Beans (2 cups)",
           "Carrots (1 large)",
           "Spring Onions (2 chopped)",
@@ -10108,14 +10102,14 @@ export default [
       "As it comes to a boil, skim off any scum/froth at the top and discard",
       "Reduce the heat to a gentle boil and allow it to cook for 1 hr and 15 mins.",
       "basically until the beans are tender and start falling apart",
-      "It’s now time to add the potato (and Yams etc if you’re adding it) as well as the coconut milk and continue cooking for 15 minutes",
+      "It\u2019s now time to add the potato (and Yams etc if you\u2019re adding it) as well as the coconut milk and continue cooking for 15 minutes",
       "Now is a good time to start making the basic dough for the spinner dumplings",
       "Mix the flour and water (add a pinch of salt if you want) until you have a soft/smooth dough",
       "allow it to rest for 5 minutes, then pinch of a tablespoon at a time and roll between your hands to form a cigarette shape",
       "Add them to the pot, stir well and continue cooking for another 15 minutes on a rolling boil",
-      "You’ll notice that I didn’t add any salt to the pot as the remaining salt from the salted pigtails will be enough to properly season this dish",
+      "You\u2019ll notice that I didn\u2019t add any salt to the pot as the remaining salt from the salted pigtails will be enough to properly season this dish",
       "However you can taste and adjust accordingly",
-      "Lets recap the timing part of things so you’re not confused",
+      "Lets recap the timing part of things so you\u2019re not confused",
       "Cook the base of the soup for 1 hr and 15 minute or until tender, then add the potatoes and cook for 15 minutes, then add the dumplings and cook for a further 15 minutes",
       "Keep in mind that this soup will thicken quite a bit as it cools",
       "While this is not a traditional recipe to any one specific island, versions of this soup (sometimes called stewed peas) can be found throughout the Caribbean, Latin America and Africa",
@@ -10135,7 +10129,7 @@ export default [
       {
         _id: "recipe_bot-52942I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Baby Aubergine (6 small)",
           "Fennel (4 small)",
           "Red Pepper (1 thinly sliced)",
@@ -10158,8 +10152,8 @@ export default [
       "1 Put the fennel, aubergine, pepper and courgette in a roasting tray",
       "Add a glug of olive oil, season with salt and pepper and toss around to coat the veggies in the oil",
       "Roast in the oven for 20 minutes, turning a couple of times until the veg are pretty much cooked through and turning golden",
-      "2 Meanwhile, heat a paella pan or large frying pan over a low– medium heat and add a glug of olive oil",
-      "Sauté the onion for 8–10 minutes until softened",
+      "2 Meanwhile, heat a paella pan or large frying pan over a low\u2013 medium heat and add a glug of olive oil",
+      "Saut\u00e9 the onion for 8\u201310 minutes until softened",
       "Increase the heat to medium and stir in the rice, paprika and saffron",
       "Cook for around 1 minute to start toasting the rice, then add the white wine",
       "Reduce by about half before stirring in two-thirds of the stock",
@@ -10183,7 +10177,7 @@ export default [
       {
         _id: "recipe_bot-53020I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Legs (4 Chopped)",
           "Onions (2 large)",
           "Carrots (5 chopped)",
@@ -10205,12 +10199,12 @@ export default [
       "Cover with water",
       "Bring to a boil and simmer for 2 to 2 1/2 hours, skimming any impurities off the top to insure a clear broth",
       "If your pot is big enough, add the vegetables and spices for the last hour of the cooking time",
-      "My Dutch oven wasn’t big enough to hold everything, just the chicken and other bones filled the pot, so I cooked the meat/bones for the full cooking time, then removed them, and cooked the vegetables and spices separately",
+      "My Dutch oven wasn\u2019t big enough to hold everything, just the chicken and other bones filled the pot, so I cooked the meat/bones for the full cooking time, then removed them, and cooked the vegetables and spices separately",
       "Strain everything out of the broth",
       "Bone the chicken, pulling the meat into large chunks",
       "Slice the carrots",
       "Return the chicken and carrots to the broth",
-      "Cook noodles according to package instructions if you’re using them",
+      "Cook noodles according to package instructions if you\u2019re using them",
       "Add noodles to bowl and then top with hot soup",
     ],
     tags: [],
@@ -10226,7 +10220,7 @@ export default [
       {
         _id: "recipe_bot-53024I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (1 cup)",
           "Egg Yolks (3)",
           "Cream Cheese (8 oz)",
@@ -10265,7 +10259,7 @@ export default [
       {
         _id: "recipe_bot-53052I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Minced Beef (1/4 lb)",
           "Onion (1)",
           "Eggs (3)",
@@ -10299,7 +10293,7 @@ export default [
       {
         _id: "recipe_bot-52770I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "onions (2)",
           "olive oil (1tbsp)",
           "garlic (1 clove)",
@@ -10319,7 +10313,7 @@ export default [
       "Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins",
       "Add the garlic and mince and fry until they both brown",
       "Add the mushrooms and herbs, and cook for another couple of mins",
-      "Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning",
+      "Stir in the tomatoes, beef stock, tomato ketchup or pur\u00e9e, Worcestershire sauce and seasoning",
       "Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins",
       "Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions",
       "Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce",
@@ -10338,7 +10332,7 @@ export default [
       {
         _id: "recipe_bot-52771I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "penne rigate (1 pound)",
           "olive oil (1/4 cup)",
           "garlic (3 cloves)",
@@ -10375,7 +10369,7 @@ export default [
       {
         _id: "recipe_bot-52784I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tbls)",
           "Onion (1)",
           "Leek (1 chopped)",
@@ -10401,7 +10395,7 @@ export default [
     steps: [
       "Begin by roasting the squash",
       "Slice it into thin crescents and drizzle with a little oil and sprinkle with sea salt",
-      "I added a fresh little sage I had in the fridge, but it’s unnecessary",
+      "I added a fresh little sage I had in the fridge, but it\u2019s unnecessary",
       "Roast the squash a 205 C (400 F) for 20-30 minutes, flipping halfway through, until soft and golden",
       "Let cool and chop into cubes",
       "Meanwhile, rinse the lentils and cover them with water",
@@ -10409,12 +10403,12 @@ export default [
       "Drain and set aside",
       "While the lentils are cooking heat the 1 Tbsp",
       "of oil on low in a medium pot",
-      "Add the onions and leeks and sauté for 5 or so minutes, or until they begin to soften",
+      "Add the onions and leeks and saut\u00e9 for 5 or so minutes, or until they begin to soften",
       "Add the garlic next along with the cumin and coriander, cooking for a few more minutes",
-      "Add the remaining spices – paprika, cinnamon, chilli, cocoa, Worcestershire sauce, salt, and oregano",
+      "Add the remaining spices \u2013 paprika, cinnamon, chilli, cocoa, Worcestershire sauce, salt, and oregano",
       "Next add the can of tomatoes, the water or stock, and carrots",
       "Let simmer, covered, for 20 minutes or until the veg is tender and the mixture has thickened up",
-      "You’ll need to check on the pot periodically for a stir and a top of of liquid if needed",
+      "You\u2019ll need to check on the pot periodically for a stir and a top of of liquid if needed",
       "Add the lentils and chopped roasted squash",
       "Let cook for 10 more minutes to heat through",
       "Serve with sliced jalapeno, lime wedges, cilantro, green onions, and cashew sour cream",
@@ -10423,7 +10417,7 @@ export default [
       "Pinch Sea Salt",
       "Apple Cider Vinegar",
       "Bring some water to the boil, and use it to soak the cashews for at least four hours",
-      "Alternatively, you can use cold water and let the cashews soak overnight, but I’m forgetful/lazy, so often use the boil method which is much faster",
+      "Alternatively, you can use cold water and let the cashews soak overnight, but I\u2019m forgetful/lazy, so often use the boil method which is much faster",
       "After the cashews have soaked, drain them and add to a high speed blender",
       "Begin to puree, slowly adding about 1/2 cup fresh water, until a creamy consistency is reached",
       "You may need to add less or more water to reach the desired consistency",
@@ -10442,7 +10436,7 @@ export default [
       {
         _id: "recipe_bot-52793I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Medjool dates (225g)",
           "water (175ml Boiling)",
           "vanilla extract (1 tsp)",
@@ -10478,14 +10472,14 @@ export default [
       "Spoon it evenly between the tins and bake for 20-25 mins, until risen and firm",
       "Meanwhile, put the sugar and butter for the sauce in a medium saucepan with half the cream",
       "Bring to the boil over a medium heat, stirring all the time, until the sugar has completely dissolved",
-      "Stir in the black treacle, turn up the heat slightly and let the mixture bubble away for 2-3 mins until it is a rich toffee colour, stirring occasionally to make sure it doesn’t burn",
+      "Stir in the black treacle, turn up the heat slightly and let the mixture bubble away for 2-3 mins until it is a rich toffee colour, stirring occasionally to make sure it doesn\u2019t burn",
       "Take the pan off the heat and beat in the rest of the cream",
       "Remove the puddings from the oven",
       "Leave in the tins for a few mins, then loosen them well from the sides of the tins with a small palette knife before turning them out",
-      "You can serve them now with the sauce drizzled over, but they’ll be even stickier if left for a day or two coated in the sauce",
+      "You can serve them now with the sauce drizzled over, but they\u2019ll be even stickier if left for a day or two coated in the sauce",
       "To do this, pour about half the sauce into one or two ovenproof serving dishes",
       "Sit the upturned puddings on the sauce, then pour the rest of the sauce over them",
-      "Cover with a loose tent of foil so that the sauce doesn’t smudge (no need to chill)",
+      "Cover with a loose tent of foil so that the sauce doesn\u2019t smudge (no need to chill)",
       "When ready to serve, heat oven to 180C/fan 160C/gas 4",
       "Warm the puddings through, still covered, for 15-20 mins or until the sauce is bubbling",
       "Serve them on their own, or with cream or custard.",
@@ -10503,7 +10497,7 @@ export default [
       {
         _id: "recipe_bot-52797I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Small Potatoes (650g/1lb 8 oz)",
           "Harissa Spice (1 tsp)",
           "olive oil (2 tsp)",
@@ -10543,15 +10537,15 @@ export default [
       {
         _id: "recipe_bot-52817I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (4 tablespoons)",
           "Egg Plants (6 small)",
-          "Harissa Spice (½ tablespoon)",
+          "Harissa Spice (\u00bd tablespoon)",
           "Chickpeas (1 can)",
           "Cherry Tomatoes (2 cups halved)",
           "Greek yogurt (1 1/2 cups)",
           "Ground cumin (1 tablespoon)",
-          "Parsley (½ cup)",
+          "Parsley (\u00bd cup)",
         ],
       },
     ],
@@ -10580,7 +10574,7 @@ export default [
       {
         _id: "recipe_bot-52823I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "butter (50g/2oz)",
           "onion (1 finely chopped)",
           "rice (150g)",
@@ -10619,7 +10613,7 @@ export default [
       {
         _id: "recipe_bot-52833I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Digestive Biscuits (250g)",
           "Pretzels (75g)",
           "Butter (135g)",
@@ -10637,11 +10631,11 @@ export default [
     ],
     steps: [
       "1) Blitz the biscuits and the pretzels in a food processor and mix the biscuits with the melted butter",
-      "Spread on the bottom of an 8″/20cm Deep Springform Tin and press down firmly",
+      "Spread on the bottom of an 8\u2033/20cm Deep Springform Tin and press down firmly",
       "Leave to set in the fridge whilst you make the rest!",
-      "2) Using an electric mixer, I use my KitchenAid with the whisk attachment, whisk together the cream cheese, vanilla, and icing sugar until smooth and then add the caramel and whisk again until smooth and lump free – this could take a couple of minutes, I whisk it at half speed so not too quick or slow!",
-      "3) Pour in the double cream & Salt flakes and continue to whisk for a couple of minutes until its very thick and mousse like (I mix it on a medium speed, level 6/10) – Now this could take up to 5 minutes depending on your mixer, but you seriously have to stick at it – it will hold itself completely when finished mixing (like a meringue does!) If you don’t mix it enough it will not set well enough, but don’t get impatient and whisk it really quick because that’ll make it split! Spread over the biscuit base and leave to set in the fridge overnight",
-      "4) Remove the Cheesecake from the tin carefully and decorate the cheesecake – I drizzled over some of the spare caramel, and then some Toffee Popcorn and more Pretzels!",
+      "2) Using an electric mixer, I use my KitchenAid with the whisk attachment, whisk together the cream cheese, vanilla, and icing sugar until smooth and then add the caramel and whisk again until smooth and lump free \u2013 this could take a couple of minutes, I whisk it at half speed so not too quick or slow!",
+      "3) Pour in the double cream & Salt flakes and continue to whisk for a couple of minutes until its very thick and mousse like (I mix it on a medium speed, level 6/10) \u2013 Now this could take up to 5 minutes depending on your mixer, but you seriously have to stick at it \u2013 it will hold itself completely when finished mixing (like a meringue does!) If you don\u2019t mix it enough it will not set well enough, but don\u2019t get impatient and whisk it really quick because that\u2019ll make it split! Spread over the biscuit base and leave to set in the fridge overnight",
+      "4) Remove the Cheesecake from the tin carefully and decorate the cheesecake \u2013 I drizzled over some of the spare caramel, and then some Toffee Popcorn and more Pretzels!",
     ],
     tags: [],
     photo: "https://www.themealdb.com/images/media/meals/xqrwyr1511133646.jpg",
@@ -10650,13 +10644,13 @@ export default [
     recipe_id: "recipeBot-R238",
     post_id: "recipeBot-P238",
     user_created: "recipeBot",
-    name: "Seafood fideuà",
+    name: "Seafood fideu\u00e0",
     description: "Seafood | Spanish",
     ingredients_sec: [
       {
         _id: "recipe_bot-52836I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Mussels (400g)",
           "Prawns (8)",
           "Saffron (2 pinches)",
@@ -10678,12 +10672,12 @@ export default [
       "Boil the kettle",
       "Empty the mussels into a colander and run under cold water",
       "Throw away any with broken shells",
-      "Pick through the shells, tapping each one on the side of the sink – they should be closed or should slowly close when tapped – if they stay open, throw them away",
+      "Pick through the shells, tapping each one on the side of the sink \u2013 they should be closed or should slowly close when tapped \u2013 if they stay open, throw them away",
       "If any of the shells still have barnacles or stringy beards attached, pull them off with a cutlery knife and rinse the shells well",
-      "Keep in the colander, covered with a cold, damp cloth, until you’re ready to cook",
-      "Peel the prawn shells on the body section only – leave the heads and tails intact",
+      "Keep in the colander, covered with a cold, damp cloth, until you\u2019re ready to cook",
+      "Peel the prawn shells on the body section only \u2013 leave the heads and tails intact",
       "Score down the backs and pull out any gritty entrails",
-      "Chill until you’re ready to cook",
+      "Chill until you\u2019re ready to cook",
       "Put the saffron in a small cup, cover with 50ml kettle-hot water and set aside for 10 mins",
       "If using vermicelli, put in a bowl and crush to little pieces (about 1cm long) with your hands",
       "Heat the oil in a large frying pan with at least a 3cm lip, or a 40cm paella pan",
@@ -10714,7 +10708,7 @@ export default [
       {
         _id: "recipe_bot-52849I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (3 tbsp)",
           "Garlic (8 cloves chopped)",
           "Caster Sugar (3 tbsp)",
@@ -10765,7 +10759,7 @@ export default [
       {
         _id: "recipe_bot-52866I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butternut Squash (350g)",
           "Garlic (3 parts)",
           "Olive Oil (3 tbs)",
@@ -10799,7 +10793,7 @@ export default [
       {
         _id: "recipe_bot-52872I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Onion (1 sliced)",
           "Olive Oil (4 tbsp)",
           "Butter (25g)",
@@ -10815,7 +10809,7 @@ export default [
     ],
     steps: [
       "Put a large non-stick frying pan on a low heat",
-      "Cook the onion slowly in the oil and butter until soft but not brown – this should take about 15 mins",
+      "Cook the onion slowly in the oil and butter until soft but not brown \u2013 this should take about 15 mins",
       "Add the potatoes, cover the pan and cook for a further 15-20 mins, stirring occasionally to make sure they fry evenly",
       "When the potatoes are soft and the onion is shiny, crush 2 garlic cloves and stir in, followed by the beaten eggs",
       "Put the lid back on the pan and leave the tortilla to cook gently",
@@ -10837,7 +10831,7 @@ export default [
       {
         _id: "recipe_bot-52881I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Puff Pastry (300g)",
           "Egg White (Beaten)",
           "Egg Yolks (Beaten)",
@@ -10860,12 +10854,12 @@ export default [
       "Add the onions and cook for 3-4 minutes",
       "Return the beef to the pan, sprinkle flour over and coat the meat and onions",
       "Add the stock to the pan, stir well and bring to the boil",
-      "Turn the heat down and simmer for 1½ hours without a lid",
+      "Turn the heat down and simmer for 1\u00bd hours without a lid",
       "If the liquid evaporates too much, add more stock",
       "Remove from the heat",
       "Add salt, pepper and Worcestershire sauce and allow to cool completely",
       "Place the cooked meat mixture into a pie dish",
-      "Roll out the pastry to 5mm/¼in thick and 5cm/2in larger than the dish you are using",
+      "Roll out the pastry to 5mm/\u00bcin thick and 5cm/2in larger than the dish you are using",
       "Using a rolling pin, lift the pastry and place it over the top of the pie dish",
       "Trim and crimp the edges with your fingers and thumb",
       "Brush the surface with the beaten egg mixture and bake for 30-40 minutes until golden-brown and puffed",
@@ -10884,7 +10878,7 @@ export default [
       {
         _id: "recipe_bot-52883I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (100g)",
           "Muscovado Sugar (175g)",
           "Eggs (2 large)",
@@ -10909,7 +10903,7 @@ export default [
       "Beat using an electric handheld whisk for about 30 seconds or until combined",
       "Pour in the milk gradually and whisk again until smooth",
       "Pour into the prepared dish",
-      "Bake for 35–40 minutes or until well risen and springy in the centre",
+      "Bake for 35\u201340 minutes or until well risen and springy in the centre",
       "To make the sauce, put all the ingredients into a saucepan and stir over a low heat until the sugar has dissolved and the butter has melted",
       "Bring to the boil, stirring for a minute",
       "To serve, pour half the sauce over the pudding in the baking dish",
@@ -10928,7 +10922,7 @@ export default [
       {
         _id: "recipe_bot-52886I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Self-raising Flour (250g)",
           "Salt (pinch)",
           "Suet (125g)",
@@ -10966,7 +10960,7 @@ export default [
       {
         _id: "recipe_bot-52889I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Strawberries (300g)",
           "Blackberries (250g)",
           "Redcurrants (100g)",
@@ -10977,25 +10971,25 @@ export default [
       },
     ],
     steps: [
-      "Bring out the juices: Wash fruit and gently dry on kitchen paper – keep strawberries separate",
+      "Bring out the juices: Wash fruit and gently dry on kitchen paper \u2013 keep strawberries separate",
       "Put sugar and 3 tbsp water into a large pan",
-      "Gently heat until sugar dissolves – stir a few times",
+      "Gently heat until sugar dissolves \u2013 stir a few times",
       "Bring to a boil for 1 min, then tip in the fruit (not strawberries)",
       "Cook for 3 mins over a low heat, stirring 2-3 times",
       "The fruit will be softened, mostly intact and surrounded by dark red juice",
       "Put a sieve over a bowl and tip in the fruit and juice",
       "Line the bowl with cling film and prepare the bread: Line the 1.25-litre basin with cling film as this will help you to turn out the pudding",
-      "Overlap two pieces of cling film in the middle of the bowl as it’s easier than trying to get one sheet to stick to all of the curves",
+      "Overlap two pieces of cling film in the middle of the bowl as it\u2019s easier than trying to get one sheet to stick to all of the curves",
       "Let the edges overhang by about 15cm",
       "Cut the crusts off the bread",
       "Cut 4 pieces of bread in half, a little on an angle, to give 2 lopsided rectangles per piece",
       "Cut 2 slices into 4 triangles each and leave the final piece whole",
       "Build the pud: Dip the whole piece of bread into the juice for a few secs just to coat",
       "Push this into the bottom of the basin",
-      "Now dip the wonky rectangular pieces one at a time and press around the basin’s sides so that they fit together neatly, alternately placing wide and narrow ends up",
-      "If you can’t quite fit the last piece of bread in it doesn’t matter, just trim into a triangle, dip in juice and slot in",
+      "Now dip the wonky rectangular pieces one at a time and press around the basin\u2019s sides so that they fit together neatly, alternately placing wide and narrow ends up",
+      "If you can\u2019t quite fit the last piece of bread in it doesn\u2019t matter, just trim into a triangle, dip in juice and slot in",
       "Now spoon in the softened fruit, adding the strawberries here and there as you go",
-      "Let flavours mingle then serve: Dip the bread triangles in juice and place on top – trim off overhang with scissors",
+      "Let flavours mingle then serve: Dip the bread triangles in juice and place on top \u2013 trim off overhang with scissors",
       "Keep leftover juice for later",
       "Bring cling film up and loosely seal",
       "Put a side plate on top and weight down with cans",
@@ -11016,7 +11010,7 @@ export default [
       {
         _id: "recipe_bot-52911I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Rapeseed Oil (1 tbs)",
           "Leek (2 finely chopped)",
           "Courgettes (1 large)",
@@ -11051,7 +11045,7 @@ export default [
       {
         _id: "recipe_bot-52925I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Ham (1kg)",
           "Peas (200g (soaked overnight))",
           "Onions (2 chopped)",
@@ -11065,10 +11059,10 @@ export default [
     ],
     steps: [
       "Put the gammon in a very large pan with 2 litres water and bring to the boil",
-      "Remove from the heat and drain off the water – this helps to get rid of some of the saltiness",
+      "Remove from the heat and drain off the water \u2013 this helps to get rid of some of the saltiness",
       "Recover with 2 litres cold water and bring to the boil again",
       "Put everything but the frozen peas into the pan and bring to the boil",
-      "Reduce to a simmer and cook for 1½-2½ hrs, topping up the water as and when you need to, to a similar level it started at",
+      "Reduce to a simmer and cook for 1\u00bd-2\u00bd hrs, topping up the water as and when you need to, to a similar level it started at",
       "As the ham cooks and softens, you can halve it if you want, so it is all submerged under the liquid",
       "When the ham is tender enough to pull into shreds, it is ready",
       "Lift out the ham, peel off and discard the skin",
@@ -11076,7 +11070,7 @@ export default [
       "Remove bay from the soup and stir in the frozen peas",
       "Simmer for 1 min, then blend until smooth",
       "Add a splash of water if too thick, and return to the pan to heat through if it has cooled, or if you are making ahead",
-      "When you are ready to serve, mix the hot soup with most of the ham – gently reheat if made ahead",
+      "When you are ready to serve, mix the hot soup with most of the ham \u2013 gently reheat if made ahead",
       "Serve in bowls with the remaining ham scattered on top, and eat with crusty bread and butter.",
     ],
     tags: ["Soup", "Warm"],
@@ -11092,13 +11086,13 @@ export default [
       {
         _id: "recipe_bot-52931I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Brown Sugar (2 cups)",
-          "Butter (¼ cup)",
+          "Butter (\u00bc cup)",
           "Eggs (2)",
           "Vanilla Extract (1 tsp)",
           "Salt (1 tsp)",
-          "Plain Flour (½ cup)",
+          "Plain Flour (\u00bd cup)",
           "Milk (1 1/2 cups)",
         ],
       },
@@ -11127,7 +11121,7 @@ export default [
       {
         _id: "recipe_bot-52935I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Canola Oil (2 tbs)",
           "Beef Fillet (4)",
           "Beef Stock (1 1/2 cup)",
@@ -11135,8 +11129,8 @@ export default [
           "Garlic (2 cloves minced)",
           "Challots (1 medium finely diced)",
           "Mushrooms (4 oz)",
-          "Brandy (¼ cup)",
-          "Heavy Cream (¼ cup)",
+          "Brandy (\u00bc cup)",
+          "Heavy Cream (\u00bc cup)",
           "Dijon Mustard (1 tbs)",
           "Worcestershire Sauce (1 tbs)",
           "Tabasco Sauce (Dash)",
@@ -11151,11 +11145,11 @@ export default [
       'Heat oil in a 12" skillet over medium-high heat',
       "Season steaks with salt and pepper, and add to skillet; cook, turning once, until browned on both sides and cooked to desired doneness, about 4 to 5 minutes for medium-rare",
       "Transfer steaks to a plate, and set aside",
-      "Return skillet to high heat, and add stock; cook until reduced until to 1⁄2 cup, about 10 minutes",
+      "Return skillet to high heat, and add stock; cook until reduced until to 1\u20442 cup, about 10 minutes",
       "Pour into a bowl, and set aside",
       "Return skillet to heat, and add butter; add garlic and shallots, and cook, stirring, until soft, about 2 minutes",
       "Add mushrooms, and cook, stirring, until they release any liquid and it evaporates and mushrooms begin to brown, about 2 minutes",
-      "Add cognac, and light with a match to flambée; cook until flame dies down",
+      "Add cognac, and light with a match to flamb\u00e9e; cook until flame dies down",
       "Stir in reserved stock, cream, Dijon, Worcestershire, and hot sauce, and then return steaks to skillet; cook, turning in sauce, until warmed through and sauce is thickened, about 4 minutes",
       "Transfer steak to serving plates and stir parsley and chives into sauce; pour sauce over steaks to serve.",
     ],
@@ -11172,7 +11166,7 @@ export default [
       {
         _id: "recipe_bot-52936I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Salt Cod (450g)",
           "Ackee (400g)",
           "Onion (1 chopped)",
@@ -11205,7 +11199,7 @@ export default [
       "Add the spices, seasoning, pepper sauce and sliced peppers and continue to fry until the peppers are tender",
       "Add the chopped tomatoes, then the salt cod and mix together",
       "Lastly stir in the ackee very gently and leave to simmer until ready to serve",
-      "When you’re almost ready to eat, heat about 1cm/½in vegetable oil in a frying pan and heat until just smoking",
+      "When you\u2019re almost ready to eat, heat about 1cm/\u00bdin vegetable oil in a frying pan and heat until just smoking",
       "Shape the dumpling mix into plum-size balls and shallow-fry until golden-brown",
       "(CAUTION: hot oil can be dangerous",
       "Do not leave the pan unattended.)",
@@ -11224,7 +11218,7 @@ export default [
       {
         _id: "recipe_bot-52949I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Pork (200g)",
           "Egg (1)",
           "Water (Dash)",
@@ -11250,7 +11244,7 @@ export default [
       "Add some water and vinegar to make a starchy sauce",
       "Sweet and Sour Pork",
       "Cooking Instructions",
-      "Pour the cooking oil into a wok and heat to 190°C (375°F)",
+      "Pour the cooking oil into a wok and heat to 190\u00b0C (375\u00b0F)",
       "Add the marinated pork strips and fry them until they turn brown",
       "Remove the cooked pork from the wok and place on a plate",
       "Leave some oil in the wok",
@@ -11273,7 +11267,7 @@ export default [
       {
         _id: "recipe_bot-52950I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (1/2 lb)",
           "Salt (1/2 tsp)",
           "Sesame Seed Oil (1 tsp)",
@@ -11322,7 +11316,7 @@ export default [
       {
         _id: "recipe_bot-52953I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Rice Stick Noodles (1/2 bag)",
           "Prawns (8 oz)",
           "Egg (1/2)",
@@ -11373,7 +11367,7 @@ export default [
       {
         _id: "recipe_bot-52960I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Salmon (400g)",
           "Avocado (3)",
           "Cucumber (1)",
@@ -11409,7 +11403,7 @@ export default [
       {
         _id: "recipe_bot-52962I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Eggs (4)",
           "White Wine Vinegar (2 tbs)",
           "English Muffins (2)",
@@ -11426,7 +11420,7 @@ export default [
       "First make the Hollandaise sauce",
       "Put the lemon juice and vinegar in a small bowl, add the egg yolks and whisk with a balloon whisk until light and frothy",
       "Place the bowl over a pan of simmering water and whisk until mixture thickens",
-      "Gradually add the butter, whisking constantly until thick – if it looks like it might be splitting, then whisk off the heat for a few mins",
+      "Gradually add the butter, whisking constantly until thick \u2013 if it looks like it might be splitting, then whisk off the heat for a few mins",
       "Season and keep warm",
       "To poach the eggs, bring a large pan of water to the boil and add the vinegar",
       "Lower the heat so that the water is simmering gently",
@@ -11448,7 +11442,7 @@ export default [
       {
         _id: "recipe_bot-52963I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tbs)",
           "Red Onions (2 chopped)",
           "Red Chilli (1 finely chopped)",
@@ -11482,7 +11476,7 @@ export default [
       {
         _id: "recipe_bot-52964I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (50g)",
           "Onion (1 chopped)",
           "Cardamom (3 Pods)",
@@ -11500,9 +11494,9 @@ export default [
     ],
     steps: [
       "Melt 50g butter in a large saucepan (about 20cm across), add 1 finely chopped medium onion and cook gently over a medium heat for 5 minutes, until softened but not browned",
-      "Stir in 3 split cardamom pods, ¼ tsp turmeric, 1 small cinnamon stick and 2 bay leaves, then cook for 1 minute",
+      "Stir in 3 split cardamom pods, \u00bc tsp turmeric, 1 small cinnamon stick and 2 bay leaves, then cook for 1 minute",
       "Tip in 450g basmati rice and stir until it is all well coated in the spicy butter",
-      "Pour in 1 litre chicken or fish stock, add ½ teaspoon salt and bring to the boil, stir once to release any rice from the bottom of the pan",
+      "Pour in 1 litre chicken or fish stock, add \u00bd teaspoon salt and bring to the boil, stir once to release any rice from the bottom of the pan",
       "Cover with a close-fitting lid, reduce the heat to low and leave to cook very gently for 12 minutes",
       "Meanwhile, bring some water to the boil in a large shallow pan",
       "Add 750g un-dyed smoked haddock fillet and simmer for 4 minutes, until the fish is just cooked",
@@ -11528,7 +11522,7 @@ export default [
       {
         _id: "recipe_bot-52980I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (1.5kg)",
           "Bay Leaf (2 leaves)",
           "Shallots (2)",
@@ -11546,7 +11540,7 @@ export default [
       "Wash and peel the potatoes and cut into similarly sized pieces for even cooking",
       "In a large soup pot, boil the potatoes and the bay leaves in salted water for 20 minutes",
       "Discard the bay leaves",
-      "If you're not using a bag of ready-cut curly kale, wash the bunches thoroughly under cool running water to get rid of all soil—you wouldn't want that gritty texture in your finished dish",
+      "If you're not using a bag of ready-cut curly kale, wash the bunches thoroughly under cool running water to get rid of all soil\u2014you wouldn't want that gritty texture in your finished dish",
       "Trim any coarse stems and discard any brown leaves",
       "With a sharp knife, cut the curly kale into thin strips",
       "Peel and chop the shallots",
@@ -11575,7 +11569,7 @@ export default [
       {
         _id: "recipe_bot-52981I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Water (2L)",
           "Peas (300g)",
           "Pork (100g)",
@@ -11600,7 +11594,7 @@ export default [
       "Return to the boil, reduce the heat to a simmer and let cook, uncovered, for another 30 minutes, adding a little extra water if the ingredients start to stick to the bottom of the pot",
       "Add the smoked sausage for the last 15 minutes of cooking time",
       "When the vegetables are tender, remove the bacon and smoked sausage, slice thinly and set aside",
-      "If you prefer a smooth consistency, purée the soup with a stick blender",
+      "If you prefer a smooth consistency, pur\u00e9e the soup with a stick blender",
       "Season to taste with salt and pepper",
       "Add the meat back to the soup, setting some slices of rookworst aside",
       "Serve in heated bowls or soup plates, garnished with slices of rookworst and chopped celery leaf",
@@ -11619,7 +11613,7 @@ export default [
       {
         _id: "recipe_bot-52982I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Spaghetti (320g)",
           "Egg Yolks (6)",
           "Salt (As required)",
@@ -11651,16 +11645,16 @@ export default [
       "STEP 8",
       "Keep the heat under the pancetta on low",
       "When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta",
-      "Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet",
+      "Don\u2019t worry if a little water drops in the pan as well (you want this to happen) and don\u2019t throw the pasta water away yet",
       "STEP 9",
       "Mix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later",
       "STEP 10",
       "Take the pan of spaghetti and pancetta off the heat",
       "Now quickly pour in the eggs and cheese",
-      "Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated",
+      "Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn\u2019t scramble, and everything is coated",
       "STEP 11",
       "Add extra pasta cooking water to keep it saucy (several tablespoons should do it)",
-      "You don’t want it wet, just moist",
+      "You don\u2019t want it wet, just moist",
       "Season with a little salt, if needed",
       "STEP 12",
       "Use a long-pronged fork to twist the pasta on to the serving plate or bowl",
@@ -11680,7 +11674,7 @@ export default [
       {
         _id: "recipe_bot-52992I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (5)",
           "Carrots (12 ounces)",
           "Scallions (1)",
@@ -11739,7 +11733,7 @@ export default [
       {
         _id: "recipe_bot-52994I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (2)",
           "Apples (1)",
           "Garlic (2 cloves)",
@@ -11796,7 +11790,7 @@ export default [
       {
         _id: "recipe_bot-53005I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (350g)",
           "Salt (1 tsp)",
           "Sugar (2 tbs)",
@@ -11871,7 +11865,7 @@ export default [
       {
         _id: "recipe_bot-53008I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Tomatoes (4 large)",
           "Sugar (Pinch)",
           "Olive Oil (4 tbs)",
@@ -11895,7 +11889,7 @@ export default [
       "Finely chop the pulp, and keep any juices",
       "Sprinkle the insides of the tomatoes with a little sugar to take away the acidity, then place them on a baking tray",
       "Heat 2 tbsp olive oil in a large frying pan, add the onion and garlic, then gently cook for about 10 mins until soft but not coloured",
-      "Add the lamb, cinnamon and tomato purée, turn up the heat, then fry until the meat is browned",
+      "Add the lamb, cinnamon and tomato pur\u00e9e, turn up the heat, then fry until the meat is browned",
       "Add the tomato pulp and juice, the rice and the stock",
       "Season generously",
       "Bring to the boil, then simmer for 15 mins or until the rice is tender and the liquid has been absorbed",
@@ -11916,7 +11910,7 @@ export default [
       {
         _id: "recipe_bot-53023I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Herring (8)",
           "Onion (1 sliced)",
           "Olive Oil (1/2 cup)",
@@ -11949,7 +11943,7 @@ export default [
       {
         _id: "recipe_bot-53028I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Chicken Thighs (1 kg)",
           "Coriander (1 tbs)",
           "Cumin (1 tbs)",
@@ -12001,7 +11995,7 @@ export default [
       {
         _id: "recipe_bot-53040I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Spring Onions (1  bunch)",
           "Olive Oil (Dash)",
           "Red Chilli (1 finely sliced)",
@@ -12048,7 +12042,7 @@ export default [
       {
         _id: "recipe_bot-53054I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Rice (400g)",
           "Coconut Milk (150ml)",
           "Water (100ml)",
@@ -12062,7 +12056,7 @@ export default [
       },
     ],
     steps: [
-      "Soak glutinous rice with water for at least 1 ½ hours prior to using",
+      "Soak glutinous rice with water for at least 1 \u00bd hours prior to using",
       "Prepare a 9-inch round or square cake pan and spray with cooking spray or line with plastic wrap",
       "Mix coconut milk, water, salt and the rice",
       "Pour it into cake pan, topped with the pandan knots",
@@ -12093,7 +12087,7 @@ export default [
       {
         _id: "recipe_bot-53065I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Sushi Rice (300ml)",
           "Rice wine (100ml)",
           "Caster Sugar (2 tbs)",
@@ -12114,7 +12108,7 @@ export default [
       "Use a spoon to spread out a thin layer of mayonnaise down the middle of the rice",
       "STEP 3",
       "Add the filling",
-      "Get your child to top the mayonnaise with a line of their favourite fillings – here we’ve used tuna and cucumber",
+      "Get your child to top the mayonnaise with a line of their favourite fillings \u2013 here we\u2019ve used tuna and cucumber",
       "STEP 4",
       "Roll it up",
       "Lift the edge of the mat over the rice, applying a little pressure to keep everything in a tight roll",
@@ -12155,7 +12149,7 @@ export default [
       {
         _id: "recipe_bot-53067I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Green Pepper (4 whole)",
           "Olive Oil (1 tablespoon)",
           "Onion (1 small finely diced)",
@@ -12165,8 +12159,8 @@ export default [
           "Sweetcorn (1 cup)",
           "Diced Tomatoes (1 can)",
           "Cumin (1 teaspoon)",
-          "Chili Powder (½ tsp)",
-          "Smoked Paprika (½ tsp)",
+          "Chili Powder (\u00bd tsp)",
+          "Smoked Paprika (\u00bd tsp)",
           "Salt (To taste)",
           "Pepper (To taste)",
           "Shredded Mexican Cheese (1 1/2 cup)",
@@ -12175,7 +12169,7 @@ export default [
       },
     ],
     steps: [
-      "Preheat your oven to 375°F (190°C)",
+      "Preheat your oven to 375\u00b0F (190\u00b0C)",
       "Lightly grease a 9x13-inch baking dish or a similar-sized casserole dish",
       "Place the bell pepper halves in the prepared baking dish, cut side up",
       "Bake for 15-20 minutes, or until slightly softened",
@@ -12205,7 +12199,7 @@ export default [
       {
         _id: "recipe_bot-53082I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Strawberries (2 pint)",
           "Sugar (4 tbs)",
           "Grand Marnier (4 tbs)",
@@ -12239,7 +12233,7 @@ export default [
       {
         _id: "recipe_bot-52772I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "soy sauce (3/4 cup)",
           "water (1/2 cup)",
           "brown sugar (1/4 cup)",
@@ -12253,9 +12247,9 @@ export default [
       },
     ],
     steps: [
-      "Preheat oven to 350° F",
+      "Preheat oven to 350\u00b0 F",
       "Spray a 9x13-inch baking pan with non-stick spray",
-      "Combine soy sauce, ½ cup water, brown sugar, ginger and garlic in a small saucepan and cover",
+      "Combine soy sauce, \u00bd cup water, brown sugar, ginger and garlic in a small saucepan and cover",
       "Bring to a boil over medium heat",
       "Remove lid and cook for one minute once boiling",
       "Meanwhile, stir together the corn starch and 2 tablespoons of water in a separate dish until smooth",
@@ -12287,7 +12281,7 @@ export default [
       {
         _id: "recipe_bot-52806I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "lemons (2 Juice)",
           "paprika (4 tsp)",
           "red onions (2 finely chopped)",
@@ -12296,10 +12290,10 @@ export default [
           "Greek yogurt (300ml)",
           "ginger (large piece)",
           "garlic clove (4)",
-          "garam masala (¾ tsp)",
-          "ground cumin (¾ tsp)",
-          "chilli powder (½ tsp)",
-          "turmeric (¼ tsp)",
+          "garam masala (\u00be tsp)",
+          "ground cumin (\u00be tsp)",
+          "chilli powder (\u00bd tsp)",
+          "turmeric (\u00bc tsp)",
         ],
       },
     ],
@@ -12326,7 +12320,7 @@ export default [
       {
         _id: "recipe_bot-52814I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (225g new)",
           "green beans (100g)",
           "sunflower oil (1 tbsp)",
@@ -12347,7 +12341,7 @@ export default [
       "Throw in the beans and cook for a further 3 minutes, by which time both should be just tender but not too soft",
       "Drain and put to one side",
       "In a wok or large frying pan, heat the oil until very hot, then drop in the garlic and cook until golden, this should take only a few seconds",
-      "Don’t let it go very dark or it will spoil the taste",
+      "Don\u2019t let it go very dark or it will spoil the taste",
       "Spoon in the curry paste and stir it around for a few seconds to begin to cook the spices and release all the flavours",
       "Next, pour in the coconut milk and let it come to a bubble",
       "Stir in the fish sauce and sugar, then the pieces of chicken",
@@ -12369,7 +12363,7 @@ export default [
       {
         _id: "recipe_bot-52822I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "sausages (8)",
           "vegetable oil (3 tbsp)",
           "plain flour (100g)",
@@ -12381,7 +12375,7 @@ export default [
       },
     ],
     steps: [
-      "Preheat the oven to 200°C/fan180°C/gas 6",
+      "Preheat the oven to 200\u00b0C/fan180\u00b0C/gas 6",
       "fry sausages in a non-stick pan until browned",
       "Drizzle vegetable oil in a 30cm x 25cm x 6cm deep roasting tray and heat in the oven for 5 minutes",
       "Put the plain flour in a bowl, crack in the medium free-range eggs, then stir in the grated horseradish",
@@ -12403,7 +12397,7 @@ export default [
       {
         _id: "recipe_bot-52845I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tblsp)",
           "Onion (1 large)",
           "Garlic (1 clove peeled crushed)",
@@ -12421,13 +12415,13 @@ export default [
     steps: [
       "Heat oven to 180C/160C fan/gas 4",
       "Heat the oil in a large frying pan and cook the onion for 8-10 mins until softened",
-      "Add the garlic, Worcestershire sauce and 2 tsp tomato purée, and stir until combined",
+      "Add the garlic, Worcestershire sauce and 2 tsp tomato pur\u00e9e, and stir until combined",
       "Set aside to cool",
       "Put the turkey mince, egg, breadcrumbs and cooled onion mix in a large bowl and season well",
       "Mix everything to combine, then shape into a rectangular loaf and place in a large roasting tin",
       "Spread 2 tbsp barbecue sauce over the meatloaf and bake for 30 mins",
       "Meanwhile, drain 1 can of beans only, then pour both cans into a large bowl",
-      "Add the remaining barbecue sauce and tomato purée",
+      "Add the remaining barbecue sauce and tomato pur\u00e9e",
       "Season and set aside",
       "When the meatloaf has had its initial cooking time, scatter the beans around the outside and bake for 15 mins more until the meatloaf is cooked through and the beans are piping hot",
       "Scatter over the parsley and serve the meatloaf in slices.",
@@ -12445,14 +12439,14 @@ export default [
       {
         _id: "recipe_bot-52852I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (450g)",
           "Olive Oil (2 tblsp)",
           "Eggs (4)",
           "Red Wine Vinegar (1 tbls)",
           "Capers (2 tblsp)",
           "Sunflower Oil (50g)",
-          "Red Onions (½)",
+          "Red Onions (\u00bd)",
           "Spinach (100g)",
           "Tuna (400g)",
         ],
@@ -12482,7 +12476,7 @@ export default [
       {
         _id: "recipe_bot-52869I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Tahini (50g)",
           "Lemon (zest and juice of 1)",
           "Olive Oil (2 tblsp)",
@@ -12503,7 +12497,7 @@ export default [
       "Add the red onion, along with a pinch of salt, and fry for 2 mins until starting to soften and colour",
       "Add the garlic, pepper, green beans and courgette and fry for 5 min, stirring frequently",
       "Tip in the kale, lentils and the tahini dressing",
-      "Keep the pan on the heat for a couple of mins, stirring everything together until the kale is wilted and it’s all coated in the creamy dressing.",
+      "Keep the pan on the heat for a couple of mins, stirring everything together until the kale is wilted and it\u2019s all coated in the creamy dressing.",
     ],
     tags: ["Pulse"],
     photo: "https://www.themealdb.com/images/media/meals/vpxyqt1511464175.jpg",
@@ -12518,7 +12512,7 @@ export default [
       {
         _id: "recipe_bot-52882I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (1kg)",
           "Butter (Knob)",
           "Milk (Dash)",
@@ -12570,7 +12564,7 @@ export default [
       {
         _id: "recipe_bot-52892I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Plain Flour (250g)",
           "Butter (135g)",
           "Golden Syrup (400g)",
@@ -12585,7 +12579,7 @@ export default [
       "Add about three tablespoons of cold water and mix to a firm dough, wrap in cling film and chill in the fridge for about 20 minutes",
       "Preheat the oven to 200C/400F/Gas 6 and put a heavy baking tray in the oven to heat up",
       "Grease a deep 18cm/7in loose-bottomed fluted flan tin with butter",
-      "Remove about 150g/5½oz of pastry from the main ball and set aside for the lattice top",
+      "Remove about 150g/5\u00bdoz of pastry from the main ball and set aside for the lattice top",
       "Roll the rest of the pastry out thinly on a lightly floured work surface and line the prepared flan tin with the pastry",
       "Prick the base with a fork, to stop the base rising up during baking",
       "Place the reserved pastry for the lattice top on cling film and roll out thinly",
@@ -12596,7 +12590,7 @@ export default [
       "Once melted, add the breadcrumbs, lemon juice and zest to the syrup",
       "(You can add less lemon if you would prefer less citrus taste.) If the mixture looks runny, add a few more breadcrumbs",
       "Pour the syrup mixture into the lined tin and level the surface",
-      "Remove the reserved pastry from the fridge and cut into long strips, 1cm/½in wide",
+      "Remove the reserved pastry from the fridge and cut into long strips, 1cm/\u00bdin wide",
       "Make sure they are all longer than the edges of the tart tin",
       "Egg wash the edge of the pastry in the tin, and start to make the woven laying lattice pattern over the mixture, leave the strips hanging over the edge of the tin",
       "Once the lattice is in place, use the tin edge to cut off the strips by pressing down with your hands, creating a neat finish",
@@ -12619,7 +12613,7 @@ export default [
       {
         _id: "recipe_bot-52909I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Puff Pastry (300g)",
           "Plain Flour (Dusting)",
           "Braeburn Apples (6)",
@@ -12635,15 +12629,15 @@ export default [
       "Heat oven to 180C/160C fan/gas 4",
       "Peel, quarter and core the apples",
       "Put the sugar in a flameproof 20cm ceramic Tatin dish or a 20cm ovenproof heavy-based frying pan and place over a medium-high heat",
-      "Cook the sugar for 5-7 mins to a dark amber caramel syrup that’s starting to smoke, then turn off the heat and stir in the 60g diced chilled butter",
+      "Cook the sugar for 5-7 mins to a dark amber caramel syrup that\u2019s starting to smoke, then turn off the heat and stir in the 60g diced chilled butter",
       "To assemble the Tarte Tatin, arrange the apple quarters very tightly in a circle around the edge of the dish first, rounded-side down, then fill in the middle in a similar fashion",
       "Gently press with your hands to ensure there are no gaps",
       "Brush the fruit with the melted butter",
-      "Bake in the oven for 30 mins, then remove and place the disc of frozen puff pastry on top – it will quickly defrost",
+      "Bake in the oven for 30 mins, then remove and place the disc of frozen puff pastry on top \u2013 it will quickly defrost",
       "Tuck the edges down the inside of the dish and, with a knife, prick a few holes in the pastry to allow steam to escape",
       "Bake for a further 40-45 mins until the pastry is golden brown and crisp",
       "Allow to cool to room temperature for 1 hr before running a knife around the edge of the dish and inverting it onto a large serving plate that is deep enough to contain the juices",
-      "Serve with crème fraîche or vanilla ice cream.",
+      "Serve with cr\u00e8me fra\u00eeche or vanilla ice cream.",
     ],
     tags: ["Treat", "Tart", "Desert", "DinnerParty"],
     photo: "https://www.themealdb.com/images/media/meals/ryspuw1511786688.jpg",
@@ -12658,15 +12652,15 @@ export default [
       {
         _id: "recipe_bot-52912I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Butter (50g)",
           "Parmesan (25g)",
           "Milk (300ml)",
           "Bay Leaves (2)",
           "Plain Flour (5 tbs)",
-          "English Mustard (½ tsp)",
+          "English Mustard (\u00bd tsp)",
           "Cayenne Pepper (Pod of)",
-          "Gruyère (140g)",
+          "Gruy\u00e8re (140g)",
           "Eggs (3)",
           "Goats Cheese (8 slices)",
           "Double Cream (150ml)",
@@ -12682,18 +12676,18 @@ export default [
       "Discard the bay leaves, add the butter and flour, and return to a low heat",
       "Very gently simmer, stirring continuously with a balloon whisk, for about 6 mins until you get a smooth, thick white sauce",
       "Make sure that you get right into the corners of the pan to stop the sauce from catching or becoming lumpy",
-      "Once thickened, transfer the sauce to a large bowl and stir in the mustard powder, cayenne pepper, Gruyère and egg yolks until fully combined",
+      "Once thickened, transfer the sauce to a large bowl and stir in the mustard powder, cayenne pepper, Gruy\u00e8re and egg yolks until fully combined",
       "In a spotlessly clean bowl and with a clean whisk, beat the egg whites just until peaks begin to form",
       "Carefully fold the egg whites into the cheese sauce in three stages making sure you fold, rather than stir, to keep the egg whites light and airy",
-      "Fill the prepared ramekins with the soufflé mix",
-      "Top each soufflé with a slice of goat’s cheese, then place on a baking tray",
+      "Fill the prepared ramekins with the souffl\u00e9 mix",
+      "Top each souffl\u00e9 with a slice of goat\u2019s cheese, then place on a baking tray",
       "Bake for 20-25 mins or until springy and well risen but cooked through",
-      "Leave to cool, then run a knife around the edge of each dish and remove the soufflés",
-      "If preparing in advance, place soufflés upside down (for neat presentation), on a tray",
+      "Leave to cool, then run a knife around the edge of each dish and remove the souffl\u00e9s",
+      "If preparing in advance, place souffl\u00e9s upside down (for neat presentation), on a tray",
       "Cover tray in cling film",
       "Chill for a few days or freeze for up to 1 month",
       "When ready to re-bake, heat oven to 200C/180C fan/gas 6",
-      "Place the upside-down soufflés in a shallow baking dish, top with the remaining goat’s cheese slices and pour over the cream (this stops them from drying out when baked for the second time)",
+      "Place the upside-down souffl\u00e9s in a shallow baking dish, top with the remaining goat\u2019s cheese slices and pour over the cream (this stops them from drying out when baked for the second time)",
       "Cook for 8-10 mins until golden",
       "Serve immediately alongside some simply dressed salad.",
     ],
@@ -12710,15 +12704,15 @@ export default [
       {
         _id: "recipe_bot-52926I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (1 medium)",
           "Sunflower Oil (1 tsp)",
           "Minced Pork (500g)",
           "Onion (1 finely chopped)",
           "Garlic Clove (1 finely chopped)",
-          "Cinnamon (¼ tsp)",
-          "Allspice (¼ tsp)",
-          "Nutmeg (¼ tsp)",
+          "Cinnamon (\u00bc tsp)",
+          "Allspice (\u00bc tsp)",
+          "Nutmeg (\u00bc tsp)",
           "Vegetable Stock (100ml)",
           "Shortcrust Pastry (400g)",
           "Egg (To Glaze)",
@@ -12753,13 +12747,13 @@ export default [
       {
         _id: "recipe_bot-52929I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (2 cups)",
           "Sugar (1/3 cup)",
           "Baking Powder (3 tsp)",
-          "Salt (½ tsp)",
+          "Salt (\u00bd tsp)",
           "Egg (1 beaten)",
-          "Milk (¾ cup)",
+          "Milk (\u00be cup)",
           "Oil (3 tbs)",
           "Oil (for frying)",
           "Icing Sugar (garnish)",
@@ -12787,7 +12781,7 @@ export default [
       {
         _id: "recipe_bot-52970I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Orange (1 large)",
           "Caster Sugar (300g)",
           "Olive Oil (75 ml)",
@@ -12827,7 +12821,7 @@ export default [
       {
         _id: "recipe_bot-52972I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Lamb Mince (500g)",
           "Garlic (2 cloves minced)",
           "Onion (1)",
@@ -12866,7 +12860,7 @@ export default [
       {
         _id: "recipe_bot-52975I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (2 tbs)",
           "Spring Onions (8)",
           "Spinach (200g)",
@@ -12883,21 +12877,21 @@ export default [
     ],
     steps: [
       "Heat 2 tsp of the oil in a large saucepan and cook the spring onions over a low heat for 3 minutes or until beginning to soften",
-      "Add the spinach, cover with a tight-fitting lid and cook for a further 2–3 minutes or until tender and wilted, stirring once or twice",
+      "Add the spinach, cover with a tight-fitting lid and cook for a further 2\u20133 minutes or until tender and wilted, stirring once or twice",
       "Tip the mixture into a sieve or colander and leave to drain and cool",
       "Using a saucer as a guide, cut out 24 rounds about 12.5 cm (5 in) in diameter from the filo pastry, cutting 6 rounds from each sheet",
       "Stack the filo rounds in a pile, then cover with cling film to prevent them from drying out",
       "When the spinach mixture is cool, squeeze out as much excess liquid as possible, then transfer to a bowl",
       "Add the tuna, eggs, hot pepper sauce, and salt and pepper to taste",
       "Mix well",
-      "Preheat the oven to 200°C (400°F, gas mark 6)",
+      "Preheat the oven to 200\u00b0C (400\u00b0F, gas mark 6)",
       "Take one filo round and very lightly brush with some of the remaining oil",
       "Top with a second round and brush with a little oil, then place a third round on top and brush with oil",
       "Place a heaped tbsp of the filling in the middle of the round, then fold the pastry over to make a half-moon shape",
       "Fold in the edges, twisting them to seal, and place on a non-stick baking sheet",
       "Repeat with the remaining pastry and filling to make 8 briks in all",
       "Lightly brush the briks with the remaining oil",
-      "Bake for 12–15 minutes or until the pastry is crisp and golden brown",
+      "Bake for 12\u201315 minutes or until the pastry is crisp and golden brown",
       "Meanwhile, combine the tomatoes and cucumber in a bowl and sprinkle with the lemon juice and seasoning to taste",
       "Serve the briks hot with this salad and the chutney.",
     ],
@@ -12914,7 +12908,7 @@ export default [
       {
         _id: "recipe_bot-53026I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Broad Beans (3 cups)",
           "Spring Onions (6)",
           "Garlic Clove (4)",
@@ -12935,7 +12929,7 @@ export default [
       "(If blended too smoothly, the batter tends to fall apart during cooking.) Add the scallions, garlic, cilantro, cumin, baking powder, cayenne, salt, pepper, and coriander, if using",
       "Refrigerate for at least 30 minutes",
       "Shape the bean mixture into 1-inch balls.Flatten slightly and coat with flour",
-      "Heat at least 1½-inches of oil over medium heat to 365 degrees",
+      "Heat at least 1\u00bd-inches of oil over medium heat to 365 degrees",
       "Fry the patties in batches, turning once, until golden brown on all sides, about 5 minutes.Remove with a wire mesh skimmer or slotted spoon",
       "Serve as part of a meze or in pita bread with tomato-cucumber salad and tahina sauce.",
     ],
@@ -12952,7 +12946,7 @@ export default [
       {
         _id: "recipe_bot-53032I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Pork Chops (4)",
           "Flour (100g)",
           "Eggs (2 Beaten)",
@@ -12967,18 +12961,18 @@ export default [
     ],
     steps: [
       "STEP 1",
-      "Remove the large piece of fat on the edge of each pork loin, then bash each of the loins between two pieces of baking parchment until around 1cm in thickness – you can do this using a meat tenderiser or a rolling pin",
-      "Once bashed, use your hands to reshape the meat to its original shape and thickness – this step will ensure the meat is as succulent as possible",
+      "Remove the large piece of fat on the edge of each pork loin, then bash each of the loins between two pieces of baking parchment until around 1cm in thickness \u2013 you can do this using a meat tenderiser or a rolling pin",
+      "Once bashed, use your hands to reshape the meat to its original shape and thickness \u2013 this step will ensure the meat is as succulent as possible",
       "STEP 2",
       "Put the flour, eggs and panko breadcrumbs into three separate wide-rimmed bowls",
       "Season the meat, then dip first in the flour, followed by the eggs, then the breadcrumbs",
       "STEP 3",
-      "In a large frying or sauté pan, add enough oil to come 2cm up the side of the pan",
-      "Heat the oil to 180C – if you don’t have a thermometer, drop a bit of panko into the oil and if it sinks a little then starts to fry, the oil is ready",
+      "In a large frying or saute\u0301 pan, add enough oil to come 2cm up the side of the pan",
+      "Heat the oil to 180C \u2013 if you don\u2019t have a thermometer, drop a bit of panko into the oil and if it sinks a little then starts to fry, the oil is ready",
       "Add two pork chops and cook for 1 min 30 secs on each side, then remove and leave to rest on a wire rack for 5 mins",
       "Repeat with the remaining pork chops",
       "STEP 4",
-      "While the pork is resting, make the sauce by whisking the ingredients together, adding a splash of water if it’s particularly thick",
+      "While the pork is resting, make the sauce by whisking the ingredients together, adding a splash of water if it\u2019s particularly thick",
       "Slice the tonkatsu and serve drizzled with the sauce.",
     ],
     tags: [],
@@ -12994,7 +12988,7 @@ export default [
       {
         _id: "recipe_bot-53057I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Beef (500g)",
           "Onions (2 chopped)",
           "Carrots (2 chopped)",
@@ -13011,7 +13005,7 @@ export default [
       },
     ],
     steps: [
-      "Clean the meat from the veins if there are some and cut it into smaller pieces, 3 × 3 cm",
+      "Clean the meat from the veins if there are some and cut it into smaller pieces, 3 \u00d7 3 cm",
       "Marinate the meat in the mustard and spices and let it sit in the refrigerator for one hour",
       "Heat one tablespoon of pork fat or vegetable oil in a pot and fry the meat on all sides until it gets browned",
       "Once the meat is cooked, transfer it to a plate and add another tablespoon of fat to the pot",
@@ -13024,7 +13018,7 @@ export default [
       "Cover the pot and cook over low heat for an hour, stirring occasionally",
       "After the first hour, pour over the rest of the water or stock and cook for another 30-45 minutes",
       "Allow the stew to cool slightly and serve it with a sprinkle of chopped parsley and few slices of fresh hot pepper if you like to spice it up a bit",
-      "Slice ​​some fresh bread, season the salad and simply enjoying these wonderful flavors",
+      "Slice \u200b\u200bsome fresh bread, season the salad and simply enjoying these wonderful flavors",
     ],
     tags: ["Soup"],
     photo: "https://www.themealdb.com/images/media/meals/n1hcou1628770088.jpg",
@@ -13039,7 +13033,7 @@ export default [
       {
         _id: "recipe_bot-53075I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Egg Plants (4)",
           "Eggs (2)",
           "Salt (1 tsp)",
@@ -13073,7 +13067,7 @@ export default [
       {
         _id: "recipe_bot-52775I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "green red lentils (1 cups)",
           "Carrots (1)",
           "onion (1)",
@@ -13114,7 +13108,7 @@ export default [
       {
         _id: "recipe_bot-52794I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Self-raising Flour (1 1/4 cup)",
           "coco sugar (1/2 cup)",
           "cacao (1/3 cup raw)",
@@ -13144,16 +13138,16 @@ export default [
       {
         _id: "recipe_bot-52828I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Pork (1.5 pounds sliced)",
           "Rice Vermicelli (1 package thin)",
           "Egg Rolls (4-6)",
           "Challots (3 tablespoons minced)",
           "Garlic (1.5 tablespoons minced garlic)",
-          "Sugar (¼ cup)",
+          "Sugar (\u00bc cup)",
           "Fish Sauce (1 tablespoon)",
-          "Soy sauce (½ tablespoon thick)",
-          "Pepper (½ tablespoon)",
+          "Soy sauce (\u00bd tablespoon thick)",
+          "Pepper (\u00bd tablespoon)",
           "Olive Oil (3 tablespoons)",
           "Cucumber (Sliced)",
           "Mint (Leaves)",
@@ -13162,7 +13156,7 @@ export default [
       },
     ],
     steps: [
-      'Slice the uncooked pork thinly, about ⅛"',
+      'Slice the uncooked pork thinly, about \u215b"',
       "It helps to slightly freeze it (optional)",
       "Mince garlic and shallots",
       "Mix in a bowl with sugar, fish sauce, thick soy sauce, pepper, and oil until sugar dissolves",
@@ -13185,7 +13179,7 @@ export default [
       {
         _id: "recipe_bot-52838I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Olive Oil (1 tbls)",
           "Duck Legs (4)",
           "Onions (2 finely chopped)",
@@ -13212,7 +13206,7 @@ export default [
       "Add the garlic and cook for a further 1 min, then stir in the cinnamon and flour and cook for a further min",
       "Return the duck to the pan, add the wine, tomatoes, stock, herbs, sugar and seasoning",
       "Bring to a simmer, then lower the heat, cover with a lid and cook for 2 hrs, stirring every now and then",
-      "Carefully lift the duck legs out of the sauce and place on a plate – they will be very tender so try not to lose any of the meat",
+      "Carefully lift the duck legs out of the sauce and place on a plate \u2013 they will be very tender so try not to lose any of the meat",
       "Pull off and discard the fat, then shred the meat with 2 forks and discard the bones",
       "Add the meat back to the sauce with the milk and simmer, uncovered, for a further 10-15 mins while you cook the pasta",
       "Cook the pasta following pack instructions, then drain, reserving a cup of the pasta water, and add the pasta to the ragu",
@@ -13232,12 +13226,12 @@ export default [
       {
         _id: "recipe_bot-52863I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Rapeseed Oil (1)",
           "Onion (1)",
           "Garlic (3 cloves)",
           "Paprika (1 tsp)",
-          "Cumin (½ tsp)",
+          "Cumin (\u00bd tsp)",
           "Thyme (1 tblsp)",
           "Carrots (3 Medium)",
           "Celery (2 small stalks)",
@@ -13253,7 +13247,7 @@ export default [
     ],
     steps: [
       "Heat the oil in a large, heavy-based pan",
-      "Add the onions and cook gently for 5 – 10 mins until softened",
+      "Add the onions and cook gently for 5 \u2013 10 mins until softened",
       "Add the garlic, spices, dried thyme, carrots, celery and peppers and cook for 5 minutes",
       "Add the tomatoes, stock, courgettes and fresh thyme and cook for 20 - 25 minutes",
       "Take out the thyme sprigs",
@@ -13273,7 +13267,7 @@ export default [
       {
         _id: "recipe_bot-52867I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Roasted Vegetables (400g)",
           "Kidney Beans (1 can)",
           "Chopped Tomatoes (1 can)",
@@ -13300,7 +13294,7 @@ export default [
       {
         _id: "recipe_bot-53000I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Potatoes (3 Lbs)",
           "Small Potatoes (3 Lbs)",
           "Salted Butter (1/2 cup)",
@@ -13329,7 +13323,7 @@ export default [
       "1   cup chopped fresh mushrooms",
       "1   cup pearl onions",
       "TOPPING:",
-      "Preheat oven to 450°",
+      "Preheat oven to 450\u00b0",
       "Bake potatoes on a foil-lined baking sheet until tender, about 45 minutes",
       "Let cool slightly, then peel",
       "Press potatoes through a ricer, food mill, or colander into a large bowl",
@@ -13340,14 +13334,14 @@ export default [
       "Soak dried porcini in 3 cups hot water; set aside",
       "Combine lentils, 1 garlic clove, 1 tsp",
       "salt, and 4 cups water in a medium saucepan",
-      "Bring to a boil; reduce heat and simmer, stirring occasionally, until lentils are tender but not mushy, 15–20 minutes",
+      "Bring to a boil; reduce heat and simmer, stirring occasionally, until lentils are tender but not mushy, 15\u201320 minutes",
       "Drain lentils and discard garlic",
       "Heat 3 Tbsp",
       "oil in a large heavy pot over medium heat",
       "Add onions and cook, stirring occasionally, until soft, about 12 minutes",
       "Add chopped garlic and cook for 1 minute",
       "Stir in tomato paste",
-      "Cook, stirring constantly, until tomato paste is caramelized, 2–3 minutes",
+      "Cook, stirring constantly, until tomato paste is caramelized, 2\u20133 minutes",
       "Add bay leaves and wine; stir, scraping up any browned bits",
       "Stir in porcini, slowly pouring porcini soaking liquid into pan but leaving any sediment behind",
       "Bring to a simmer and cook until liquid is reduced by half, about 10 minutes",
@@ -13359,11 +13353,11 @@ export default [
       "Whisk in miso",
       "Season sauce with salt and pepper",
       "Set aside",
-      "Preheat oven to 450°",
+      "Preheat oven to 450\u00b0",
       "Toss vegetables and pearl onions with remaining 2 Tbsp",
       "oil, 5 garlic cloves, and rosemary sprigs in a large bowl; season with salt and pepper",
       "Divide between 2 rimmed baking sheets",
-      "Roast, stirring once, until tender, 20–25 minutes",
+      "Roast, stirring once, until tender, 20\u201325 minutes",
       "Transfer garlic cloves to a small bowl; mash well with a fork and stir into sauce",
       "Discard rosemary",
       "DO AHEAD: Lentils, sauce, and vegetables can be made 1 day ahead",
@@ -13389,7 +13383,7 @@ export default [
       {
         _id: "recipe_bot-52917I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Double Cream (568ml)",
           "White Chocolate Chips (100g)",
           "Vanilla (Pod of)",
@@ -13410,7 +13404,7 @@ export default [
       "Place in a deep roasting tray and pour boiling water halfway up the sides",
       "Bake for 15-20 mins until just set with a wobbly centre",
       "Chill in the fridge for at least 4 hrs",
-      "To serve, sprinkle some sugar on top of the brûlées and caramelise with a blowtorch or briefly under a hot grill",
+      "To serve, sprinkle some sugar on top of the br\u00fbl\u00e9es and caramelise with a blowtorch or briefly under a hot grill",
       "Leave caramel to harden, then serve.",
     ],
     tags: ["Desert", "DinnerParty", "Pudding"],
@@ -13426,7 +13420,7 @@ export default [
       {
         _id: "recipe_bot-52948I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Pork (1lb)",
           "Garlic Clove (3 chopped)",
           "Ginger (1 tsp)",
@@ -13458,13 +13452,13 @@ export default [
     recipe_id: "recipeBot-R301",
     post_id: "recipeBot-P301",
     user_created: "recipeBot",
-    name: "Walnut Roll Gužvara",
+    name: "Walnut Roll Gu\u017evara",
     description: "Dessert | Croatian",
     ingredients_sec: [
       {
         _id: "recipe_bot-53062I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Flour (450g)",
           "Caster Sugar (55g)",
           "Yeast (2 parts)",
@@ -13490,7 +13484,7 @@ export default [
       "Roll up the oblongs as tightly as possible to give two 12 inch sausages",
       "Place these side by side, touching each other, on a greased baking sheet",
       "Cover and leave to rise for about 40 minutes",
-      "Heat oven to 200ºC (425ºF)",
+      "Heat oven to 200\u00baC (425\u00baF)",
       "Bake for 30-35 minutes until well risen and golden brown",
       "Bread should sound hollow when the base is tapped",
       "Remove from oven and brush the hot bread top with milk",
@@ -13509,7 +13503,7 @@ export default [
       {
         _id: "recipe_bot-52871I1",
         title: "Main Ingredients",
-        "ingredients:": [
+        ingredients: [
           "Udon Noodles (250g)",
           "Sesame Seed Oil (2 tbs)",
           "Onion (1 sliced)",
@@ -13529,10 +13523,10 @@ export default [
       "(As they are so thick, adding cold water helps them to cook a little bit slower so the middle cooks through)",
       "If using frozen or fresh noodles, cook for 2 mins or until al dente; dried will take longer, about 5-6 mins",
       "Drain and leave in the colander",
-      "Heat 1 tbsp of the oil, add the onion and cabbage and sauté for 5 mins until softened",
-      "Add the mushrooms and some spring onions, and sauté for 1 more min",
+      "Heat 1 tbsp of the oil, add the onion and cabbage and saut\u00e9 for 5 mins until softened",
+      "Add the mushrooms and some spring onions, and saut\u00e9 for 1 more min",
       "Pour in the remaining sesame oil and the noodles",
-      "If using cold noodles, let them heat through before adding the ingredients for the sauce – otherwise tip in straight away and keep stir-frying until sticky and piping hot",
+      "If using cold noodles, let them heat through before adding the ingredients for the sauce \u2013 otherwise tip in straight away and keep stir-frying until sticky and piping hot",
       "Sprinkle with the remaining spring onions.",
     ],
     tags: ["LowCalorie"],

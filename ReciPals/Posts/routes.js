@@ -9,8 +9,8 @@ export default function PostRoutes(app) {
   });
 
   // finds all posts of the user
-  const findAllPosts = (req, res) => {
-    const posts = postsDao.findAllPosts();
+  const findAllPosts = async (req, res) => {
+    const posts = await postsDao.findAllPosts();
     res.json(posts);
   };
   app.get("/api/posts", findAllPosts);
