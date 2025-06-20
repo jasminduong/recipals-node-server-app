@@ -15,13 +15,27 @@ const app = express();
 
 const allowedOrigins = [
   "https://recipals.netlify.app",
-  "http://localhost:5173"
-]
+  "http://localhost:5173",
+];
 
-app.use(
+/*app.use(
   cors({
     credentials: true,
     origin: allowedOrigins,
+  })
+);*/
+app.use(
+  cors({
+    credentials: true,
+    origin: function (origin, callback) {
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
   })
 );
 
@@ -47,7 +61,7 @@ if (process.env.NODE_ENV === "production") {
 }*/
 
 // PRODUCTION
-const sessionOptions = {
+/*const sessionOptions = {
   secret:
     process.env.SESSION_SECRET,
   resave: false,
@@ -59,6 +73,22 @@ if (process.env.NODE_ENV !== "development") {
     sameSite: "none",
     secure: true,
   };
+}*/
+// PRODUCTION
+const sessionOptions = {
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    secure: true, 
+    httpOnly: true, 
+    sameSite: "none", 
+    maxAge: 24 * 60 * 60 * 1000, 
+  },
+};
+
+if (process.env.NODE_ENV === "production") {
+  sessionOptions.proxy = true; 
 }
 
 app.use(session(sessionOptions));
