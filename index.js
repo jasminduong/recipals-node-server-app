@@ -18,13 +18,13 @@ const allowedOrigins = [
   "http://localhost:5173",
 ];
 
-/*app.use(
+app.use(
   cors({
     credentials: true,
     origin: allowedOrigins,
   })
-);*/
-app.use(
+);
+/*app.use(
   cors({
     credentials: true,
     origin: function (origin, callback) {
@@ -37,7 +37,7 @@ app.use(
       }
     },
   })
-);
+);*/
 
 // DEVELOPMENT
 /*const sessionOptions = {
@@ -61,7 +61,7 @@ if (process.env.NODE_ENV === "production") {
 }*/
 
 // PRODUCTION
-/*const sessionOptions = {
+const sessionOptions = {
   secret:
     process.env.SESSION_SECRET,
   resave: false,
@@ -73,9 +73,9 @@ if (process.env.NODE_ENV !== "development") {
     sameSite: "none",
     secure: true,
   };
-}*/
+}
 // PRODUCTION
-const sessionOptions = {
+/*const sessionOptions = {
   secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
@@ -89,7 +89,7 @@ const sessionOptions = {
 
 if (process.env.NODE_ENV === "production") {
   sessionOptions.proxy = true; 
-}
+}*/
 
 app.use(session(sessionOptions));
 app.use(express.json());
