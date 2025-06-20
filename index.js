@@ -5,7 +5,10 @@ import "dotenv/config";
 import UserRoutes from "./ReciPals/Users/routes.js";
 import PostRoutes from "./ReciPals/Posts/routes.js";
 import RecipeRoutes from "./ReciPals/Recipes/routes.js";
+import mongoose from "mongoose";
 
+const CONNECTION_STRING = "mongodb://127.0.0.1:27017/recipals"
+mongoose.connect(CONNECTION_STRING);
 const app = express();
 
 app.use(
