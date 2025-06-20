@@ -24,75 +24,41 @@ app.use(
     origin: allowedOrigins,
   })
 );
-/*app.use(
-  cors({
-    credentials: true,
-    origin: function (origin, callback) {
-      if (!origin) return callback(null, true);
 
-      if (allowedOrigins.indexOf(origin) !== -1) {
-        callback(null, true);
-      } else {
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
-  })
-);*/
+app.use((req, res, next) => {
+  console.log("Request origin:", req.get("Origin"));
+  console.log("Request method:", req.method);
+  console.log("Request path:", req.path);
+  next();
+});
 
-// DEVELOPMENT
-/*const sessionOptions = {
+const sessionOptions = {
   secret: process.env.SESSION_SECRET || "recipals",
   resave: false,
   saveUninitialized: false,
   cookie: {
-    secure: false,
     httpOnly: true,
-    maxAge: 24 * 60 * 60 * 1000,
-    sameSite: "lax",
-  },
-};
-
-if (process.env.NODE_ENV === "production") {
-  sessionOptions.proxy = true;
-  sessionOptions.cookie = {
-    sameSite: "none",
-    secure: true,
-  };
-}*/
-
-// PRODUCTION
-const sessionOptions = {
-  secret:
-    process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: false,
-};
-if (process.env.NODE_ENV !== "development") {
-  sessionOptions.proxy = true;
-  sessionOptions.cookie = {
-    sameSite: "none",
-    secure: true,
-  };
-}
-// PRODUCTION
-/*const sessionOptions = {
-  secret: process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: false,
-  cookie: {
-    secure: true, 
-    httpOnly: true, 
-    sameSite: "none", 
     maxAge: 24 * 60 * 60 * 1000, 
   },
 };
 
 if (process.env.NODE_ENV === "production") {
-  sessionOptions.proxy = true; 
-}*/
+  sessionOptions.proxy = true;
+  sessionOptions.cookie.secure = true;
+  sessionOptions.cookie.sameSite = "none";
+} else {
+  sessionOptions.cookie.secure = false;
+  sessionOptions.cookie.sameSite = "lax";
+}
 
 app.use(session(sessionOptions));
 app.use(express.json());
+
+app.use((req, res, next) => {
+  console.log("Session ID:", req.sessionID);
+  console.log("Session data:", req.session);
+  next();
+});
 
 UserRoutes(app);
 PostRoutes(app);
