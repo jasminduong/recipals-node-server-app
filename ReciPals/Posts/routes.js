@@ -1,4 +1,5 @@
 import * as postsDao from "./dao.js";
+import mongoose from "mongoose";
 
 export default function PostRoutes(app) {
   // creates a new recipe post
@@ -26,13 +27,34 @@ export default function PostRoutes(app) {
     }
   });
 
-  // adds a comment to a post
+  // adds a comment to a post - using updatePost
   app.post("/api/posts/:postId/comments", async (req, res) => {
     try {
       const { postId } = req.params;
       const commentData = req.body;
       
-      const updatedPost = await postsDao.addComment(postId, commentData);
+      // Get the current post
+      const currentPost = await postsDao.findPostById(postId);
+      if (!currentPost) {
+        return res.status(404).json({ message: "Post not found" });
+      }
+
+      // Create new comment
+      const newComment = {
+        comment_id: new mongoose.Types.ObjectId().toString(),
+        user_id: commentData.user_id,
+        text: commentData.text,
+        created_at: new Date().toISOString().split('T')[0], // YYYY-MM-DD format
+      };
+
+      // Add comment to existing comments array
+      const updatedComments = [...(currentPost.comments || []), newComment];
+      
+      // Use updatePost to save the updated comments
+      const updatedPost = await postsDao.updatePost(postId, { 
+        comments: updatedComments 
+      });
+
       res.json(updatedPost);
     } catch (error) {
       console.error("Error adding comment:", error);
@@ -40,12 +62,19 @@ export default function PostRoutes(app) {
     }
   });
 
-  // gets comments for a specific post
+  // gets comments for a specific post - using findPostById
   app.get("/api/posts/:postId/comments", async (req, res) => {
     try {
       const { postId } = req.params;
-      const comments = await postsDao.getComments(postId);
-      res.json(comments);
+      
+      // Use findPostById to get the post
+      const post = await postsDao.findPostById(postId);
+      if (!post) {
+        return res.status(404).json({ message: "Post not found" });
+      }
+
+      // Return the comments array
+      res.json(post.comments || []);
     } catch (error) {
       console.error("Error getting comments:", error);
       res.status(500).json({ message: error.message });

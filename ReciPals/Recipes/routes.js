@@ -30,17 +30,19 @@ export default function RecipeRoutes(app) {
     res.json();
   });
 
-  // search recipe
+  // search recipes - using Mongoose
   app.get("/api/recipes/search", async (req, res) => {
-    const { q } = req.query;
-    if (!q) {
-      return res.status(400).json({ error: 'Search query required' });
-    }
     try {
+      const { q } = req.query;
+      if (!q) {
+        return res.status(400).json({ error: 'Search query required' });
+      }
+      
       const recipes = await recipesDao.searchRecipes(q);
       res.json(recipes);
     } catch (error) {
-      res.status(500).json({ error: error.message });
+      console.error("Error searching recipes:", error);
+      res.status(500).json({ message: error.message });
     }
   });
 
