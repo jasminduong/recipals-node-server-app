@@ -19,40 +19,19 @@ export default function UserRoutes(app) {
   // signup operation creates a new user
   const signup = async (req, res) => {
     try {
-      console.log("=== SIGNUP ATTEMPT ===");
-      console.log("Request body:", req.body);
-      console.log("Username to check:", req.body.username);
-
       const user = await dao.findUserByUsername(req.body.username);
-      console.log(
-        "Existing user check result:",
-        user ? "USER EXISTS" : "USERNAME AVAILABLE"
-      );
 
       if (user) {
-        console.log("❌ Username already taken:", req.body.username);
         res.status(400).json({ message: "Username already taken :(" });
         return;
       }
 
-      console.log("✅ Username available, creating user...");
-      console.log("User data to create:", {
-        username: req.body.username,
-        password: req.body.password ? "[PROVIDED]" : "[MISSING]",
-        otherFields: Object.keys(req.body).filter((key) => key !== "password"),
-      });
-
       const currentUser = await dao.createUser(req.body);
-      console.log("✅ User created successfully:");
-      console.log("- User ID:", currentUser._id);
-      console.log("- Username:", currentUser.username);
 
       req.session["currentUser"] = currentUser;
-      console.log("✅ User stored in session");
 
       res.json(currentUser);
     } catch (error) {
-      console.error("❌ Signup error:", error);
       res
         .status(500)
         .json({ message: "Server error during signup", error: error.message });
@@ -63,41 +42,16 @@ export default function UserRoutes(app) {
   // signin operation logs in the user if credentials match
   const signin = async (req, res) => {
     try {
-      console.log("=== SIGNIN ATTEMPT ===");
-      console.log("Request body:", req.body);
-      console.log("Session ID before signin:", req.sessionID);
-
       const { username, password } = req.body;
-      console.log("Extracted credentials:");
-      console.log("- Username:", username);
-      console.log("- Password provided:", password ? "YES" : "NO");
-      console.log("- Password length:", password ? password.length : 0);
-
-      console.log("Calling dao.findUserByCredentials...");
       const currentUser = await dao.findUserByCredentials(username, password);
-      console.log(
-        "Database query result:",
-        currentUser ? "USER FOUND" : "NO USER FOUND"
-      );
 
       if (currentUser) {
-        console.log("✅ User found, setting session...");
-        console.log("Found user:", {
-          _id: currentUser._id,
-          username: currentUser.username,
-        });
         req.session["currentUser"] = currentUser;
-        console.log(
-          "Session after setting user:",
-          req.session.currentUser ? "SET" : "NOT SET"
-        );
         res.json(currentUser);
       } else {
-        console.log("❌ Invalid credentials for username:", username);
         res.status(401).json({ message: "Unable to login. Try again later." });
       }
     } catch (error) {
-      console.error("❌ Signin error:", error);
       res.status(500).json({ message: "Server error during signin" });
     }
   };
