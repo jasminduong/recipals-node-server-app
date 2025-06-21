@@ -58,6 +58,7 @@ export default function UserRoutes(app) {
         .json({ message: "Server error during signup", error: error.message });
     }
   };
+  app.post("/api/users/signup", signup);
 
   // signin operation logs in the user if credentials match
   const signin = async (req, res) => {
@@ -100,6 +101,7 @@ export default function UserRoutes(app) {
       res.status(500).json({ message: "Server error during signin" });
     }
   };
+  app.post("/api/users/signin", signin);
 
   // profile operation
   const profile = async (req, res) => {
