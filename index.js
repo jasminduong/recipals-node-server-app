@@ -7,14 +7,13 @@ import PostRoutes from "./ReciPals/Posts/routes.js";
 import RecipeRoutes from "./ReciPals/Recipes/routes.js";
 import mongoose from "mongoose";
 
-const CONNECTION_STRING = process.env.MONGO_CONNECTION_STRING || "mongodb://127.0.0.1:27017/recipals"
+const CONNECTION_STRING = process.env.MONGO_CONNECTION_STRING 
 mongoose.connect(CONNECTION_STRING);
 
 const app = express();
 
 const allowedOrigins = [
-  "https://recipals.netlify.app",
-  "http://localhost:5173"
+  "https://recipals.netlify.app"
 ]
 
 app.use(
