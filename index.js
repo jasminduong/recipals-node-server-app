@@ -97,6 +97,29 @@ app.get("/api/test-db", async (req, res) => {
   }
 });
 
+// Debug route to see what's actually stored
+app.get("/api/debug-user/:username", async (req, res) => {
+  try {
+    const UserModel = (await import("./ReciPals/Users/model.js")).default;
+    const user = await UserModel.findOne({ username: req.params.username });
+
+    if (user) {
+      res.json({
+        found: true,
+        _id: user._id,
+        username: user.username,
+        passwordLength: user.password ? user.password.length : 0,
+        passwordExists: !!user.password,
+        allFields: Object.keys(user.toObject()),
+      });
+    } else {
+      res.json({ found: false });
+    }
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 app.use((req, res, next) => {
   console.log("=== REQUEST RECEIVED ===");
   console.log("Time:", new Date().toISOString());
