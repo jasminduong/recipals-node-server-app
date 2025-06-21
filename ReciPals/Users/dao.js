@@ -5,7 +5,7 @@ import model from "./model.js";
 
 // find all users
 export const findAllUsers = async () => await model.find();
-
+ 
 // find by id
 export const findUserById = async (userId) => await model.findOne({ _id: userId });
 
@@ -39,36 +39,4 @@ export const updateUser = async (userId, user) =>
 export const deleteUser = async (userId) =>
   await model.deleteOne({ _id: userId });
 
-// saves a recipe to user's saved list
-export const saveRecipe = async (userId, recipeId) => {
-  throw new Error("saveRecipe not implemented yet - needs database integration");
-  /*const user = users.find((u) => u._id === userId);
-  if (!user) {
-    throw new Error("User not found");
-  }
 
-  if (!user.saved_recipes) {
-    user.saved_recipes = [];
-  }
-
-  if (!user.saved_recipes.includes(recipeId)) {
-    user.saved_recipes.push(recipeId);
-  }
-
-  return user;*/
-};
-
-// removes a recipe from user's saved list
-export const unsaveRecipe = async (userId, recipeId) => {
-  throw new Error("unsaveRecipe not implemented yet - needs database integration");
-  /*const user = users.find((u) => u._id === userId);
-  if (!user) {
-    throw new Error("User not found");
-  }
-
-  if (user.saved_recipes) {
-    user.saved_recipes = user.saved_recipes.filter((id) => id !== recipeId);
-  }
-
-  return user;*/
-};
