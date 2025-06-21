@@ -40,7 +40,16 @@ app.use(
   })
 );
 
-// Add a simple health check route
+// Root route
+app.get("/", (req, res) => {
+  res.json({
+    message: "ReciPals API Server",
+    status: "running",
+    timestamp: new Date().toISOString(),
+  });
+});
+
+// Health check route
 app.get("/health", (req, res) => {
   console.log("Health check requested");
   res.json({
@@ -48,6 +57,44 @@ app.get("/health", (req, res) => {
     timestamp: new Date().toISOString(),
     env: process.env.NODE_ENV,
   });
+});
+
+// Database test route - ADD THIS
+app.get("/api/test-db", async (req, res) => {
+  try {
+    console.log("=== DATABASE CONNECTION TEST ===");
+    console.log("Mongoose connection state:", mongoose.connection.readyState);
+    console.log(
+      "Connection states: 0=disconnected, 1=connected, 2=connecting, 3=disconnecting"
+    );
+
+    if (mongoose.connection.readyState !== 1) {
+      throw new Error("MongoDB not connected");
+    }
+
+    // Test basic operations
+    const UserModel = (await import("./ReciPals/Users/model.js")).default;
+
+    const userCount = await UserModel.countDocuments();
+    console.log("Total users in database:", userCount);
+
+    // Try to get recent users
+    const recentUsers = await UserModel.find({}).limit(5).sort({ _id: -1 });
+    console.log("Recent users:", recentUsers.length);
+
+    res.json({
+      mongoState: mongoose.connection.readyState,
+      connected: mongoose.connection.readyState === 1,
+      userCount: userCount,
+      recentUsers: recentUsers.map((u) => ({
+        _id: u._id,
+        username: u.username,
+      })),
+    });
+  } catch (error) {
+    console.error("❌ Database test error:", error);
+    res.status(500).json({ error: error.message });
+  }
 });
 
 app.use((req, res, next) => {
@@ -102,7 +149,7 @@ app.listen(PORT, () => {
   console.log(
     `📍 Server URL: ${
       process.env.NODE_ENV === "production"
-        ? "https://your-app.onrender.com"
+        ? "https://recipals-node-server-app.onrender.com"
         : `http://localhost:${PORT}`
     }`
   );
