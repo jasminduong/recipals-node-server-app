@@ -105,7 +105,7 @@ export default function UserRoutes(app) {
     try {
       const { userId } = req.params;
       const { recipeId } = req.body;
-      
+
       // Get the current user
       const currentUser = await dao.findUserById(userId);
       if (!currentUser) {
@@ -117,18 +117,18 @@ export default function UserRoutes(app) {
       if (!savedRecipes.includes(recipeId)) {
         savedRecipes.push(recipeId);
       }
-      
+
       // Use updateUser to save the updated saved_recipes
-      const updatedUser = await dao.updateUser(userId, { 
-        saved_recipes: savedRecipes 
+      const updatedUser = await dao.updateUser(userId, {
+        saved_recipes: savedRecipes,
       });
-      
+
       // Update session if this is the current user
       const sessionUser = req.session["currentUser"];
       if (sessionUser && sessionUser._id === userId) {
         req.session["currentUser"] = updatedUser;
       }
-      
+
       res.json(updatedUser);
     } catch (error) {
       console.error("Error saving recipe:", error);
@@ -142,7 +142,7 @@ export default function UserRoutes(app) {
     try {
       const { userId } = req.params;
       const { recipeId } = req.body;
-      
+
       // Get the current user
       const currentUser = await dao.findUserById(userId);
       if (!currentUser) {
@@ -151,20 +151,20 @@ export default function UserRoutes(app) {
 
       // Remove recipe from saved_recipes array
       const savedRecipes = (currentUser.saved_recipes || []).filter(
-        id => id !== recipeId
+        (id) => id !== recipeId
       );
-      
+
       // Use updateUser to save the updated saved_recipes
-      const updatedUser = await dao.updateUser(userId, { 
-        saved_recipes: savedRecipes 
+      const updatedUser = await dao.updateUser(userId, {
+        saved_recipes: savedRecipes,
       });
-      
+
       // Update session if this is the current user
       const sessionUser = req.session["currentUser"];
       if (sessionUser && sessionUser._id === userId) {
         req.session["currentUser"] = updatedUser;
       }
-      
+
       res.json(updatedUser);
     } catch (error) {
       console.error("Error unsaving recipe:", error);
@@ -172,6 +172,98 @@ export default function UserRoutes(app) {
     }
   };
   app.put("/api/users/:userId/unsave", unsaveRecipe);
+
+  // follow a user
+  const followUser = async (req, res) => {
+    try {
+      const currentUser = req.session["currentUser"];
+      if (!currentUser) {
+        return res.status(401).json({ message: "Not authenticated" });
+      }
+      const targetUserId = req.params.targetUserId;
+      const currentUserId = currentUser._id;
+
+      if (currentUserId === targetUserId) {
+        return res.status(400).json({ message: "Cannot follow yourself" });
+      }
+
+      const targetUser = await dao.findUserById(targetUserId);
+      if (!targetUser) {
+        return res.status(404).json({ message: "User not found" });
+      }
+
+      const currentUserData = await dao.findUserById(currentUserId);
+
+      // update current user's following array
+      const currentFollowing = currentUserData.following || [];
+      if (!currentFollowing.includes(targetUserId)) {
+        currentFollowing.push(targetUserId);
+        await dao.updateUser(currentUserId, { following: currentFollowing });
+      }
+
+      // update target user's followers array
+      const targetFollowers = targetUser.followers || [];
+      if (!targetFollowers.includes(currentUserId)) {
+        targetFollowers.push(currentUserId);
+        await dao.updateUser(targetUserId, { followers: targetFollowers });
+      }
+
+      // update session with current user's new data
+      const updatedCurrentUser = await dao.findUserById(currentUserId);
+      req.session["currentUser"] = updatedCurrentUser;
+
+      res.json({
+        message: "Successfully followed user",
+        currentUser: updatedCurrentUser,
+      });
+    } catch (error) {
+      console.error("Error following user:", error);
+      res.status(500).json({ message: "Error following user" });
+    }
+  };
+  app.post("/api/users/follow/:targetUserId", followUser);
+
+  // unfollow a user
+  const unfollowUser = async (req, res) => {
+    try {
+      const currentUser = req.session["currentUser"];
+      if (!currentUser) {
+        return res.status(401).json({ message: "Not authenticated" });
+      }
+      const targetUserId = req.params.targetUserId;
+      const currentUserId = currentUser._id;
+
+      const targetUser = await dao.findUserById(targetUserId);
+      if (!targetUser) {
+        return res.status(404).json({ message: "User not found" });
+      }
+
+      const currentUserData = await dao.findUserById(currentUserId);
+
+      // update current user's following array
+      const currentFollowing = (currentUserData.following || []).filter(
+        (id) => id !== targetUserId
+      );
+      await dao.updateUser(currentUserId, { following: currentFollowing });
+
+      // update target user's followers array
+      const targetFollowers = (targetUser.followers || []).filter(
+        (id) => id !== currentUserId
+      );
+      await dao.updateUser(targetUserId, { followers: targetFollowers });
+
+      // update session with current user's new data
+      const updatedCurrentUser = await dao.findUserById(currentUserId);
+      req.session["currentUser"] = updatedCurrentUser;
+
+      res.json({
+        message: "Successfully unfollowed user",
+        currentUser: updatedCurrentUser,
+      });
+    } catch (error) {
+      console.error("Error unfollowing user:", error);
+      res.status(500).json({ message: "Error unfollowing user" });
+    }
+  };
+  app.post("/api/users/unfollow/:targetUserId", unfollowUser);
 }
-
-
