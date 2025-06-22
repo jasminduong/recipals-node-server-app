@@ -32,8 +32,10 @@ export const createUser = async (user) => {
 };
 
 // updates user info
-export const updateUser = async (userId, user) =>
+export const updateUser = async (userId, user) => {
   await model.updateOne({ _id: userId }, { $set: user });
+  return await model.findOne({ _id: userId }); // Return the updated user
+};
 
 // deletes a user
 export const deleteUser = async (userId) =>
