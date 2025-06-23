@@ -40,7 +40,7 @@ To run the node.js and express app (back-end) locally:
 PORT=4000
 4) Start the development server, run on your terminal:
     nodemon index.js
-    Server with run on http://localhost:4000
+5) Server with run on http://localhost:4000
 
 **The frontend React application connects to this backend. See the React frontend repository for frontend setup instructions: https://github.com/jasminduong/recipals 
 
